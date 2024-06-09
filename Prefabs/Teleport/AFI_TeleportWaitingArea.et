@@ -1,0 +1,10 @@
+AFI_TeleportWaitingAreaEntity {
+ ID "619260FB1479EDF9"
+ coords 4862.41 28.596 11854.713
+ TriggerShapeType Sphere
+ SphereRadius 25
+ DrawShape 1
+ TriggerActivationType "All changes"
+ PeriodicQueries 1
+ m_bOnce 0
+}

@@ -1,0 +1,55 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 7114.537 74.562 6403.884
+ "Map Geometry Data" "{984B832A2B86D79B}worlds/Eden/Eden.topo"
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "MapEntity: "\
+   "Set up map textures"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{61924C54D104DA68}" {
+     NavmeshFile "{AD5F99CD7C59D5E0}worlds/GameMaster/Navmeshes/GM_Eden.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{5E19E60F26327356}worlds/MP/Navmeshes/LowResEden.nmn"
+    }
+   }
+  }
+ }
+ coords 7114.537 74.797 6402.884
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 7114.537 75.031 6401.884
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  AFI_TeleportManager "{61928BD39894DA06}" {
+  }
+ }
+ coords 4858.963 28.592 11821.694
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{61928BCD8B5E5382}" {
+   m_sFactionKey "US"
+   m_iCount 100
+   m_iTime 10000
+  }
+ }
+}
+SCR_AIGroup : "{CB31D258850A3EFC}Prefabs/Groups/BLUFOR/Group_US_LightFireTeam_P.et" {
+ coords 4861 31 11866
+}

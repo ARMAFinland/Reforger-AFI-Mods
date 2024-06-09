@@ -1,0 +1,8 @@
+AFI_TeleportWaitingAreaEntity : "{99CCD08FC3EC1839}Prefabs/Teleport/AFI_TeleportWaitingArea.et" {
+ coords 4868.446 28.592 11858.221
+ m_TeleportTime 1
+ m_TeleportTargetArea "AFI_TestiTargetti"
+}
+AFI_TeleportTargetAreaEntity AFI_TestiTargetti : "{F9F8C7280BC492F6}Prefabs/Teleport/AFI_TeleportTargetArea.et" {
+ coords 4773.71 28.751 11694.938
+}
