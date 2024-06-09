@@ -11,7 +11,9 @@ class AFI_TeleportManager : ScriptComponent
 {
 	protected ref OnPlayerEnterWaitingAreaInvoker m_OnPlayerEnterWaitingAreaInvoker = new OnPlayerEnterWaitingAreaInvoker();
 	
-	protected ref map<AFI_TeleportWaitingAreaEntity, ref array<IEntity>> m_PlayersWaitingInZones = new map<AFI_TeleportWaitingAreaEntity, ref array<IEntity>>();
+	protected ref map<AFI_TeleportWaitingAreaEntity, ref array<int>> m_PlayersWaitingInZones = new map<AFI_TeleportWaitingAreaEntity, ref array<int>>();
+	
+	protected PlayerManager m_PlayerManager;
 	
 	protected const int m_iZoneCheckFrequency = 50;
 	
@@ -38,15 +40,56 @@ class AFI_TeleportManager : ScriptComponent
 	//------------------------------------------------------------------------------------------------
 	protected void OnPlayerEnterWaitingAreaInvoked(IEntity player, AFI_TeleportWaitingAreaEntity area)
 	{
+		int playerId = m_PlayerManager.GetPlayerIdFromControlledEntity(player);
+		
 		if (!m_PlayersWaitingInZones.Contains(area))
 			m_PlayersWaitingInZones.Set(area, {});
 		
-		array<IEntity> playersWaiting = m_PlayersWaitingInZones.Get(area);
+		array<int> playersWaiting = m_PlayersWaitingInZones.Get(area);
 		
-		if (playersWaiting.Contains(player))
+		if (playersWaiting.Contains(playerId))
 			return;
 		
-		playersWaiting.Insert(player);
+		playersWaiting.Insert(playerId);
+		
+		DisablePlayerWeapons(player);
+	}
+	
+	//------------------------------------------------------------------------------------------------
+	protected void DisablePlayerWeapons(IEntity player)
+	{
+		EventHandlerManagerComponent eventHandler = EventHandlerManagerComponent.Cast(player.FindComponent(EventHandlerManagerComponent));
+		if (!eventHandler) return;
+		
+		eventHandler.RegisterScriptHandler("OnProjectileShot", this, OnWeaponFired);
+		eventHandler.RegisterScriptHandler("OnGrenadeThrown", this, OnGrenadeThrown);
+	}
+	
+	//------------------------------------------------------------------------------------------------
+	protected void EnablePlayerWeapons(IEntity player)
+	{
+		EventHandlerManagerComponent eventHandler = EventHandlerManagerComponent.Cast(player.FindComponent(EventHandlerManagerComponent));
+		if (!eventHandler) return;
+		
+		eventHandler.RemoveScriptHandler("OnProjectileShot", this, OnWeaponFired);
+		eventHandler.RemoveScriptHandler("OnGrenadeThrown", this, OnGrenadeThrown);
+	}
+	
+	//------------------------------------------------------------------------------------------------
+	protected void OnWeaponFired(int playerID, BaseWeaponComponent weapon, IEntity entity)
+	{		
+		// Get projectile and delete it
+		delete entity;
+	}
+	
+	//------------------------------------------------------------------------------------------------
+	protected void OnGrenadeThrown(int playerID, BaseWeaponComponent weapon, IEntity entity)
+	{
+		if (!weapon)
+			return;
+		
+		// Get grenade and delete it
+		delete entity;
 	}
 	
 	//------------------------------------------------------------------------------------------------
@@ -60,12 +103,14 @@ class AFI_TeleportManager : ScriptComponent
 		float distanceSqrXZ;
 		float areaRadius;
 		
-		foreach(AFI_TeleportWaitingAreaEntity area, array<IEntity> playersWaiting : m_PlayersWaitingInZones)
+		foreach(AFI_TeleportWaitingAreaEntity area, array<int> playersWaiting : m_PlayersWaitingInZones)
 		{
 			areaPositionVector = area.GetOrigin();
 			
-			foreach (IEntity waitingPlayer : playersWaiting)
+			foreach (int waitingPlayerId : playersWaiting)
 			{
+				PlayerController waitingPlayer = m_PlayerManager.GetPlayerController(waitingPlayerId);
+				
 				playerPositionVector = waitingPlayer.GetOrigin();
 				
 				distanceSqrXZ = vector.DistanceSqXZ(playerPositionVector, areaPositionVector);
@@ -86,16 +131,22 @@ class AFI_TeleportManager : ScriptComponent
 		AFI_TeleportTargetAreaEntity targetAreaEntity = AFI_TeleportTargetAreaEntity.Cast(GetGame().FindEntity(targetArea));
 		vector targetAreaOrigin = targetAreaEntity.GetOrigin();
 		
-		array<IEntity> playersToTeleport = m_PlayersWaitingInZones.Get(area);
+		array<int> playersToTeleport = m_PlayersWaitingInZones.Get(area);
 		
 		vector newPosition;
 		int i = 0;
-		foreach (IEntity player : playersToTeleport)
+		foreach (int playerId : playersToTeleport)
 		{
+			PlayerController player = m_PlayerManager.GetPlayerController(playerId);
+			
 			vector offsetVector = GetOffsetVectorFromIndex(i++);		
 			newPosition = targetAreaOrigin + offsetVector;
 			
-			player.SetOrigin(newPosition);
+			IEntity playerControlledEntity = player.GetControlledEntity();
+			
+			EnablePlayerWeapons(playerControlledEntity);
+			
+			playerControlledEntity.SetOrigin(newPosition);
 		}
 		
 		m_PlayersWaitingInZones.Set(area, {});
@@ -116,6 +167,8 @@ class AFI_TeleportManager : ScriptComponent
 	{
 		if (!Replication.IsServer())
 			return;
+		
+		m_PlayerManager = GetGame().GetPlayerManager();
 		
 		m_OnPlayerEnterWaitingAreaInvoker.Insert(OnPlayerEnterWaitingAreaInvoked);
 		

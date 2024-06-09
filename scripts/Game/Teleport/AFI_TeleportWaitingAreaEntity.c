@@ -5,7 +5,7 @@ class AFI_TeleportWaitingAreaEntityClass : SCR_CharacterTriggerEntityClass
 
 class AFI_TeleportWaitingAreaEntity : SCR_CharacterTriggerEntity
 {	
-	[Attribute("15", category: "AFI", desc: "Time to teleport players in this waiting area")]
+	[Attribute("900000", category: "AFI", desc: "Time to teleport players in this waiting area")]
 	protected int m_iTeleportTime;
 	
 	[Attribute("", category: "AFI", desc: "Name of the area where to teleport")]
@@ -31,6 +31,7 @@ class AFI_TeleportWaitingAreaEntity : SCR_CharacterTriggerEntity
 	override protected void OnActivate(IEntity ent)
 	{
 		super.OnActivate(ent);
+		
 		m_TeleportManagerEntity.GetOnPlayerEnterWaitingArea().Invoke(ent, this);
 	}
 	
@@ -43,7 +44,9 @@ class AFI_TeleportWaitingAreaEntity : SCR_CharacterTriggerEntity
 		
 		m_TeleportManagerEntity = AFI_TeleportManager.Cast(GetGame().GetGameMode().FindComponent(AFI_TeleportManager));
 
-		m_TeleportManagerEntity.RegisterWaitingArea(this, 10000);
-				
+		if (m_TeleportManagerEntity == null)
+			return;
+		
+		m_TeleportManagerEntity.RegisterWaitingArea(this, m_iTeleportTime);
 	}		
 }
