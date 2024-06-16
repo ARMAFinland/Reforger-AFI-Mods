@@ -1,0 +1,72 @@
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR1 {
+  coords 7605.423 166.156 4241.479
+  angleY -76.201
+ }
+ BTR2 {
+  coords 7603.874 166.156 4236.648
+  angleY -76.201
+ }
+ BTR3 {
+  coords 7602.715 166.156 4231.752
+  angleY -76.201
+ }
+ BTR4 {
+  coords 7601.267 166.156 4227.182
+  angleY -76.201
+ }
+}
+$grp Vehicle : "{D8F4D7AF6E29E50B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_ammo.et" {
+ Ural4320_transport_ammo1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61A071294B3B83FE}" {
+      NumSlots 50
+     }
+    }
+   }
+  }
+  coords 7448.846 165.062 4302.974
+  angleY 112.559
+ }
+ Ural4320_transport_ammo2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61A071294B3B83FE}" {
+      NumSlots 50
+     }
+    }
+   }
+  }
+  coords 7450.61 165.062 4307.503
+  angleY 112.559
+ }
+ Ural4320_transport_ammo3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61A071294B3B83FE}" {
+      NumSlots 50
+     }
+    }
+   }
+  }
+  coords 7452.307 165.062 4311.42
+  angleY 112.559
+ }
+ Ural4320_transport_ammo4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61A071294B3B83FE}" {
+      NumSlots 50
+     }
+    }
+   }
+  }
+  coords 7453.933 165.062 4315.631
+  angleY 112.559
+ }
+}

@@ -1,0 +1,22 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ components {
+  AFI_TimerWidget "{61931D8464568C5A}" {
+  }
+ }
+ {
+  TextWidgetClass "{61931D861ECF304F}" {
+   Name "TimerText"
+   Slot FrameWidgetSlot "{61931D861ECF33AE}" {
+    PositionX 897
+    OffsetLeft 897
+    PositionY 340
+    OffsetTop 340
+    SizeX 100
+    OffsetRight -997
+    SizeY 30
+    OffsetBottom -370
+   }
+  }
+ }
+}

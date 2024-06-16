@@ -1,0 +1,59 @@
+Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{61A0712E43F0BF9A}" {
+     SlotTemplate InventoryStorageSlot "{61A07129E83B87FB}" {
+      Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{61A071297171AB55}" {
+     SlotTemplate InventoryStorageSlot "{61A0712974B1217F}" {
+      Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{61A071296F3C5AE8}" {
+     SlotTemplate InventoryStorageSlot "{61A071296DB961D1}" {
+      Prefab "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{61A071294B3B83FE}" {
+     SlotTemplate InventoryStorageSlot "{61A0712949557D28}" {
+      Prefab "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 8
+    }
+    MultiSlotConfiguration "{61A071293B6063F2}" {
+     SlotTemplate InventoryStorageSlot "{61A0712939E7C80F}" {
+      Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 8
+    }
+    MultiSlotConfiguration "{61A071292D888B45}" {
+     SlotTemplate InventoryStorageSlot "{61A0712911226C49}" {
+      Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{61A071290B02AFB5}" {
+     SlotTemplate InventoryStorageSlot "{61A071290E2114CA}" {
+      Prefab "{8257B5AFDE7AE5CB}Prefabs/Weapons/Magazines/Box_145x114_KPVT_50rnd_4API_1APIT.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{61A07128F8882B3E}" {
+     SlotTemplate InventoryStorageSlot "{61A07128FF9D7607}" {
+      Prefab "{D8421F6E70B2FB4F}Prefabs/Weapons/Magazines/Box_762x54_PK_250rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+ }
+ coords 7451.709 164.64 4302.029
+ angleY 100.902
+}

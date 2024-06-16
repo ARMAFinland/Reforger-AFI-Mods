@@ -1,0 +1,9 @@
+GenericEntity : "{A169E8D5970D09FB}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/InteractionPoints/E_FuelService_US_NoAffiliation.et" {
+ coords 7584.552 166.154 4261.909
+ angleY -163.783
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 7501.656 164.589 4285.256
+ m_fWarnRadius 120
+ m_fZoneRadius 140
+}

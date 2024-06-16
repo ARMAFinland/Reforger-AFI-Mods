@@ -28,6 +28,12 @@ class AFI_TeleportWaitingAreaEntity : SCR_CharacterTriggerEntity
 	}
 	
 	//------------------------------------------------------------------------------------------------
+	int GetTeleportTime()
+	{
+		return m_iTeleportTime;
+	}
+	
+	//------------------------------------------------------------------------------------------------
 	override protected void OnActivate(IEntity ent)
 	{
 		super.OnActivate(ent);
@@ -47,6 +53,6 @@ class AFI_TeleportWaitingAreaEntity : SCR_CharacterTriggerEntity
 		if (m_TeleportManagerEntity == null)
 			return;
 		
-		m_TeleportManagerEntity.RegisterWaitingArea(this, m_iTeleportTime);
+		m_TeleportManagerEntity.RegisterWaitingArea(this);
 	}		
 }

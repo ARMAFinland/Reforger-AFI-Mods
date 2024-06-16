@@ -11,24 +11,55 @@ class AFI_TeleportManager : ScriptComponent
 {
 	protected ref OnPlayerEnterWaitingAreaInvoker m_OnPlayerEnterWaitingAreaInvoker = new OnPlayerEnterWaitingAreaInvoker();
 	
-	protected ref map<AFI_TeleportWaitingAreaEntity, ref array<int>> m_PlayersWaitingInZones = new map<AFI_TeleportWaitingAreaEntity, ref array<int>>();
+	protected ref map<AFI_TeleportWaitingAreaEntity, ref AFI_TeleportWaitingAreaInfo> m_TeleportWaitingAreaInfos = new map<AFI_TeleportWaitingAreaEntity, ref AFI_TeleportWaitingAreaInfo>();
 	
 	protected PlayerManager m_PlayerManager;
+	
+	protected BaseWorld m_BaseWorld;
 	
 	protected const int m_iZoneCheckFrequency = 50;
 	
 	protected int m_iGridWidth = 5;
 	
+	protected int m_iMyAreaId = 0;
+	
+	protected AFI_TimerWidget m_TimerWidget;
+	
 	//------------------------------------------------------------------------------------------------
-	void RegisterWaitingArea(AFI_TeleportWaitingAreaEntity area, int frequency)
+	void RegisterWaitingArea(AFI_TeleportWaitingAreaEntity area)
 	{
 		if (!Replication.IsServer())
 			return;
 		
-		if (!m_PlayersWaitingInZones.Contains(area))
-			m_PlayersWaitingInZones.Set(area, {});
+		AFI_TeleportWaitingAreaInfo teleportWaitingAreaInfo = EnsureTeleportWaitingAreaInfo(area);
 		
-		GetGame().GetCallqueue().CallLater(HandleTeleportForArea, frequency, true, area);
+		float nextTeleportForAreaTime = QueueNextTeleportForArea(area);
+		
+		if (nextTeleportForAreaTime > 0)
+			teleportWaitingAreaInfo.SetNextTeleportTime(nextTeleportForAreaTime);
+	}
+	
+	//------------------------------------------------------------------------------------------------
+	AFI_TeleportWaitingAreaInfo EnsureTeleportWaitingAreaInfo(AFI_TeleportWaitingAreaEntity area)
+	{
+		if (!m_TeleportWaitingAreaInfos.Contains(area))
+		{
+			m_TeleportWaitingAreaInfos.Set(area, new AFI_TeleportWaitingAreaInfo(m_TeleportWaitingAreaInfos.Count() + 1));
+		}
+		
+		return m_TeleportWaitingAreaInfos.Get(area);
+	}
+	
+	//------------------------------------------------------------------------------------------------
+	float QueueNextTeleportForArea(AFI_TeleportWaitingAreaEntity area)
+	{
+		GetGame().GetCallqueue().CallLater(HandleTeleportForArea, area.GetTeleportTime(), false, area);
+		
+		if (m_BaseWorld == null)
+			return -1;
+		
+		float nextTeleportTime = m_BaseWorld.GetWorldTime() + area.GetTeleportTime();
+		return nextTeleportTime;
 	}
 	
 	//------------------------------------------------------------------------------------------------
@@ -40,25 +71,90 @@ class AFI_TeleportManager : ScriptComponent
 	//------------------------------------------------------------------------------------------------
 	protected void OnPlayerEnterWaitingAreaInvoked(IEntity player, AFI_TeleportWaitingAreaEntity area)
 	{
-		int playerId = m_PlayerManager.GetPlayerIdFromControlledEntity(player);
-		
-		if (!m_PlayersWaitingInZones.Contains(area))
-			m_PlayersWaitingInZones.Set(area, {});
-		
-		array<int> playersWaiting = m_PlayersWaitingInZones.Get(area);
-		
-		if (playersWaiting.Contains(playerId))
+		if (!Replication.IsServer())
 			return;
 		
-		playersWaiting.Insert(playerId);
+		int playerId = m_PlayerManager.GetPlayerIdFromControlledEntity(player);
 		
-		DisablePlayerWeapons(player);
+		AFI_TeleportWaitingAreaInfo teleportWaitingAreaInfo = EnsureTeleportWaitingAreaInfo(area);
+	
+		teleportWaitingAreaInfo.InsertPlayerId(playerId);
+		
+		DisablePlayerWeapons(playerId);
+		
+		float timeleft = m_BaseWorld.GetWorldTime() - teleportWaitingAreaInfo.GetNextTeleportTime();
+		Rpc(HandleClientPlayerEnterWaitingArea, playerId, teleportWaitingAreaInfo.GetAreaId(), timeleft);
 	}
 	
 	//------------------------------------------------------------------------------------------------
-	protected void DisablePlayerWeapons(IEntity player)
+	[RplRpc(RplChannel.Reliable, RplRcver.Broadcast)]
+	protected void HandleClientPlayerEnterWaitingArea(int playerId, int areaId, float timeleft)
 	{
-		EventHandlerManagerComponent eventHandler = EventHandlerManagerComponent.Cast(player.FindComponent(EventHandlerManagerComponent));
+		PlayerController playerController = GetGame().GetPlayerController();
+		
+		if (playerController == null || playerController.GetPlayerId() != playerId)
+			return;
+		
+		m_iMyAreaId = areaId;
+		
+		Widget widget = GetGame().GetWorkspace().CreateWidgets("{89A2ACBC9433CEF2}UI/layouts/Timer.layout");
+		m_TimerWidget = AFI_TimerWidget.Cast(widget.FindHandler(AFI_TimerWidget));
+		m_TimerWidget.SetTime(timeleft);
+	}
+	
+	//------------------------------------------------------------------------------------------------
+	protected void UpdateTimeleft()
+	{
+		foreach(AFI_TeleportWaitingAreaEntity area, AFI_TeleportWaitingAreaInfo teleportWaitingAreaInfo : m_TeleportWaitingAreaInfos)
+		{
+			float timeleft = teleportWaitingAreaInfo.GetNextTeleportTime() - m_BaseWorld.GetWorldTime();
+			Rpc(HandleClientRemainingUpdate, teleportWaitingAreaInfo.GetAreaId(), timeleft);
+		}
+	}
+	
+	//------------------------------------------------------------------------------------------------
+	[RplRpc(RplChannel.Reliable, RplRcver.Broadcast)]
+	protected void HandleClientRemainingUpdate(int areaId, float timeleft)
+	{
+		if (m_iMyAreaId != areaId)
+			return;
+		
+		m_TimerWidget.SetTime(timeleft);
+	}
+	
+	//------------------------------------------------------------------------------------------------
+	PlayerController GetPlayerController(int playerId)
+	{
+		PlayerController playerController = m_PlayerManager.GetPlayerController(playerId);
+		return playerController;
+	}
+	
+	//------------------------------------------------------------------------------------------------
+	IEntity GetPlayerControlledEntity(int playerId)
+	{
+		PlayerController playerController = GetPlayerController(playerId);
+		if (playerController == null)
+			return null;		
+		
+		IEntity playerControlledEntity = playerController.GetControlledEntity();
+		return playerControlledEntity;
+	}
+	
+	//------------------------------------------------------------------------------------------------
+	protected EventHandlerManagerComponent GetPlayerEventHandlerManagerComponent(int playerId)
+	{
+		IEntity playerControlledEntity = GetPlayerControlledEntity(playerId);
+		if (playerControlledEntity == null)
+			return null;
+		
+		EventHandlerManagerComponent eventHandler = EventHandlerManagerComponent.Cast(playerControlledEntity.FindComponent(EventHandlerManagerComponent));
+		return eventHandler;
+	}
+	
+	//------------------------------------------------------------------------------------------------
+	protected void DisablePlayerWeapons(int playerId)
+	{
+		EventHandlerManagerComponent eventHandler = GetPlayerEventHandlerManagerComponent(playerId);
 		if (!eventHandler) return;
 		
 		eventHandler.RegisterScriptHandler("OnProjectileShot", this, OnWeaponFired);
@@ -66,9 +162,9 @@ class AFI_TeleportManager : ScriptComponent
 	}
 	
 	//------------------------------------------------------------------------------------------------
-	protected void EnablePlayerWeapons(IEntity player)
+	protected void EnablePlayerWeapons(int playerId)
 	{
-		EventHandlerManagerComponent eventHandler = EventHandlerManagerComponent.Cast(player.FindComponent(EventHandlerManagerComponent));
+		EventHandlerManagerComponent eventHandler = GetPlayerEventHandlerManagerComponent(playerId);
 		if (!eventHandler) return;
 		
 		eventHandler.RemoveScriptHandler("OnProjectileShot", this, OnWeaponFired);
@@ -95,30 +191,28 @@ class AFI_TeleportManager : ScriptComponent
 	//------------------------------------------------------------------------------------------------
 	protected void AreaCheckUpdate()
 	{
-		if (!Replication.IsServer())
-			return;
-		
-		vector areaPositionVector;
-		vector playerPositionVector;
+		vector areaOrigin;
+		vector playerControllerEntityOrigin;
 		float distanceSqrXZ;
 		float areaRadius;
 		
-		foreach(AFI_TeleportWaitingAreaEntity area, array<int> playersWaiting : m_PlayersWaitingInZones)
+		foreach(AFI_TeleportWaitingAreaEntity area, AFI_TeleportWaitingAreaInfo teleportWaitingAreaInfo : m_TeleportWaitingAreaInfos)
 		{
-			areaPositionVector = area.GetOrigin();
+			areaOrigin = area.GetOrigin();
 			
-			foreach (int waitingPlayerId : playersWaiting)
+			foreach (int playerId : teleportWaitingAreaInfo.GetPlayerIds())
 			{
-				PlayerController waitingPlayer = m_PlayerManager.GetPlayerController(waitingPlayerId);
+				IEntity playerControllerEntity = GetPlayerControlledEntity(playerId);
 				
-				playerPositionVector = waitingPlayer.GetOrigin();
+				playerControllerEntityOrigin = playerControllerEntity.GetOrigin();
 				
-				distanceSqrXZ = vector.DistanceSqXZ(playerPositionVector, areaPositionVector);
+				distanceSqrXZ = vector.DistanceSqXZ(playerControllerEntityOrigin, areaOrigin);
 				areaRadius = area.GetZoneRadiusSq();
 				
 				if (distanceSqrXZ > areaRadius)
 				{
-					waitingPlayer.SetOrigin(areaPositionVector);
+					Rpc(HandleClientTeleporting, playerId, areaOrigin);
+					HandleClientTeleporting(playerId, areaOrigin);
 				}
 			}
 		}
@@ -131,25 +225,30 @@ class AFI_TeleportManager : ScriptComponent
 		AFI_TeleportTargetAreaEntity targetAreaEntity = AFI_TeleportTargetAreaEntity.Cast(GetGame().FindEntity(targetArea));
 		vector targetAreaOrigin = targetAreaEntity.GetOrigin();
 		
-		array<int> playersToTeleport = m_PlayersWaitingInZones.Get(area);
+		AFI_TeleportWaitingAreaInfo teleportWaitingAreaInfo = EnsureTeleportWaitingAreaInfo(area);
 		
 		vector newPosition;
 		int i = 0;
-		foreach (int playerId : playersToTeleport)
+		foreach (int playerId : teleportWaitingAreaInfo.GetPlayerIds())
 		{
-			PlayerController player = m_PlayerManager.GetPlayerController(playerId);
-			
 			vector offsetVector = GetOffsetVectorFromIndex(i++);		
 			newPosition = targetAreaOrigin + offsetVector;
 			
-			IEntity playerControlledEntity = player.GetControlledEntity();
+			EnablePlayerWeapons(playerId);
 			
-			EnablePlayerWeapons(playerControlledEntity);
+			Rpc(HandleClientTeleporting, playerId, newPosition);
+			HandleClientTeleporting(playerId, newPosition);
 			
-			playerControlledEntity.SetOrigin(newPosition);
+			Rpc(HandleClientResetState, playerId);
+			HandleClientResetState(playerId);
 		}
 		
-		m_PlayersWaitingInZones.Set(area, {});
+		teleportWaitingAreaInfo.ResetPlayerIds();
+		
+		float nextTeleportForAreaTime = QueueNextTeleportForArea(area);
+		
+		if (nextTeleportForAreaTime > 0)
+			teleportWaitingAreaInfo.SetNextTeleportTime(nextTeleportForAreaTime);
 	}
 	
 	//------------------------------------------------------------------------------------------------
@@ -163,6 +262,38 @@ class AFI_TeleportManager : ScriptComponent
     }
 	
 	//------------------------------------------------------------------------------------------------
+	[RplRpc(RplChannel.Reliable, RplRcver.Broadcast)]
+	protected void HandleClientTeleporting(int playerId, vector newPosition)
+	{
+		PlayerController playerController = GetGame().GetPlayerController();
+		
+		if (playerController == null || playerController.GetPlayerId() != playerId)
+			return;
+		
+		IEntity playerControlledEntity = playerController.GetControlledEntity();
+		
+		if (playerControlledEntity == null)
+			return;
+		
+		playerControlledEntity.SetOrigin(newPosition);
+	}
+	
+	//------------------------------------------------------------------------------------------------
+	[RplRpc(RplChannel.Reliable, RplRcver.Broadcast)]
+	protected void HandleClientResetState(int playerId)
+	{
+		PlayerController playerController = GetGame().GetPlayerController();
+		
+		if (playerController == null || playerController.GetPlayerId() != playerId)
+			return;
+		
+		m_TimerWidget.GetRootWidget().RemoveFromHierarchy();
+		delete m_TimerWidget;
+		
+		m_iMyAreaId = 0;
+	}
+	
+	//------------------------------------------------------------------------------------------------
 	override void OnPostInit(IEntity owner)
 	{
 		if (!Replication.IsServer())
@@ -170,8 +301,11 @@ class AFI_TeleportManager : ScriptComponent
 		
 		m_PlayerManager = GetGame().GetPlayerManager();
 		
+		m_BaseWorld = GetGame().GetWorld();
+		
 		m_OnPlayerEnterWaitingAreaInvoker.Insert(OnPlayerEnterWaitingAreaInvoked);
 		
 		GetGame().GetCallqueue().CallLater(AreaCheckUpdate, m_iZoneCheckFrequency, true);
+		GetGame().GetCallqueue().CallLater(UpdateTimeleft, 100, true);
 	}
 }

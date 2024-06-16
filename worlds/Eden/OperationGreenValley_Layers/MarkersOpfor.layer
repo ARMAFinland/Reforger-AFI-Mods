@@ -1,0 +1,57 @@
+$grp AFI_SimpleMapMarkerEntity {
+ {
+  coords 7642.649 166.951 4319.108
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor GREEN
+ }
+ {
+  coords 7618.06 166.845 4223.059
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor GREEN
+ }
+ {
+  coords 7592.892 166.832 4155.231
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor GREEN
+ }
+ {
+  coords 7500.332 166.853 4181.249
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor GREEN
+ }
+ {
+  coords 7493.629 165.744 4232.47
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor GREEN
+ }
+ {
+  coords 7429.292 164.325 4250.507
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor GREEN
+ }
+ {
+  coords 7362.417 164.217 4273.631
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor GREEN
+ }
+ {
+  coords 7383.076 161.28 4324.434
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor GREEN
+ }
+ {
+  coords 7419.009 161.33 4390.319
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor GREEN
+ }
+ {
+  coords 7506.611 165.201 4363.7
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor GREEN
+ }
+ {
+  coords 7567.529 166.844 4344.457
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor GREEN
+ }
+}

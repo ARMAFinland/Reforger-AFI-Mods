@@ -1,8 +1,24 @@
+AFI_SimpleMapMarkerEntity {
+ coords 4762.872 23.219 12068.588
+ m_eMapMarkerColor BLUFOR
+}
 AFI_TeleportWaitingAreaEntity : "{99CCD08FC3EC1839}Prefabs/Teleport/AFI_TeleportWaitingArea.et" {
  coords 4868.446 28.592 11858.221
  m_iTeleportTime 10000
  m_sTeleportTargetArea "AFI_TestiTargetti"
 }
+StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+ components {
+  SCR_MapDescriptorComponent "{619EAB6126D60281}" {
+   DisplayName "circle"
+   ImagesetQuadElement "circle"
+   ShowTerrainElevation 1
+   MapItemDescriptor 1
+   Faction 2
+  }
+ }
+ coords 4839.824 0 11845.505
+}
 AFI_TeleportTargetAreaEntity AFI_TestiTargetti : "{F9F8C7280BC492F6}Prefabs/Teleport/AFI_TeleportTargetArea.et" {
- coords 4773.71 28.751 11694.938
+ coords 4865.146 28.751 11820.166
 }
