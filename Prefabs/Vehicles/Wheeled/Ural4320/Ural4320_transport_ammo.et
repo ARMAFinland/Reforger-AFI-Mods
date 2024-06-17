@@ -51,6 +51,42 @@ Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transpor
      }
      NumSlots 10
     }
+    MultiSlotConfiguration "{61A0BEAA6EB820AE}" {
+     SlotTemplate InventoryStorageSlot Morphine {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 25
+    }
+    MultiSlotConfiguration "{61A0BEAA588FC4A4}" {
+     SlotTemplate InventoryStorageSlot Epi {
+      Prefab "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{61A0BEAA48A8C6C3}" {
+     SlotTemplate InventoryStorageSlot saline {
+      Prefab "{527D7C5D2E476BDC}Prefabs/Items/Medicine/SalineBag_01/SalineBag_USSR_01.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{61A0BEAA1DF90D2F}" {
+     SlotTemplate InventoryStorageSlot Bandage {
+      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{61A0BEA9EB4549A7}" {
+     SlotTemplate InventoryStorageSlot Turni {
+      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{61A0BEA99AAC5F0C}" {
+     SlotTemplate InventoryStorageSlot PGVM {
+      Prefab "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+     }
+     NumSlots 10
+    }
    }
   }
  }
