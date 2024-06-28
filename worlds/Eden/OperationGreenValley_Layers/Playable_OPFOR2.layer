@@ -1,3 +1,11 @@
+SCR_AIGroup USSR_A10 : "{12E7DF96D21CFFC7}Prefabs/Groups/OPFOR/Group_USSR_PlatoonCommanders_P.et" {
+ coords 7471.117 164.57 4327.538
+ angleY -163.141
+ m_bDeleteWhenEmpty 0
+ m_bPlayable 1
+ m_bDeleteIfNoPlayer 0
+ m_sCustomNameSet "Alpha 10"
+}
 $grp SCR_AIGroup : "{0039105516B45D12}OperationGreenValley/Prefabs/Groups/OPFOR/Group_USSR_Team_P.et" {
  USSR_A11 {
   coords 7471.919 164.594 4330.591
@@ -43,14 +51,6 @@ $grp SCR_AIGroup : "{0039105516B45D12}OperationGreenValley/Prefabs/Groups/OPFOR/
   m_bDeleteIfNoPlayer 0
   m_sCustomNameSet "Alpha 4"
  }
-}
-SCR_AIGroup USSR_A10 : "{12E7DF96D21CFFC7}Prefabs/Groups/OPFOR/Group_USSR_PlatoonCommanders_P.et" {
- coords 7471.117 164.57 4327.538
- angleY -163.141
- m_bDeleteWhenEmpty 0
- m_bPlayable 1
- m_bDeleteIfNoPlayer 0
- m_sCustomNameSet "Alpha 10"
 }
 SCR_AIGroup USSR_V11 : "{27DDFA4329EF6982}Prefabs/Groups/OPFOR/Group_USSR_Crew_P.et" {
  components {
