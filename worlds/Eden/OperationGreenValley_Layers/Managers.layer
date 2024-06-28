@@ -38,6 +38,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_bTeamSwitch 1
  m_bMarkersOnlyOnBriefing 1
  m_bRemoveSquadMarkers 1
+ m_iFreezeTime 600000
  m_aFactionRespawnCount {
   PS_FactionRespawnCount "{619F356599344E4B}" {
    m_sFactionKey "US"
@@ -50,6 +51,11 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_iCount 150
    m_iTime 900000
    m_bWaveMode 1
+  }
+  PS_FactionRespawnCount "{61B94CC39FE04131}" {
+   m_sFactionKey "CIV"
+   m_iCount 999
+   m_iTime 1000
   }
  }
  {
