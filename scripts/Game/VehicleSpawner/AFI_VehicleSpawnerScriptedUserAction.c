@@ -19,7 +19,6 @@ class AFI_VehicleSpawnerScriptedUserAction : ScriptedUserAction
 			return;
 		
 		m_iPerformedCount++;
-		Replication.BumpMe();
 		
 		if (!Replication.IsServer())
 			return;
