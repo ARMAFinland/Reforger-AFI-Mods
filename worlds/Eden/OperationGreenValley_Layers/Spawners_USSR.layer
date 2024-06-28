@@ -8,9 +8,6 @@ $grp GenericEntity {
   angleY 284.7
  }
 }
-GenericEntity : "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et" {
- coords 7572.965 166.156 4230.358
-}
 $grp GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_USSR.et" {
  {
   components {

@@ -1,6 +1,6 @@
 $grp SCR_AIGroup : "{0039105516B45D12}OperationGreenValley/Prefabs/Groups/OPFOR/Group_USSR_Team_P.et" {
  USSR_A11 {
-  coords 7471.92 164.594 4330.591
+  coords 7471.919 164.594 4330.591
   angleY -163.141
   m_aUnitPrefabSlots {
    "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL_P.et" "{00716F7369F3C5E8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR_P.et" "{F79B1615A731AA81}OperationGreenValley/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GrenadierAT_P.et" "{0E6C18897713654C}OperationGreenValley/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GrenadierAAT_P.et" "{DD80FA65DDFF68BA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic_P.et" "{6A840CB36D1670C3}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SR_P.et" "{A8A47F001DA13B73}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et"
@@ -11,7 +11,7 @@ $grp SCR_AIGroup : "{0039105516B45D12}OperationGreenValley/Prefabs/Groups/OPFOR/
   m_sCustomNameSet "Alpha 1"
  }
  USSR_A12 {
-  coords 7472.745 164.563 4333.117
+  coords 7472.745 164.582 4333.117
   angleY -163.141
   m_aUnitPrefabSlots {
    "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL_P.et" "{00716F7369F3C5E8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR_P.et" "{F79B1615A731AA81}OperationGreenValley/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GrenadierAT_P.et" "{0E6C18897713654C}OperationGreenValley/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GrenadierAAT_P.et" "{DD80FA65DDFF68BA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic_P.et" "{6A840CB36D1670C3}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SR_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et"
@@ -22,7 +22,7 @@ $grp SCR_AIGroup : "{0039105516B45D12}OperationGreenValley/Prefabs/Groups/OPFOR/
   m_sCustomNameSet "Alpha 2"
  }
  USSR_A13 {
-  coords 7473.567 165.062 4335.675
+  coords 7473.567 164.62 4335.675
   angleY -163.141
   m_aUnitPrefabSlots {
    "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL_P.et" "{00716F7369F3C5E8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR_P.et" "{F79B1615A731AA81}OperationGreenValley/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GrenadierAT_P.et" "{0E6C18897713654C}OperationGreenValley/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GrenadierAAT_P.et" "{DD80FA65DDFF68BA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic_P.et" "{6A840CB36D1670C3}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SR_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et"
@@ -33,7 +33,7 @@ $grp SCR_AIGroup : "{0039105516B45D12}OperationGreenValley/Prefabs/Groups/OPFOR/
   m_sCustomNameSet "Alpha 3"
  }
  USSR_A14 {
-  coords 7474.271 165.062 4337.864
+  coords 7474.271 164.621 4337.864
   angleY -163.141
   m_aUnitPrefabSlots {
    "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL_P.et" "{00716F7369F3C5E8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR_P.et" "{F79B1615A731AA81}OperationGreenValley/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GrenadierAT_P.et" "{0E6C18897713654C}OperationGreenValley/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GrenadierAAT_P.et" "{DD80FA65DDFF68BA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic_P.et" "{6A840CB36D1670C3}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SR_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et"
@@ -45,7 +45,7 @@ $grp SCR_AIGroup : "{0039105516B45D12}OperationGreenValley/Prefabs/Groups/OPFOR/
  }
 }
 SCR_AIGroup USSR_A10 : "{12E7DF96D21CFFC7}Prefabs/Groups/OPFOR/Group_USSR_PlatoonCommanders_P.et" {
- coords 7471.117 164.594 4327.538
+ coords 7471.117 164.57 4327.538
  angleY -163.141
  m_bDeleteWhenEmpty 0
  m_bPlayable 1
@@ -58,7 +58,7 @@ SCR_AIGroup USSR_V11 : "{27DDFA4329EF6982}Prefabs/Groups/OPFOR/Group_USSR_Crew_P
    DefaultFormation "Line"
   }
  }
- coords 7577.854 166.156 4220.532
+ coords 7577.854 166.501 4220.532
  angleY 16.9
  m_aUnitPrefabSlots {
   "{5F97A5131C313679}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_VehicleCommander_P.et" "{4D6EEFD3EC0A4A0A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_VehicleGunner_P.et" "{9C1A11DD498AE769}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_VehicleDriver_P.et"
