@@ -37,6 +37,8 @@ $grp GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPo
      }
     }
    }
+   RplComponent "{61B93EC546B8C16E}" {
+   }
   }
   coords 7458.758 164.562 4322.287
  }
