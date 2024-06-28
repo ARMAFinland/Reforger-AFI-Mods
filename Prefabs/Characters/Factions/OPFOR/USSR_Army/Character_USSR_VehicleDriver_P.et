@@ -6,7 +6,7 @@ SCR_ChimeraCharacter : "{C8FABF6F093DA775}Prefabs/Characters/Factions/OPFOR/USSR
     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
      InitialStorageSlots {
       SCR_EquipmentStorageSlot BinocularSlot {
-       Prefab ""
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
       }
      }
     }

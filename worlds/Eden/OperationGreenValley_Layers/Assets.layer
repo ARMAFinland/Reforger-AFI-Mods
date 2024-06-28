@@ -1,80 +1,83 @@
-Vehicle M923A1_transport_MERDC1 : "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC.et" {
- coords 10241.264 19.019 704.865
- angleX -6.181
- angleY -19.525
- angleZ 1.243
+GenericEntity : "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et" {
+ coords 7578.423 166.156 4228.226
 }
 $grp Vehicle : "{66AF2A7CDB21C54B}Prefabs/Vehicles/Wheeled/M923/M923A1_transport_MERDC1_ammo.et" {
  M923A1_transport_MERDC1_ammo1 {
-  coords 10243.168 20.285 693.276
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61A0BEACAB92C7B7}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 10240.1 19.151 703.493
   angleX -6.235
   angleY -16.717
   angleZ 0.939
  }
  M923A1_transport_MERDC1_ammo2 {
-  coords 10245.38 21.711 680.74
-  angleX -7.09
-  angleY -16.255
-  angleZ 1.136
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61A0BEACAB92C7B7}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 10242.512 20.367 692.437
+  angleX -6.235
+  angleY -16.717
+  angleZ 0.939
  }
  M923A1_transport_MERDC1_ammo3 {
-  coords 10246.715 23.109 668.631
-  angleX -6.484
-  angleY -13.484
-  angleZ -0.278
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61A0BEACAB92C7B7}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 10244.837 21.475 682.633
+  angleX -6.235
+  angleY -16.717
+  angleZ 0.939
+ }
+ M923A1_transport_MERDC1_ammo4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61A0BEACAB92C7B7}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 10246.458 22.708 672.176
+  angleX -6.235
+  angleY -16.717
+  angleZ 0.939
  }
 }
 $grp Vehicle : "{D8F4D7AF6E29E50B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_ammo.et" {
- Ural4320_transport_ammo1 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
-    MultiSlots {
-     MultiSlotConfiguration "{61A071294B3B83FE}" {
-      NumSlots 50
-     }
-    }
-   }
-  }
-  coords 7469.971 164.562 4299.616
+ Ural4320_transport_ammo4 {
+  coords 7476.281 164.562 4312.866
   angleY 154.159
  }
  Ural4320_transport_ammo2 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
-    MultiSlots {
-     MultiSlotConfiguration "{61A071294B3B83FE}" {
-      NumSlots 50
-     }
-    }
-   }
-  }
-  coords 7472.121 164.562 4304.33
+  coords 7473.069 164.563 4308.652
   angleY 154.159
  }
  Ural4320_transport_ammo3 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
-    MultiSlots {
-     MultiSlotConfiguration "{61A071294B3B83FE}" {
-      NumSlots 50
-     }
-    }
-   }
-  }
-  coords 7474.333 164.562 4308.498
+  coords 7470.302 164.563 4304.562
   angleY 154.159
  }
- Ural4320_transport_ammo4 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
-    MultiSlots {
-     MultiSlotConfiguration "{61A071294B3B83FE}" {
-      NumSlots 50
-     }
-    }
-   }
-  }
-  coords 7476.281 164.562 4312.866
+ Ural4320_transport_ammo5 {
+  coords 7468.039 164.562 4300.378
   angleY 154.159
  }
 }

@@ -17,7 +17,7 @@ Vehicle : "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_ME
     }
     MultiSlotConfiguration "{61A0BEAD12C158BE}" {
      SlotTemplate InventoryStorageSlot FieldDressing_US {
-      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et"
+      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
      }
      NumSlots 25
     }
@@ -49,11 +49,11 @@ Vehicle : "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_ME
      SlotTemplate InventoryStorageSlot Launchers {
       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
      }
-     NumSlots 5
+     NumSlots 2
     }
     MultiSlotConfiguration "{61A0BEAC9D5E9DE9}" {
      SlotTemplate InventoryStorageSlot M60AP {
-      Prefab "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+      Prefab "{982F5BA41A3738CF}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_Ball.et"
      }
      NumSlots 10
     }

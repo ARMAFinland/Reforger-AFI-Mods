@@ -25,7 +25,7 @@ Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transpor
      SlotTemplate InventoryStorageSlot "{61A0712949557D28}" {
       Prefab "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
      }
-     NumSlots 8
+     NumSlots 50
     }
     MultiSlotConfiguration "{61A071293B6063F2}" {
      SlotTemplate InventoryStorageSlot "{61A0712939E7C80F}" {
@@ -71,7 +71,7 @@ Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transpor
     }
     MultiSlotConfiguration "{61A0BEAA1DF90D2F}" {
      SlotTemplate InventoryStorageSlot Bandage {
-      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
      NumSlots 50
     }
@@ -84,6 +84,12 @@ Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transpor
     MultiSlotConfiguration "{61A0BEA99AAC5F0C}" {
      SlotTemplate InventoryStorageSlot PGVM {
       Prefab "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{61B94CC94B958E24}" {
+     SlotTemplate InventoryStorageSlot SmokeRDG {
+      Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
      NumSlots 10
     }
