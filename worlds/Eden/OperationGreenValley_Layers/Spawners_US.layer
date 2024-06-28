@@ -1,0 +1,39 @@
+GenericEntity TargetSpawnLocation_US {
+ coords 10260.879 22.674 684.112
+ angleY -61.2
+}
+StaticModelEntity : "{CF1FFB7BAA1A0769}Prefabs/Structures/Military/Camps/HelipadImprovised_01/HelipadImprovised_US_01.et" {
+ coords 10261.336 0.804 684.383
+ angleY 0.749
+}
+GenericEntity : "{E55FC02F8C1518A2}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_US.et" {
+ components {
+  ActionsManagerComponent "{61B84365ADDF0309}" {
+   ActionContexts {
+    UserActionContext "{61B8436593B9E0E9}" {
+     ContextName "default"
+     Position PointInfo "{61B73229E28986A9}" {
+      Offset 0 1.5 0
+     }
+     Radius 2
+     Height 25
+    }
+   }
+   additionalActions {
+    AFI_VehicleSpawnerScriptedUserAction "{61B843658472128C}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{61B73228CAC65C69}" {
+      Name "Spawn vehicle"
+     }
+     VisibilityRange 2
+     Duration 3
+     m_prefabToSpawn "{66AF2A7CDB21C54B}Prefabs/Vehicles/Wheeled/M923/M923A1_transport_MERDC1_ammo.et"
+     m_sTargetArea "TargetSpawnLocation_US"
+    }
+   }
+  }
+ }
+ coords 10254.814 23.727 664.746
+}

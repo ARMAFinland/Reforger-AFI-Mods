@@ -1,319 +1,27 @@
-$grp Vehicle : "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC.et" {
- M923A1_transport_MERDC1 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
-    MultiSlots {
-     MultiSlotConfiguration "{61A0BEAD687C4CB5}" {
-      SlotTemplate InventoryStorageSlot UsAmmoTracers {
-       Prefab "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et"
-      }
-      NumSlots 50
-     }
-     MultiSlotConfiguration "{61A0BEAD315779C0}" {
-      SlotTemplate InventoryStorageSlot Smoke {
-       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
-      }
-      NumSlots 20
-     }
-     MultiSlotConfiguration "{61A0BEAD12C158BE}" {
-      SlotTemplate InventoryStorageSlot FieldDressing_US {
-       Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et"
-      }
-      NumSlots 25
-     }
-     MultiSlotConfiguration "{61A0BEAD09979E7D}" {
-      SlotTemplate InventoryStorageSlot Tourniquet {
-       Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEACFF5DA8F3}" {
-      SlotTemplate InventoryStorageSlot MorphineUS {
-       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
-      }
-      NumSlots 25
-     }
-     MultiSlotConfiguration "{61A0BEACD37B7FBF}" {
-      SlotTemplate InventoryStorageSlot Epi {
-       Prefab "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEACB5095131}" {
-      SlotTemplate InventoryStorageSlot SalineBag {
-       Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEACAB92C7B7}" {
-      SlotTemplate InventoryStorageSlot Launchers {
-       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
-      }
-      NumSlots 5
-     }
-     MultiSlotConfiguration "{61A0BEAC7412972F}" {
-      SlotTemplate InventoryStorageSlot M60Tracers {
-       Prefab "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEAC6BED2C95}" {
-      SlotTemplate InventoryStorageSlot M433HEDP {
-       Prefab "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
-      }
-      NumSlots 25
-     }
-    }
-   }
-  }
-  coords 10253.886 21.414 692.025
-  angleY -56.391
- }
- M923A1_transport_MERDC2 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
-    MultiSlots {
-     MultiSlotConfiguration "{61A0BEAD687C4CB5}" {
-      SlotTemplate InventoryStorageSlot UsAmmoTracers {
-       Prefab "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et"
-      }
-      NumSlots 50
-     }
-     MultiSlotConfiguration "{61A0BEAD315779C0}" {
-      SlotTemplate InventoryStorageSlot Smoke {
-       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
-      }
-      NumSlots 20
-     }
-     MultiSlotConfiguration "{61A0BEAD12C158BE}" {
-      SlotTemplate InventoryStorageSlot FieldDressing_US {
-       Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et"
-      }
-      NumSlots 25
-     }
-     MultiSlotConfiguration "{61A0BEAD09979E7D}" {
-      SlotTemplate InventoryStorageSlot Tourniquet {
-       Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEACFF5DA8F3}" {
-      SlotTemplate InventoryStorageSlot MorphineUS {
-       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
-      }
-      NumSlots 25
-     }
-     MultiSlotConfiguration "{61A0BEACD37B7FBF}" {
-      SlotTemplate InventoryStorageSlot Epi {
-       Prefab "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEACB5095131}" {
-      SlotTemplate InventoryStorageSlot SalineBag {
-       Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEACAB92C7B7}" {
-      SlotTemplate InventoryStorageSlot Launchers {
-       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
-      }
-      NumSlots 5
-     }
-     MultiSlotConfiguration "{61A0BEAC9D5E9DE9}" {
-      SlotTemplate InventoryStorageSlot M60AP {
-       Prefab "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEAC7412972F}" {
-      SlotTemplate InventoryStorageSlot M60Tracers {
-       Prefab "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEAC6BED2C95}" {
-      SlotTemplate InventoryStorageSlot M433HEDP {
-       Prefab "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
-      }
-      NumSlots 25
-     }
-    }
-   }
-  }
-  coords 10253.662 21.57 686.074
-  angleY -56.391
- }
- M923A1_transport_MERDC3 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
-    MultiSlots {
-     MultiSlotConfiguration "{61A0BEAD687C4CB5}" {
-      SlotTemplate InventoryStorageSlot UsAmmoTracers {
-       Prefab "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et"
-      }
-      NumSlots 50
-     }
-     MultiSlotConfiguration "{61A0BEAD315779C0}" {
-      SlotTemplate InventoryStorageSlot Smoke {
-       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
-      }
-      NumSlots 20
-     }
-     MultiSlotConfiguration "{61A0BEAD12C158BE}" {
-      SlotTemplate InventoryStorageSlot FieldDressing_US {
-       Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et"
-      }
-      NumSlots 25
-     }
-     MultiSlotConfiguration "{61A0BEAD09979E7D}" {
-      SlotTemplate InventoryStorageSlot Tourniquet {
-       Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEACFF5DA8F3}" {
-      SlotTemplate InventoryStorageSlot MorphineUS {
-       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
-      }
-      NumSlots 25
-     }
-     MultiSlotConfiguration "{61A0BEACD37B7FBF}" {
-      SlotTemplate InventoryStorageSlot Epi {
-       Prefab "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEACB5095131}" {
-      SlotTemplate InventoryStorageSlot SalineBag {
-       Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEACAB92C7B7}" {
-      SlotTemplate InventoryStorageSlot Launchers {
-       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
-      }
-      NumSlots 5
-     }
-     MultiSlotConfiguration "{61A0BEAC9D5E9DE9}" {
-      SlotTemplate InventoryStorageSlot M60AP {
-       Prefab "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEAC7412972F}" {
-      SlotTemplate InventoryStorageSlot M60Tracers {
-       Prefab "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEAC6BED2C95}" {
-      SlotTemplate InventoryStorageSlot M433HEDP {
-       Prefab "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
-      }
-      NumSlots 25
-     }
-    }
-   }
-  }
-  coords 10253.611 22.143 680.015
-  angleY -56.391
- }
- M923A1_transport_MERDC4 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
-    MultiSlots {
-     MultiSlotConfiguration "{61A0BEAD687C4CB5}" {
-      SlotTemplate InventoryStorageSlot UsAmmoTracers {
-       Prefab "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et"
-      }
-      NumSlots 50
-     }
-     MultiSlotConfiguration "{61A0BEAD315779C0}" {
-      SlotTemplate InventoryStorageSlot Smoke {
-       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
-      }
-      NumSlots 20
-     }
-     MultiSlotConfiguration "{61A0BEAD12C158BE}" {
-      SlotTemplate InventoryStorageSlot FieldDressing_US {
-       Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et"
-      }
-      NumSlots 25
-     }
-     MultiSlotConfiguration "{61A0BEAD09979E7D}" {
-      SlotTemplate InventoryStorageSlot Tourniquet {
-       Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEACFF5DA8F3}" {
-      SlotTemplate InventoryStorageSlot MorphineUS {
-       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
-      }
-      NumSlots 25
-     }
-     MultiSlotConfiguration "{61A0BEACD37B7FBF}" {
-      SlotTemplate InventoryStorageSlot Epi {
-       Prefab "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEACB5095131}" {
-      SlotTemplate InventoryStorageSlot SalineBag {
-       Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEACAB92C7B7}" {
-      SlotTemplate InventoryStorageSlot Launchers {
-       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
-      }
-      NumSlots 5
-     }
-     MultiSlotConfiguration "{61A0BEAC9D5E9DE9}" {
-      SlotTemplate InventoryStorageSlot M60AP {
-       Prefab "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEAC7412972F}" {
-      SlotTemplate InventoryStorageSlot M60Tracers {
-       Prefab "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{61A0BEAC6BED2C95}" {
-      SlotTemplate InventoryStorageSlot M433HEDP {
-       Prefab "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
-      }
-      NumSlots 25
-     }
-    }
-   }
-  }
-  coords 10254.693 22.947 672.128
-  angleY -56.391
- }
+Vehicle M923A1_transport_MERDC1 : "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC.et" {
+ coords 10241.264 19.019 704.865
+ angleX -6.181
+ angleY -19.525
+ angleZ 1.243
 }
-$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
- BTR1 {
-  coords 7605.423 166.156 4241.479
-  angleY -76.201
+$grp Vehicle : "{66AF2A7CDB21C54B}Prefabs/Vehicles/Wheeled/M923/M923A1_transport_MERDC1_ammo.et" {
+ M923A1_transport_MERDC1_ammo1 {
+  coords 10243.168 20.285 693.276
+  angleX -6.235
+  angleY -16.717
+  angleZ 0.939
  }
- BTR2 {
-  coords 7603.874 166.156 4236.648
-  angleY -76.201
+ M923A1_transport_MERDC1_ammo2 {
+  coords 10245.38 21.711 680.74
+  angleX -7.09
+  angleY -16.255
+  angleZ 1.136
  }
- BTR3 {
-  coords 7602.715 166.156 4231.752
-  angleY -76.201
- }
- BTR4 {
-  coords 7601.267 166.156 4227.182
-  angleY -76.201
+ M923A1_transport_MERDC1_ammo3 {
+  coords 10246.715 23.109 668.631
+  angleX -6.484
+  angleY -13.484
+  angleZ -0.278
  }
 }
 $grp Vehicle : "{D8F4D7AF6E29E50B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_ammo.et" {
@@ -327,8 +35,8 @@ $grp Vehicle : "{D8F4D7AF6E29E50B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
     }
    }
   }
-  coords 7448.846 165.062 4302.974
-  angleY 112.559
+  coords 7469.971 164.562 4299.616
+  angleY 154.159
  }
  Ural4320_transport_ammo2 {
   components {
@@ -340,8 +48,8 @@ $grp Vehicle : "{D8F4D7AF6E29E50B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
     }
    }
   }
-  coords 7450.61 165.062 4307.503
-  angleY 112.559
+  coords 7472.121 164.562 4304.33
+  angleY 154.159
  }
  Ural4320_transport_ammo3 {
   components {
@@ -353,8 +61,8 @@ $grp Vehicle : "{D8F4D7AF6E29E50B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
     }
    }
   }
-  coords 7452.307 165.062 4311.42
-  angleY 112.559
+  coords 7474.333 164.562 4308.498
+  angleY 154.159
  }
  Ural4320_transport_ammo4 {
   components {
@@ -366,7 +74,7 @@ $grp Vehicle : "{D8F4D7AF6E29E50B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
     }
    }
   }
-  coords 7453.933 165.062 4315.631
-  angleY 112.559
+  coords 7476.281 164.562 4312.866
+  angleY 154.159
  }
 }

@@ -19,7 +19,7 @@ class AFI_TeleportManager : ScriptComponent
 	
 	protected const int m_iZoneCheckFrequency = 50;
 	
-	protected int m_iGridWidth = 5;
+	protected int m_iGridWidth = 8;
 	
 	protected int m_iMyAreaId = 0;
 	
@@ -231,8 +231,9 @@ class AFI_TeleportManager : ScriptComponent
 		int i = 0;
 		foreach (int playerId : teleportWaitingAreaInfo.GetPlayerIds())
 		{
-			vector offsetVector = GetOffsetVectorFromIndex(i++);		
-			newPosition = targetAreaOrigin + offsetVector;
+			vector offsetVector = GetOffsetVectorFromIndex(i++);
+				
+			newPosition = targetAreaOrigin + offsetVector * 2;
 			
 			EnablePlayerWeapons(playerId);
 			
@@ -258,7 +259,7 @@ class AFI_TeleportManager : ScriptComponent
         int z = (i - 1) / m_iGridWidth;
 		int y = 0;
         
-        return x + y + z;
+        return {x, y, z};
     }
 	
 	//------------------------------------------------------------------------------------------------
@@ -275,7 +276,11 @@ class AFI_TeleportManager : ScriptComponent
 		if (playerControlledEntity == null)
 			return;
 		
-		playerControlledEntity.SetOrigin(newPosition);
+		float surfaceY = GetGame().GetWorld().GetSurfaceY(newPosition[0], newPosition[2]);
+		
+		vector surfacePosition = {newPosition[0], surfaceY, newPosition[2]};
+		
+		playerControlledEntity.SetOrigin(surfacePosition);
 	}
 	
 	//------------------------------------------------------------------------------------------------

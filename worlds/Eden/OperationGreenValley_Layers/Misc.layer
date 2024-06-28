@@ -6,4 +6,9 @@ SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restriction
  coords 7501.656 164.589 4285.256
  m_fWarnRadius 120
  m_fZoneRadius 140
+ {
+  GenericEntity {
+   ID "59D673B36B893D84"
+  }
+ }
 }

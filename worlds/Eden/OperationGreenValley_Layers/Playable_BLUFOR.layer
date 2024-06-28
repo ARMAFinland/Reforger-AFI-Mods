@@ -1,0 +1,63 @@
+SCR_AIGroup US_A10 : "{0B42FFF9F5BCE2E1}Prefabs/Groups/BLUFOR/Group_US_PlatoonLeaders_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ coords 10249.089 26.6 649.723
+ angleY -102.785
+ m_aUnitPrefabSlots {
+  "{7656FC76CFB3D9A9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PlatoonLeader_P.et" "{A1146460B1C64D8E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PlatoonSergeant_P.et"
+ }
+ m_bDeleteWhenEmpty 0
+ m_bPlayable 1
+ m_bDeleteIfNoPlayer 0
+ m_sCustomNameSet "Alpha 10"
+ m_bSetPlayable 1
+}
+$grp SCR_AIGroup : "{99BB7548B5A9EF9D}OperationGreenValley/Prefabs/Groups/BLUFOR/Group_US_Team_P.et" {
+ US_A11 {
+  coords 10251.786 26.298 650.465
+  angleY -102.785
+  m_aUnitPrefabSlots {
+   "{DBC177C261C93B9E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et" "{094747C4F8BE9FA0}OperationGreenValley/Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et" "{547BA14003A67C05}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et" "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et" "{EB2904CE98753A6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_P.et" "{CA2EB3A73FABC625}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG_P.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_bPlayable 1
+  m_bDeleteIfNoPlayer 0
+  m_sCustomNameSet "Alpha 1"
+ }
+ US_A12 {
+  coords 10254.363 25.941 651.748
+  angleY -102.785
+  m_aUnitPrefabSlots {
+   "{DBC177C261C93B9E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et" "{094747C4F8BE9FA0}OperationGreenValley/Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et" "{547BA14003A67C05}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et" "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et" "{EB2904CE98753A6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_P.et" "{CA2EB3A73FABC625}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG_P.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_bPlayable 1
+  m_bDeleteIfNoPlayer 0
+  m_sCustomNameSet "Alpha 2"
+ }
+ US_A13 {
+  coords 10256.48 25.698 652.507
+  angleY -102.785
+  m_aUnitPrefabSlots {
+   "{DBC177C261C93B9E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et" "{094747C4F8BE9FA0}OperationGreenValley/Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et" "{547BA14003A67C05}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et" "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et" "{EB2904CE98753A6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_P.et" "{CA2EB3A73FABC625}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG_P.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_bPlayable 1
+  m_bDeleteIfNoPlayer 0
+  m_sCustomNameSet "Alpha 3"
+ }
+ US_A14 {
+  coords 10258.749 25.548 653.705
+  angleY -102.785
+  m_aUnitPrefabSlots {
+   "{DBC177C261C93B9E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et" "{094747C4F8BE9FA0}OperationGreenValley/Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et" "{547BA14003A67C05}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et" "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et" "{EB2904CE98753A6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_P.et" "{CA2EB3A73FABC625}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG_P.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_bPlayable 1
+  m_bDeleteIfNoPlayer 0
+  m_sCustomNameSet "Alpha 4"
+ }
+}

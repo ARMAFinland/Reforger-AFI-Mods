@@ -26,6 +26,10 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
  coords 7114.537 75.031 6401.884
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  AFI_VehicleSpawnerManager "{61B843632A9720D1}" {
+  }
+ }
  coords 7114.514 75.25 6400.96
  m_aDisabledResourceTypes {
   0 1 -1
@@ -37,15 +41,27 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_aFactionRespawnCount {
   PS_FactionRespawnCount "{619F356599344E4B}" {
    m_sFactionKey "US"
-   m_iCount 100
-   m_iTime 15000
+   m_iCount 90
+   m_iTime 1200000
    m_bWaveMode 1
   }
   PS_FactionRespawnCount "{619F3565990AFAB2}" {
    m_sFactionKey "USSR"
-   m_iCount 100
-   m_iTime 15000
+   m_iCount 150
+   m_iTime 900000
    m_bWaveMode 1
+  }
+ }
+ {
+  SCR_FactionManager "61B84361E32D776D" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{56DEAC40D3C2E623}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A67DFB8809}" {
+      m_bIsAssignedRandomly 0
+     }
+    }
+   }
   }
  }
 }
