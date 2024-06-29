@@ -54,7 +54,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_bWaveMode 1
   }
   PS_FactionRespawnCount "{61B94CC39FE04131}" {
-   m_sFactionKey "CIV"
+   m_sFactionKey "FIA"
    m_iCount 999
    m_iTime 1000
   }
