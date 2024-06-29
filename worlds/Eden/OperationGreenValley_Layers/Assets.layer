@@ -1,6 +1,3 @@
-GenericEntity : "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et" {
- coords 7578.423 166.156 4228.226
-}
 $grp Vehicle : "{66AF2A7CDB21C54B}Prefabs/Vehicles/Wheeled/M923/M923A1_transport_MERDC1_ammo.et" {
  M923A1_transport_MERDC1_ammo1 {
   components {
