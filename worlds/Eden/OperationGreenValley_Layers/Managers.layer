@@ -27,7 +27,8 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
-  AFI_VehicleSpawnerManager "{61B843632A9720D1}" {
+  SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
+   m_bPermitUnconsciousVON 0
   }
  }
  coords 7114.514 75.25 6400.96
@@ -38,7 +39,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_bTeamSwitch 1
  m_bMarkersOnlyOnBriefing 1
  m_bRemoveSquadMarkers 1
- m_iFreezeTime 600000
+ m_iFreezeTime 900000
  m_aFactionRespawnCount {
   PS_FactionRespawnCount "{619F356599344E4B}" {
    m_sFactionKey "US"
