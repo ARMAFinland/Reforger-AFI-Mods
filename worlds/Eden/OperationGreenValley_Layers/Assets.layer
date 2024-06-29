@@ -7,7 +7,7 @@ $grp Vehicle : "{66AF2A7CDB21C54B}Prefabs/Vehicles/Wheeled/M923/M923A1_transport
    SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
     MultiSlots {
      MultiSlotConfiguration "{61A0BEACAB92C7B7}" {
-      NumSlots 0
+      NumSlots 1
      }
     }
    }
@@ -22,7 +22,7 @@ $grp Vehicle : "{66AF2A7CDB21C54B}Prefabs/Vehicles/Wheeled/M923/M923A1_transport
    SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
     MultiSlots {
      MultiSlotConfiguration "{61A0BEACAB92C7B7}" {
-      NumSlots 0
+      NumSlots 1
      }
     }
    }
@@ -37,7 +37,7 @@ $grp Vehicle : "{66AF2A7CDB21C54B}Prefabs/Vehicles/Wheeled/M923/M923A1_transport
    SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
     MultiSlots {
      MultiSlotConfiguration "{61A0BEACAB92C7B7}" {
-      NumSlots 0
+      NumSlots 1
      }
     }
    }
@@ -52,7 +52,7 @@ $grp Vehicle : "{66AF2A7CDB21C54B}Prefabs/Vehicles/Wheeled/M923/M923A1_transport
    SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
     MultiSlots {
      MultiSlotConfiguration "{61A0BEACAB92C7B7}" {
-      NumSlots 0
+      NumSlots 1
      }
     }
    }
