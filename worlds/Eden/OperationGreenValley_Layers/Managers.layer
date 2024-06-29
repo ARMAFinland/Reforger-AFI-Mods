@@ -63,9 +63,22 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   SCR_FactionManager "61B84361E32D776D" {
    ID "5ED9088735FF2D8B"
    Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_aFriendlyFactionsIds {
+      "FIA"
+     }
+    }
     SCR_Faction "{56DEAC40D3C2E623}" {
+     m_aFriendlyFactionsIds {
+      "FIA"
+     }
      m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A67DFB8809}" {
       m_bIsAssignedRandomly 0
+     }
+    }
+    SCR_Faction "{56DEAC40D132400B}" {
+     m_aFriendlyFactionsIds {
+      "USSR" "US"
      }
     }
    }
