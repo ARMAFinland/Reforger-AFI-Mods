@@ -1,4 +1,0 @@
-class AFI_VehicleSpawnerInfo
-{
-	
-}
