@@ -93,6 +93,12 @@ Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transpor
      }
      NumSlots 10
     }
+    MultiSlotConfiguration "{61BA7828D2AD9754}" {
+     SlotTemplate InventoryStorageSlot VOG25 {
+      Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+     NumSlots 10
+    }
    }
   }
  }

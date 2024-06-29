@@ -16,7 +16,7 @@ $grp GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPo
      UserActionContext "{61B7322EE2BB953E}" {
       ContextName "default"
       Position PointInfo "{61B73229E28986A9}" {
-       Offset 0 1.5 0
+       Offset 0 1 0
       }
       Radius 2
       Height 25
@@ -41,6 +41,7 @@ $grp GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPo
    }
   }
   coords 7458.758 164.562 4322.287
+  scale 2
  }
  {
   components {
@@ -49,7 +50,7 @@ $grp GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPo
      UserActionContext "{61B7322EE2BB953E}" {
       ContextName "default"
       Position PointInfo "{61B73229E28986A9}" {
-       Offset 0 1.5 0
+       Offset 0 1 0
       }
       Radius 2
       Height 25
@@ -75,6 +76,7 @@ $grp GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPo
    }
   }
   coords 7582.636 166.156 4227.436
+  scale 2
  }
 }
 $grp StaticModelEntity : "{8CDB9C117669AF4A}Prefabs/Structures/Military/Camps/HelipadImprovised_01/HelipadImprovised_USSR_01.et" {

@@ -13,7 +13,7 @@ GenericEntity : "{E55FC02F8C1518A2}Prefabs/Structures/Military/Flags/FlagPole_02
     UserActionContext "{61B8436593B9E0E9}" {
      ContextName "default"
      Position PointInfo "{61B73229E28986A9}" {
-      Offset 0 1.5 0
+      Offset 0 1 0
      }
      Radius 2
      Height 25
@@ -38,4 +38,5 @@ GenericEntity : "{E55FC02F8C1518A2}Prefabs/Structures/Military/Flags/FlagPole_02
   }
  }
  coords 10254.814 23.727 664.746
+ scale 2
 }
