@@ -1,12 +1,5 @@
-AFI_SimpleMapMarkerEntity {
- coords 4762.872 23.219 12068.588
- m_eMapMarkerColor BLUFOR
-}
-SCR_ChimeraCharacter : "{0E6C18897713654C}OperationGreenValley/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GrenadierAAT_P.et" {
- coords 7478.401 164.563 4303.521
-}
 AFI_TeleportWaitingAreaEntity : "{99CCD08FC3EC1839}Prefabs/Teleport/AFI_TeleportWaitingArea.et" {
- coords 4868.446 28.592 11858.221
+ coords 4868.446 28.592 11805.872
  m_iTeleportTime 10000
  m_sTeleportTargetArea "AFI_TestiTargetti"
 }
