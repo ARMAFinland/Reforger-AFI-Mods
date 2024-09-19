@@ -51,6 +51,54 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
 }
+SCR_ChimeraCharacter : "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et" {
+ coords 4843.365 28.531 11865.996
+}
+SCR_AIGroup : "{80E0FC9E8DB2F531}Prefabs/Groups/OPFOR/Group_USSR_AmmoTeam_P.et" {
+ coords 4857.001 28.594 11895.909
+}
 SCR_AIGroup : "{CB31D258850A3EFC}Prefabs/Groups/BLUFOR/Group_US_LightFireTeam_P.et" {
  coords 4861 31 11866
+}
+PolylineShapeEntity : "{F3EE43B87ACFCEA4}Prefabs/PolyZone/PolyZone_Sound.et" {
+ coords 4862.296 28.595 11870.148
+ Points {
+  ShapePoint "{61C298CC048280C1}" {
+   Position 104.63 0 -0.577
+  }
+  ShapePoint "{61C298CC09665945}" {
+   Position 142.59 0 -775.544
+  }
+  ShapePoint "{61C298CC0CADBCF9}" {
+   Position 942.936 0 -1594.42
+  }
+  ShapePoint "{61C298F3E22BFAE3}" {
+   Position 193.58 0 -2764.134
+  }
+  ShapePoint "{61C298F3E00E620F}" {
+   Position -431.627 0 -2607.173
+  }
+  ShapePoint "{61C298F3E12AC7CF}" {
+   Position -502.201 0 -2170.257
+  }
+  ShapePoint "{61C298F3E180E4F5}" {
+   Position -893.539 0 -1620.197
+  }
+  ShapePoint "{61C298F3E7AB7D81}" {
+   Position -647.448 0 -1219.848
+  }
+  ShapePoint "{61C298F3E47364E9}" {
+   Position -363.226 0 -598.961
+  }
+  ShapePoint "{61C298F3E9A28194}" {
+   Position -114.491 0 -9.276
+  }
+ }
+ {
+  PS_PolyZoneTrigger {
+   ID "61C298DF5076C5EA"
+   m_polyZoneEffect AFI_PolyZoneEffectSound "{61C298DF5076C504}" {
+   }
+  }
+ }
 }
