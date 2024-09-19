@@ -1,0 +1,40 @@
+$grp PS_ManualMarker {
+ USAF_START {
+  coords 5539.796 123.375 6744.213
+  angleY 90
+  m_sImageSet "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_sImageSetGlow "{67B3A6DC2D712B52}UI/Textures/Icons/icons_mapMarkersUI-glow.imageset"
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 200
+  m_sDescription "USAF START"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ AFRF_START {
+  coords 9758.057 5.67 10637.475
+  angleY 90
+  m_sImageSet "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_sImageSetGlow "{67B3A6DC2D712B52}UI/Textures/Icons/icons_mapMarkersUI-glow.imageset"
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 90
+  m_sDescription "AFRF START"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ OBJECTIVE {
+  coords 9475.013 15.327 10765.821
+  angleY 90
+  m_sImageSet "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_sImageSetGlow "{67B3A6DC2D712B52}UI/Textures/Icons/icons_mapMarkersUI-glow.imageset"
+  m_MarkerColor 0 0.502 0.125 1
+  m_sQuadName "objective-marker-2"
+  m_fWorldSize 150
+  m_sDescription "Target"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}

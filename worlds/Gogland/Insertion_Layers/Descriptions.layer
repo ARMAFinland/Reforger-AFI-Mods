@@ -1,0 +1,20 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ Summary {
+  coords 9721.599 2.893 10367.151
+  m_sTitle "Summary"
+  m_sTextData "USAF is tasked to insert to isle of Säkkiluoto with helicopters. AFRF task is to defend command vehicle."\
+  ""\
+  "Time limit: ~1 hour"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 1
+ }
+ WinningCondition {
+  coords 9720.747 2.592 10369.711
+  m_sTitle "Winning condition"
+  m_sTextData "USAF wins if they destroy AFRF command vehicle."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 2
+ }
+}
