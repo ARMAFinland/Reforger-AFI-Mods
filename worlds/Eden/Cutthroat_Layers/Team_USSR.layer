@@ -1,0 +1,23 @@
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 4835.145 28.593 11781.317
+}
+$grp SCR_AIGroup : "{D19D48111B73AD14}Cutthroat/Prefabs/Groups/USSR/Group_USSR_Cutthroat.et" {
+ {
+  coords 4834.917 24.487 11795.898
+  m_aUnitPrefabSlots {
+   "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et"
+  }
+ }
+ {
+  coords 4836.282 28.594 11789.014
+  m_aUnitPrefabSlots {
+   "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et"
+  }
+ }
+ {
+  coords 4835.928 28.594 11783.144
+  m_aUnitPrefabSlots {
+   "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et"
+  }
+ }
+}

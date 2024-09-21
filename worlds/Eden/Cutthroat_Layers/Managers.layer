@@ -1,0 +1,45 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 7114.537 74.535 6404
+ "Map Geometry Data" "{984B832A2B86D79B}worlds/Eden/Eden.topo"
+ "Satellite background image" "{6EB44A780AF7DDDF}UI/Textures/Map/worlds/EveronRasterized.edds"
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "MapEntity: "\
+   "Set up map textures"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 7114.537 74.769 6403
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 7114.537 75.004 6402
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
+   m_bPermitUnconsciousVON 0
+  }
+ }
+ coords 7114.625 74.36 6404.707
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 30000
+}
