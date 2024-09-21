@@ -1,0 +1,26 @@
+$grp SCR_AIGroup : "{521C75A3CBCD0F89}Cutthroat/Prefabs/Groups/US/Group_US_Cutthroat_P.et" {
+ {
+  coords 4838.343 15 11983.454
+  angleY 180
+  m_aUnitPrefabSlots + {
+   "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et"
+  }
+ }
+ {
+  coords 4838.343 20 11997.437
+  angleY 180
+  m_aUnitPrefabSlots + {
+   "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et"
+  }
+ }
+ {
+  coords 4838.343 25 12010.532
+  angleY 180
+  m_aUnitPrefabSlots + {
+   "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et" "{3D3FB6AB7D46D442}Cutthroat/Prefabs/Characters/Factions/US/Character_US_Cutthroat.et"
+  }
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 4836.828 26.014 12015.167
+}

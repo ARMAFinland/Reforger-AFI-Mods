@@ -1,0 +1,12 @@
+SCR_AIGroup : "{C8622D0595B48437}Prefabs/Groups/OPFOR/Group_USSR_AmmoTeam.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et" "{D9B51D3488F2E7BD}Cutthroat/Prefabs/Characters/Factions/USSR/Character_USSR_Cutthroat.et"
+ }
+ m_bSetPlayable 1
+}
