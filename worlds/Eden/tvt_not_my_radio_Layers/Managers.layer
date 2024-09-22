@@ -70,3 +70,6 @@ PS_GameModeCoop AFI_GameMode_Lobby1 : "{FBF3D3F18189B4BD}Prefabs/Game modes/AFI_
   }
  }
 }
+SCR_BaseTaskManager : "{1AC69CD7907FB4F8}Prefabs/ScenarioFramework/Tasks/TaskManager.et" {
+ coords 7726.51 58.109 5527.22
+}

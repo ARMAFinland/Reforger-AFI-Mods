@@ -1,20 +1,53 @@
-$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+GenericEntity Area1 : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ coords 7365.321 122.18 5187.937
  {
-  coords 7360.722 122.357 5181.171
-  m_sTitle "USSR Radio station"
-  m_sTextData "Capture the Soviet radio station to disrupt enemy communications. Overwhelm the defending forces and secure the area."
-  m_aVisibleForFactions {
-   "US"
+  GenericEntity LayerTaskDefend1 : "{775C493CE872C3A5}Prefabs/ScenarioFramework/Components/LayerTaskDefend.et" {
+   components {
+    SCR_ScenarioFrameworkLayerTaskDefend "{5C52E161174024CB}" {
+     m_sFactionKey "USSR"
+     m_sTaskTitle "Radio station"
+     m_sTaskDescription "Defend the radio station at all costs. Prevent the US forces from capturing it and maintain vital communications."
+     m_bPlaceMarkerOnSubjectSlot 1
+     m_bDisplayCountdownHUD 0
+    }
+   }
+   coords -1.818 0.106 -1.744
+   {
+    GenericEntity SlotDefend1 : "{E123BAC59A9B3D5F}Prefabs/ScenarioFramework/Components/SlotDefend.et" {
+     components {
+      SCR_ScenarioFrameworkSlotDefend "{5C52E161597D867A}" {
+       m_sTaskTitle "Radio station"
+       m_sTaskDescription "Defend the radio station at all costs. Prevent the US forces from capturing it and maintain vital communications."
+       m_sTaskExecutionBriefing "2"
+      }
+     }
+     coords 0 0 0
+    }
+   }
   }
-  m_sFactionKey "US"
- }
- {
-  coords 7345.672 126.65 5194.089
-  m_sTitle "USSR Radio station"
-  m_sTextData "Defend the radio station at all costs. Prevent the US forces from capturing it and maintain vital communications."
-  m_aVisibleForFactions {
-   "USSR"
+  GenericEntity LayerTaskClearArea1 : "{CDC0845AD90BA073}Prefabs/ScenarioFramework/Components/LayerTaskClearArea.et" {
+   components {
+    SCR_ScenarioFrameworkLayerTaskClearArea "{5A6513F46D132331}" {
+     m_sFactionKey "US"
+     m_sTaskTitle "Radio station"
+     m_sTaskDescription "Capture the Soviet radio station to disrupt enemy communications. Overwhelm the defending forces and secure the area."
+     m_bPlaceMarkerOnSubjectSlot 1
+    }
+   }
+   coords 0.219 -0.004 -0.048
+   {
+    GenericEntity SlotClearArea1 : "{E53456990A756229}Prefabs/ScenarioFramework/Components/SlotClearArea.et" {
+     components {
+      SCR_ScenarioFrameworkSlotClearArea "{5A633AF525D5B972}" {
+       m_sFactionKey "US"
+       m_sTaskTitle "Radio station"
+       m_sTaskDescription "Capture the Soviet radio station to disrupt enemy communications. Overwhelm the defending forces and secure the area."
+       m_sTaskExecutionBriefing "2"
+      }
+     }
+     coords 0 0 0
+    }
+   }
   }
-  m_sFactionKey "USSR"
  }
 }
