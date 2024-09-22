@@ -1,0 +1,18 @@
+PanelWidgetClass {
+ {
+  VerticalLayoutWidgetClass "{60FD404BCC2B3F7F}" {
+   Prefab "{60FD404BCC2B3F7F}"
+   {
+    OverlayWidgetClass "{5F38BC503A58C502}" {
+     Prefab "{5F38BC503A58C502}"
+     {
+      TextWidgetClass "{5F38BC56E7D5D434}" {
+       Prefab "{5F38BC56E7D5D434}"
+       "Is Visible" 0
+      }
+     }
+    }
+   }
+  }
+ }
+}

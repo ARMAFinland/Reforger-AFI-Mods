@@ -1,0 +1,19 @@
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ ID "60E902668148288E"
+ components {
+  AFI_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture ""
+   m_mPolygonTextureBorder "{5FCA8E4955FB5C6A}UI/Textures/Border.edds"
+   m_fPolygonBorderWidth 10
+   m_bLineMode 1
+  }
+ }
+ coords 4753.174 23.862 12023.967
+ {
+  PS_PolyZoneTrigger {
+   ID "60FD050E1E83544C"
+   m_polyZoneEffect AFI_PolyZoneEffectSound "{60FD050E0DC2A2AB}" {
+   }
+  }
+ }
+}
