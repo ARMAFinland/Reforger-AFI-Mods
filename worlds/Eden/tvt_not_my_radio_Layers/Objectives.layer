@@ -1,0 +1,20 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 7360.722 122.357 5181.171
+  m_sTitle "USSR Radio station"
+  m_sTextData "Capture the Soviet radio station to disrupt enemy communications. Overwhelm the defending forces and secure the area."
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_sFactionKey "US"
+ }
+ {
+  coords 7345.672 126.65 5194.089
+  m_sTitle "USSR Radio station"
+  m_sTextData "Defend the radio station at all costs. Prevent the US forces from capturing it and maintain vital communications."
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_sFactionKey "USSR"
+ }
+}

@@ -1,44 +1,28 @@
 PS_MissionDescription Summary : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  coords 4863.639 28.593 11921.796
  m_sTitle "Summary"
- m_sTextData "Example summary text"
+ m_sTextData "US forces have been advancing rapidly, closing in on a critical Soviet radio station before the USSR can relocate it to safety. With no time to withdraw, a battle-hardened but severely weakened Soviet rifle platoon is tasked with its defense. Facing them is a full-strength US infantry platoon, well-equipped and determined to seize the station to disrupt Soviet communications. Outnumbered and outgunned, the Soviet defenders must hold the line, using the terrain and their knowledge of the area to their advantage."
  m_bEmptyFactionVisibility 1
  m_bShowForAnyFaction 1
  {
-  PS_MissionDescription WinningCondition : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
-   coords 0 0 0
-   m_sTitle "Winning Condition"
-   m_sTextData "Example of winning condition"
-   m_bEmptyFactionVisibility 1
-   m_bShowForAnyFaction 1
-   m_iOrder 1
-   {
-    $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
-     Objective_BLUFOR {
-      coords 0 0 0
-      m_sTitle "BLUFOR Objective"
-      m_aVisibleForFactions {
-       "US" "RHS_USAF"
-      }
-      m_iOrder 2
-     }
-     Objective_OPFOR {
-      coords 74.06 3.689 -15.659
-      m_sTitle "OPFOR Objective"
-      m_aVisibleForFactions {
-       "USSR" "RHS_AFRF"
-      }
-      m_iOrder 2
-     }
-     Objective_INDFOR {
-      coords 77.607 3.519 -16.88
-      m_sTitle "INDFOR Objective"
-      m_aVisibleForFactions {
-       "FIA" "RHS_ION"
-      }
-      m_iOrder 2
-     }
+  $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+   Objective_BLUFOR {
+    coords 0 0 0
+    m_sTitle "BLUFOR Objective"
+    m_sTextData "Capture the Soviet radio station to disrupt enemy communications. Overwhelm the defending forces and secure the area."
+    m_aVisibleForFactions {
+     "US" "RHS_USAF"
     }
+    m_iOrder 2
+   }
+   Objective_OPFOR {
+    coords 74.06 3.689 -15.659
+    m_sTitle "OPFOR Objective"
+    m_sTextData "Defend the radio station at all costs. Prevent the US forces from capturing it and maintain vital communications."
+    m_aVisibleForFactions {
+     "USSR" "RHS_AFRF"
+    }
+    m_iOrder 2
    }
   }
  }
