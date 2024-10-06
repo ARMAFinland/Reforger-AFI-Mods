@@ -129,7 +129,7 @@ GenericEntity : "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/Sa
  }
 }
 GenericEntity : "{8A4C9D5B12F83209}Prefabs/Compositions/Misc/SubCompositions/BarbedCoil_Cluttered_USSR_01.et" {
- coords 7338.889 -0 5172.506
+ coords 7338.889 0 5172.506
 }
 GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
  coords 7381.101 122.165 5188.098
