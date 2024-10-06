@@ -1,3 +1,50 @@
+PolylineShapeEntity : "{4AA93B0E3A6C1D91}Prefabs/Common/AFI_Border.et" {
+ coords 7126.546 117.86 5328.719
+ Points {
+  ShapePoint "{628B57577EF350E6}" {
+   Position -33.528 1.255 -191.681
+  }
+  ShapePoint "{628B575778097D9E}" {
+   Position -154.602 32.808 -319.526
+  }
+  ShapePoint "{628B5757AF296F13}" {
+   Position 17.723 0 -606.044
+  }
+  ShapePoint "{628B5757BBC2F5AC}" {
+   Position 43.465 0 -769.734
+  }
+  ShapePoint "{628B575785DF34E6}" {
+   Position 2.807 0 -791.491
+  }
+  ShapePoint "{628B575784A7AB76}" {
+   Position -26.703 0 -922.63
+  }
+  ShapePoint "{628B57578F3DF8CC}" {
+   Position 430.976 0 -1418.733
+  }
+  ShapePoint "{628B57578AF672DE}" {
+   Position 1007.622 0 -1915.465
+  }
+  ShapePoint "{628B575791A55398}" {
+   Position 1459.085 0 -1315.665
+  }
+  ShapePoint "{628B57579CF0204B}" {
+   Position 1088.12 0 -645.619
+  }
+  ShapePoint "{628B5757E8EDDC35}" {
+   Position 997.087 0 -328.909
+  }
+  ShapePoint "{628B5757F6971C83}" {
+   Position 780.714 0 -125.482
+  }
+  ShapePoint "{628B5757FDC931DB}" {
+   Position 534.005 0 90.664
+  }
+  ShapePoint "{628B5757D5D30CAC}" {
+   Position 258.978 0 14.891
+  }
+ }
+}
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {
   components {
