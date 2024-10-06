@@ -17,6 +17,9 @@ class AFI_SimpleMapMarkerEntity : GenericEntity
 	[Attribute(defvalue: "0", uiwidget: UIWidgets.Slider, desc: "Rotation of the Map Marker", params: "-180 180 1", category: "Map Marker")]
 	int m_iMapMarkerRotation;
 	
+	[Attribute("", category: "Map Marker")]
+	string m_sDescription;
+	
 	protected ref SCR_MapMarkerBase m_MapMarker;
 	
 	//------------------------------------------------------------------------------------------------
@@ -36,11 +39,16 @@ class AFI_SimpleMapMarkerEntity : GenericEntity
 		m_MapMarker.SetColorEntry(m_eMapMarkerColor);
 		m_MapMarker.SetRotation(m_iMapMarkerRotation);
 		
+		if (m_sDescription != "")
+		{
+			m_MapMarker.SetCustomText(m_sDescription);
+		}
+		
 		vector worldPos = GetOrigin();
 		m_MapMarker.SetWorldPos(worldPos[0], worldPos[2]);
 		m_MapMarker.SetRotation(m_iMapMarkerRotation);
 		
-		mapMarkerMgr.InsertStaticMarker(m_MapMarker, false, true);
+		mapMarkerMgr.InsertStaticMarker(m_MapMarker, true, true);
 	}
 	
 	//------------------------------------------------------------------------------------------------
