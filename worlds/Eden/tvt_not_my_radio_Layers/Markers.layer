@@ -1,0 +1,156 @@
+$grp AFI_MilitaryMapMarkerEntity {
+ {
+  coords 8205.182 209.829 4053.375
+  m_sDescription "US start"
+ }
+ {
+  coords 7358.87 122.375 5178.746
+  m_eMapMarkerFactionIcon OPFOR
+  m_eMapMarkerDimension INSTALLATION
+  m_eMapMarkerType1Modifier SIGNAL
+  m_eMapMarkerType2Modifier MOBILEHQ
+  m_sDescription "Radio station"
+ }
+}
+$grp AFI_SimpleMapMarkerEntity {
+ {
+  coords 7156.153 115.005 4693.485
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7232.01 127.912 4685.944
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7327.604 139.625 4669.913
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7915.604 128.402 5180.086
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7907.916 132.846 5153.339
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7901.642 134.644 5137.849
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7887.502 138.812 5119.008
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7872.414 140.158 5108.685
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7854.335 143.038 5092.468
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7841.53 142.75 5078.462
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7826.541 143.291 5066.834
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7819.599 143.625 5050.558
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7823.265 143.188 5024.023
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7828.69 140.6 4996.86
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7818.069 143.968 4977.069
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7797.267 138.59 4974.384
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7782.394 137.005 4963.272
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7736.406 130.858 4888.847
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7707.177 132.168 4833.293
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7685.985 135.921 4785.35
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7627.139 140.327 4742.351
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7615.52 144.811 4678.145
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7612.53 151.741 4623.297
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7580.485 155.379 4592.665
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7548.213 151.763 4581.472
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7508.182 147.786 4602.51
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7470.332 143.586 4632.72
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+ {
+  coords 7397.68 141.155 4667.225
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor OPFOR
+ }
+}
