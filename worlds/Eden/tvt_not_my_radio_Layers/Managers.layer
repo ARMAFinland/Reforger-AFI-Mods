@@ -1,7 +1,7 @@
 SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
  coords 5224.089 4.761 5598.738
  "Map Geometry Data" "{984B832A2B86D79B}worlds/Eden/Eden.topo"
- "Satellite background image" "{DE7D5B33C2D3099B}UI/Textures/Map/worlds/Everon.edds"
+ "Satellite background image" "{6EB44A780AF7DDDF}UI/Textures/Map/worlds/EveronRasterized.edds"
 }
 SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  components {
