@@ -24,10 +24,7 @@ class AFI_SimpleMapMarkerEntity : GenericEntity
 	
 	//------------------------------------------------------------------------------------------------
 	override void EOnInit(IEntity owner)
-	{
-		if (!Replication.IsServer())
-			return;
-		
+	{		
 		SCR_MapMarkerManagerComponent mapMarkerMgr = SCR_MapMarkerManagerComponent.Cast(GetGame().GetGameMode().FindComponent(SCR_MapMarkerManagerComponent));
 		if (!mapMarkerMgr)
 			return;
