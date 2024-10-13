@@ -32,38 +32,6 @@ SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 5224.089 4.573 5596.738
 }
-PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+PS_GameModeCoop AFI_GameMode_Lobby : "{FBF3D3F18189B4BD}Prefabs/Game modes/AFI_GameMode_Lobby.et" {
  coords 5220.671 4.564 5598.013
- m_bRemoveSquadMarkers 1
- {
-  SCR_FactionManager "62632327E582B644" {
-   ID "5ED9088735FF2D8B"
-   Factions {
-    SCR_Faction "{56DEAC40D2DBC8B1}" {
-    }
-    SCR_Faction "{56DEAC40D3C2E623}" {
-     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A67DFB8809}" {
-      m_bIsAssignedRandomly 0
-     }
-    }
-    SCR_Faction "{56DEAC40D132400B}" {
-     m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
-      m_bIsAssignedRandomly 0
-     }
-    }
-    SCR_Faction "{607AA5C7A94496DA}" {
-    }
-    SCR_Faction "{5978B9CE6585BBE8}" {
-     m_bIsPlayable 1
-     m_CallsignInfo SCR_FactionCallsignInfo "{5977478D568C093C}" {
-      m_bIsAssignedRandomly 0
-     }
-    }
-    SCR_Faction "{5CC8DE37E1FF0F7A}" {
-    }
-    SCR_Faction "{623962205CE2B89C}" {
-    }
-   }
-  }
- }
 }

@@ -15,6 +15,20 @@ $grp SCR_DestructibleBuildingEntity : "{034A45B0D41025B9}Prefabs/Structures/Cult
   coords 4898.569 2.246 11772.348
  }
 }
+$grp GenericEntity : "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" {
+ {
+  coords 4843.247 29.74 11896.568
+ }
+ {
+  coords 4845.453 29.74 11896.449
+ }
+ {
+  coords 4845.472 29.74 11894.428
+ }
+ {
+  coords 4843.276 29.74 11894.494
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{39D2958B7511D5DC}Prefabs/Structures/Cultural/Cemeteries/Tombstones/GraveStone_E_01_Base.et" {
  {
   coords 4869.466 0 11874.664
