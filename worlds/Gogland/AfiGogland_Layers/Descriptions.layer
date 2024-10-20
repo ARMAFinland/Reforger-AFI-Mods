@@ -1,0 +1,7 @@
+PS_MissionDescription Summary : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 6018.275 44.561 4763.715
+ m_sTitle "Summary"
+ m_sTextData "This is base mission for AFI GM Operations in Gogland. Wait for GM instructions!"
+ m_bEmptyFactionVisibility 1
+ m_bShowForAnyFaction 1
+}

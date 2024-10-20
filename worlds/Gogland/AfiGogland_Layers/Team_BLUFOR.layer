@@ -1,0 +1,50 @@
+SCR_AIGroup : "{0B42FFF9F5BCE2E1}Prefabs/Groups/BLUFOR/Group_US_PlatoonLeaders_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ coords 1288.629 2.75 5022.269
+ angleY 41.8
+ m_aUnitPrefabSlots + {
+  "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et"
+ }
+ m_sCustomNameSet "Alpha 10"
+ m_bSetPlayable 1
+ {
+  SCR_AIGroup : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_P.et" {
+   components {
+    AIFormationComponent "{507E9DC12F541FE6}" {
+     DefaultFormation "Line"
+    }
+   }
+   coords -3.534 0 -0.001
+   m_sCustomNameSet "Alpha 1"
+   m_bSetPlayable 1
+   {
+    SCR_AIGroup : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_P.et" {
+     components {
+      AIFormationComponent "{507E9DC12F541FE6}" {
+       DefaultFormation "Line"
+      }
+     }
+     coords -4.359 0 0
+     m_sCustomNameSet "Alpha 2"
+     m_bSetPlayable 1
+     {
+      SCR_AIGroup : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_P.et" {
+       components {
+        AIFormationComponent "{507E9DC12F541FE6}" {
+         DefaultFormation "Line"
+        }
+       }
+       coords -4.106 0 0
+       m_sCustomNameSet "Alpha 3"
+       m_bSetPlayable 1
+      }
+     }
+    }
+   }
+  }
+ }
+}
