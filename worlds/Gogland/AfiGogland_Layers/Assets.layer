@@ -1,0 +1,49 @@
+$grp AFI_MilitaryMapMarkerEntity {
+ {
+  coords 5542.997 123.407 6806.428
+  m_eMapMarkerFactionIcon OPFOR
+ }
+ {
+  coords 5895.319 40.575 5775.193
+  m_eMapMarkerFactionIcon OPFOR
+ }
+}
+$grp StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
+ {
+  coords 7467.153 0.089 3003.046
+  {
+   GenericEntity : "{2BC1606244F9F491}Prefabs/Compositions/Misc/SubCompositions/SandbagCover_US_05.et" {
+    coords -10.269 1.19 -0.034
+    angleY 178.5
+   }
+   GenericEntity : "{FD256CE1C386DA49}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_US_02.et" {
+    coords 9.616 -0.085 -0.377
+    angleY -179.5
+   }
+  }
+ }
+ {
+  coords 7632.171 -0.009 3441.142
+  angleY -145.7
+  {
+   GenericEntity : "{FD256CE1C386DA49}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_US_02.et" {
+    coords 8.925 -0.007 -2.58
+    angleY -152.1
+   }
+  }
+ }
+}
+$grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ M923A1_transport_covered1 {
+  coords 7473.816 18.563 3225.223
+  angleY 62
+ }
+ M923A1_transport_covered2 {
+  coords 7503.869 18.563 3208.108
+  angleY -12.7
+ }
+ M923A1_transport_covered3 {
+  coords 7533.894 18.562 3153.27
+  angleY -98.6
+ }
+}
