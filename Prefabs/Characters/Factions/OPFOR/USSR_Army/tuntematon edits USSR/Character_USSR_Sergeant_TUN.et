@@ -1,6 +1,14 @@
 SCR_ChimeraCharacter : "{928DC9882A0AC79D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   m_iRank SERGEANT
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
@@ -16,8 +24,7 @@ SCR_ChimeraCharacter : "{928DC9882A0AC79D}Prefabs/Characters/Factions/OPFOR/USSR
      }
     }
     ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
-     PrefabsToSpawn {
-      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{5DA0B05D4EF2940A}" {
