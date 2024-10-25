@@ -1,13 +1,3 @@
-$grp AFI_MilitaryMapMarkerEntity {
- {
-  coords 5542.997 123.407 6806.428
-  m_eMapMarkerFactionIcon OPFOR
- }
- {
-  coords 5895.319 40.575 5775.193
-  m_eMapMarkerFactionIcon OPFOR
- }
-}
 $grp StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
  {
   coords 7467.153 0.089 3003.046
