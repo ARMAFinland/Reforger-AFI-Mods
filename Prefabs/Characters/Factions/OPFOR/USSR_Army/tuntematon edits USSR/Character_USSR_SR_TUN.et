@@ -1,6 +1,9 @@
 SCR_ChimeraCharacter : "{333DA6244C7DA34C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SR.et" {
  ID "200D264F0EEA1A28"
  components {
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   m_iRank CORPORAL
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {

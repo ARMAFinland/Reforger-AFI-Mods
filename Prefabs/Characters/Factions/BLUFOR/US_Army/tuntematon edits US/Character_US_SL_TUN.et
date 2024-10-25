@@ -1,6 +1,9 @@
 SCR_ChimeraCharacter : "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" {
  ID "51FA90A59C87A851"
  components {
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   m_iRank SERGEANT
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {

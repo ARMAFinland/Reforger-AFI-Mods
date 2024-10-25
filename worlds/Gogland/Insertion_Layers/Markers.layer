@@ -9,9 +9,3 @@ $grp AFI_MilitaryMapMarkerEntity {
   m_sDescription "USAF Start"
  }
 }
-AFI_SimpleMapMarkerEntity Attack {
- coords 9475.059 15.344 10765.597
- m_eMapMarkerIcon OBJECTIVE_MARKER2
- m_eMapMarkerColor RED
- m_sDescription "Objective"
-}
