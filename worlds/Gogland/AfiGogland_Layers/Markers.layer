@@ -7,7 +7,7 @@ $grp AFI_MilitaryMapMarkerEntity {
   m_eMapMarkerFactionIcon OPFOR
  }
  {
-  coords 5895.319 40.575 5775.193
+  coords 5645.926 45.847 4362.887
   m_eMapMarkerFactionIcon OPFOR
  }
  {
@@ -16,34 +16,14 @@ $grp AFI_MilitaryMapMarkerEntity {
  }
  {
   coords 7005.208 99.062 3964.829
-  m_eMapMarkerFactionIcon OPFOR
  }
  {
   coords 5837.634 14.148 2964.033
-  m_eMapMarkerFactionIcon OPFOR
  }
- {
-  coords 5886.413 78.289 4248.53
-  m_eMapMarkerFactionIcon OPFOR
- }
- {
-  coords 5385.393 6.855 4578.099
-  m_eMapMarkerFactionIcon OPFOR
- }
- {
-  coords 4527.513 11.156 8825.048
-  m_eMapMarkerFactionIcon OPFOR
- }
- {
-  coords 4387.297 80.212 9926.249
-  m_eMapMarkerFactionIcon OPFOR
- }
- {
-  coords 5462.99 12.01 9100.218
-  m_eMapMarkerFactionIcon OPFOR
- }
- {
-  coords 4630.358 5.785 10973.771
-  m_eMapMarkerFactionIcon OPFOR
- }
+}
+AFI_SimpleMapMarkerEntity INTEL_1 {
+ coords 5747.706 84.889 6793.349
+ m_eMapMarkerIcon MARK_QUESTION
+ m_eMapMarkerColor OPFOR
+ m_sDescription "Investigate"
 }
