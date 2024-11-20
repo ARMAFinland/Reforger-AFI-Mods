@@ -1,5 +1,5 @@
 SCR_ChimeraCharacter : "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et" {
- ID "52092032B0E62200"
+ ID "52092032B0E62269"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
