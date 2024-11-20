@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{4FBA24F7BB43E17D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant.et" {
+SCR_ChimeraCharacter : "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et" {
  ID "520EC961A090B1EE"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -14,8 +14,6 @@ SCR_ChimeraCharacter : "{4FBA24F7BB43E17D}Prefabs/Characters/Factions/BLUFOR/US_
      PrefabsToSpawn + {
       "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
      }
-    }
-    ItemsInitConfigurationItem "{5D9C9003C8F43862}" {
     }
     ItemsInitConfigurationItem "{5D9C9003CAA27317}" {
      PrefabsToSpawn + {

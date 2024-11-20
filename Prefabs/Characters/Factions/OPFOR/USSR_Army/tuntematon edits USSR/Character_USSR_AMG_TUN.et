@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponManagerComponent "{5C9CA676383262FD}" {
@@ -64,12 +64,6 @@ SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR
      TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
      PrefabsToSpawn {
       "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{62DF4171E4BB523E}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_M88_rolledup.et"
-     PrefabsToSpawn {
-      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{62DF4171E4BB5235}" {
