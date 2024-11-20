@@ -21,7 +21,7 @@ class AFI_JIPGameModeComponent : SCR_BaseGameModeComponent
 		m_PlayableManager = PS_PlayableManager.GetInstance();
 		
 		m_mPlayables = m_PlayableManager.GetPlayables();
-		GetGame().GetCallqueue().CallLater(DeleteRedundantUnitsSlowly, 33, false, 0);
+		GetGame().GetCallqueue().CallLater(DeleteRedundantUnitsSlowly, 94, false, 0);
 	}
 	
 	//------------------------------------------------------------------------------------------------
@@ -40,6 +40,6 @@ class AFI_JIPGameModeComponent : SCR_BaseGameModeComponent
 			i = i + 1;
 		}
 			
-		GetGame().GetCallqueue().CallLater(DeleteRedundantUnitsSlowly, 33, false, i);
+		GetGame().GetCallqueue().CallLater(DeleteRedundantUnitsSlowly, 94, false, i);
 	}
 }
