@@ -21,15 +21,15 @@ SCR_AIGroup : "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et" {
  m_bSetPlayable 1
  {
   SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et" {
-   coords -9.176 -141.007 138.46
+   coords -9.176 1.252 138.46
    m_aUnitPrefabSlots {
-    "{B3C667A44F71B357}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_SL_TUN.et" "{AA0F2CF3DFCD5655}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_TL_TUN.et" "{AA0F2CF3DFCD5655}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_TL_TUN.et" "{5D56289C60ECFA74}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_AR_TUN.et" "{5D56289C60ECFA74}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_AR_TUN.et" "{FB4D54C55715F2EF}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_GL_TUN.et" "{7F30E7B0D385A5E8}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Rifleman_TUN.et" "{7F30E7B0D385A5E8}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Rifleman_TUN.et" "{DE2D126EEFA32EF4}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_LAT_TUN.et" "{67114CB4B97F0E97}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Medic_TUN.et"
+    "{B3C667A44F71B357}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_SL_TUN.et" "{AA0F2CF3DFCD5655}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_TL_TUN.et" "{AA0F2CF3DFCD5655}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_TL_TUN.et" "{5D56289C60ECFA74}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_AR_TUN.et" "{5D56289C60ECFA74}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_AR_TUN.et" "{FB4D54C55715F2EF}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_GL_TUN.et" "{FB4D54C55715F2EF}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_GL_TUN.et" "{7F30E7B0D385A5E8}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Rifleman_TUN.et" "{7F30E7B0D385A5E8}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Rifleman_TUN.et" "{7F30E7B0D385A5E8}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Rifleman_TUN.et" "{DE2D126EEFA32EF4}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_LAT_TUN.et" "{67114CB4B97F0E97}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Medic_TUN.et"
    }
    m_sCustomNameSet "Alpha 1"
    m_bSetPlayable 1
    {
     SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et" {
-     coords 15.684 142.413 -186.019
+     coords 15.684 135.2 -186.019
      angleY 72.727
      m_aUnitPrefabSlots {
       "{B3C667A44F71B357}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_SL_TUN.et" "{AA0F2CF3DFCD5655}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_TL_TUN.et" "{AA0F2CF3DFCD5655}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_TL_TUN.et" "{5D56289C60ECFA74}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_AR_TUN.et" "{5D56289C60ECFA74}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_AR_TUN.et" "{FB4D54C55715F2EF}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_GL_TUN.et" "{7F30E7B0D385A5E8}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Rifleman_TUN.et" "{7F30E7B0D385A5E8}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Rifleman_TUN.et" "{DE2D126EEFA32EF4}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_LAT_TUN.et" "{67114CB4B97F0E97}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Medic_TUN.et"
@@ -38,16 +38,16 @@ SCR_AIGroup : "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et" {
      m_bSetPlayable 1
      {
       SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et" {
-       coords 8.642 14.694 -35.549
+       coords 8.642 -7.912 -35.549
        angleY -87.706
        m_aUnitPrefabSlots {
-        "{B3C667A44F71B357}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_SL_TUN.et" "{AA0F2CF3DFCD5655}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_TL_TUN.et" "{AA0F2CF3DFCD5655}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_TL_TUN.et" "{5D56289C60ECFA74}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_AR_TUN.et" "{5D56289C60ECFA74}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_AR_TUN.et" "{FB4D54C55715F2EF}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_GL_TUN.et" "{7F30E7B0D385A5E8}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Rifleman_TUN.et" "{7F30E7B0D385A5E8}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Rifleman_TUN.et" "{DE2D126EEFA32EF4}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_LAT_TUN.et" "{67114CB4B97F0E97}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Medic_TUN.et"
+        "{B3C667A44F71B357}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_SL_TUN.et" "{5D56289C60ECFA74}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_AR_TUN.et" "{FB4D54C55715F2EF}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_GL_TUN.et" "{67114CB4B97F0E97}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Medic_TUN.et"
        }
        m_sCustomNameSet "Alpha 3"
        m_bSetPlayable 1
        {
         SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et" {
-         coords 58.111 0.446 -8.005
+         coords 58.111 -23.599 -8.005
          angleY 14.979
          m_aUnitPrefabSlots {
           "{B3C667A44F71B357}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_SL_TUN.et" "{AA0F2CF3DFCD5655}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_TL_TUN.et" "{AA0F2CF3DFCD5655}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_TL_TUN.et" "{5D56289C60ECFA74}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_AR_TUN.et" "{5D56289C60ECFA74}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_AR_TUN.et" "{FB4D54C55715F2EF}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_GL_TUN.et" "{7F30E7B0D385A5E8}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Rifleman_TUN.et" "{7F30E7B0D385A5E8}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Rifleman_TUN.et" "{DE2D126EEFA32EF4}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_LAT_TUN.et" "{67114CB4B97F0E97}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Medic_TUN.et"
