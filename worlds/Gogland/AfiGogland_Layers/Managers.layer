@@ -33,6 +33,10 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
  coords 5224.089 4.573 5596.738
 }
 PS_GameModeCoop AFI_GameMode_Lobby1 : "{FBF3D3F18189B4BD}Prefabs/Game modes/AFI_GameMode_Lobby.et" {
+ components {
+  AFI_JIPGameModeComponent "{62EB0163E479717B}" {
+  }
+ }
  coords 5219.845 3.743 5587.568
  m_bTeamSwitch 1
  {

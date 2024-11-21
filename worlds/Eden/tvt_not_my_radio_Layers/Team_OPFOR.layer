@@ -33,7 +33,7 @@ SCR_AIGroup : "{0D10CCEEC7B3EC34}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ.et" {
         SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
          coords -7.277 -0.363 -12.927
          m_aUnitPrefabSlots {
-          "{D652208B2EC3EDB3}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_SL_TUN.et" "{951CA4F244097071}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG_P.et" "{D1786D7659BC2E7C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AMG_P.et" "{D1786D7659BC2E7C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AMG_P.et" "{839BE72B4CCB3D68}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_Medic_TUN.et"
+          "{D652208B2EC3EDB3}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_SL_TUN.et" "{BD331844B40690BA}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_MG_TUN.et" "{4A497FB916C60C03}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_AMG_TUN.et" "{4A497FB916C60C03}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_AMG_TUN.et" "{839BE72B4CCB3D68}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_Medic_TUN.et"
          }
          m_sCustomNameSet "Alpha 4"
          m_bSetPlayable 1
