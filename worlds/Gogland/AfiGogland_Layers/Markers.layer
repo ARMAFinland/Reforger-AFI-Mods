@@ -8,11 +8,9 @@ $grp AFI_MilitaryMapMarkerEntity {
  }
  {
   coords 5645.926 45.847 4362.887
-  m_eMapMarkerFactionIcon OPFOR
  }
  {
   coords 7216.551 5.626 5277.677
-  m_eMapMarkerFactionIcon OPFOR
  }
  {
   coords 7005.208 99.062 3964.829
