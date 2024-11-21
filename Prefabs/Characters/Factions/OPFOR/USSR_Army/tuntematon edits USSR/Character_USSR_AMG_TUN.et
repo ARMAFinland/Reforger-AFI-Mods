@@ -18,6 +18,13 @@ SCR_ChimeraCharacter : "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR
      122 48
     }
    }
+   m_VariantData SCR_EditableEntityVariantData "{60F6B83ED4C13CC3}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{60F6B83ED3FB7538}" {
+      m_bEnabled 0
+     }
+    }
+   }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
    WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
