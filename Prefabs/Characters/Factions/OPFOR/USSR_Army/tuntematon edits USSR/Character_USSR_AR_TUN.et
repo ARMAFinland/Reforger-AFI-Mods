@@ -11,7 +11,8 @@ SCR_ChimeraCharacter : "{00716F7369F3C5E8}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
-     PrefabsToSpawn +{
+     PrefabsToSpawn + {
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
     }
     ItemsInitConfigurationItem "{54A68D63FA941151}" {
