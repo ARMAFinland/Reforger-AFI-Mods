@@ -48,7 +48,7 @@ SCR_AIGroup : "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et" {
        angleY -87.911
        angleZ 6.99
        m_aUnitPrefabSlots {
-        "{B3C667A44F71B357}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_SL_TUN.et" "{5D56289C60ECFA74}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_AR_TUN.et" "{FB4D54C55715F2EF}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_GL_TUN.et" "{67114CB4B97F0E97}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Medic_TUN.et"
+        "{B3C667A44F71B357}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_SL_TUN.et" "{EDF3F81806507DEE}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_AR_WITH_AMMO_TUN.et" "{FB4D54C55715F2EF}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_GL_TUN.et" "{67114CB4B97F0E97}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Medic_TUN.et"
        }
        m_sCustomNameSet "Alpha 3"
        m_bSetPlayable 1
