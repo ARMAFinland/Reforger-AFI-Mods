@@ -38,8 +38,9 @@ PS_GameModeCoop AFI_GameMode_Lobby : "{FBF3D3F18189B4BD}Prefabs/Game modes/AFI_G
   }
  }
  coords 5220.671 4.564 5598.013
+ m_bTeamSwitch 1
  {
-  SCR_FactionManager {
+  SCR_FactionManager "62EB4EA2FC7FB689" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{56DEAC40D3C2E623}" {
