@@ -1,14 +1,14 @@
+$grp Vehicle : "{0DAC69A0A52EFB4F}Prefabs/Vehicles/Helicopters/H47/CH47D_US.et" {
+ CH47D_US1 {
+  coords 5568.634 123.736 6729.658
+  angleY -15.185
+ }
+ CH47D_US2 {
+  coords 5505.35 123.706 6757.284
+  angleY -15.185
+ }
+}
 Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
  coords 9776.763 5.801 10622.859
  angleY -94.65
-}
-$grp Vehicle : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
- UH1H_armed2 {
-  coords 5568.913 123.794 6729.968
-  angleY 14.757
- }
- UH1H_armed1 {
-  coords 5505.661 123.738 6758.065
-  angleY 14.557
- }
 }
