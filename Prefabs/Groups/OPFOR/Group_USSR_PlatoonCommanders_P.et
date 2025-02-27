@@ -92,6 +92,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
  }
  coords 0 0 0
  m_aUnitPrefabSlots {
-  "{8725D17D38011F7E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_PlatoonCommander_P.et" "{FD7736C7B9FB6369}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_PlatoonSergeant_P.et"
+  "{3D1ABE2330546121}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_PL_AFI.et" "{8E95A1EA3B13EC5B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant_AFI.et"
  }
+ m_bSetPlayable 1
 }

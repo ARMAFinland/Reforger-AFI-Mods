@@ -1,6 +1,9 @@
 SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
  ID "0000000000000001"
  components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     Name "#AR-Group_FireTeam"
@@ -89,6 +92,8 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
  }
  coords 0 0 0
  m_aUnitPrefabSlots {
-  "{7656FC76CFB3D9A9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PlatoonLeader_P.et" "{7656FC76CFB3D9A9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PlatoonLeader_P.et"
+  "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL_P.et" "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et"
  }
+ m_bPlayable 1
+ m_bSetPlayable 1
 }
