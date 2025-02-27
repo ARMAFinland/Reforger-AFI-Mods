@@ -1,0 +1,42 @@
+PS_MissionDescription Summary : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 4863.639 28.593 11921.796
+ m_sTitle "Summary"
+ m_sTextData "In the heart of the Cold War, tensions erupt on the fictional island of Everon. The US Armed Forces launch a decisive assault on the Soviet-occupied village of Villeneuve. Nestled in a strategic valley, Villeneuve serves as a key logistics hub for Soviet operations on the island."\
+ "The US troops are tasked with breaking through fortified defenses, seizing control of the village, and cutting off the Soviet supply chain. The Soviet forces, well-entrenched and equipped, are determined to repel the attack and hold their ground at all costs."
+ m_bEmptyFactionVisibility 1
+ m_bShowForAnyFaction 1
+ {
+  PS_MissionDescription Rules : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+   coords 0 0 0
+   m_sTitle "Rules"
+   m_sTextData "1. No Enemy Equipment Usage"\
+   "2. US forces must remain within their designated starting position until the attack is officially launched. No early advances or scouting beyond the starting zone are allowed."\
+   "3. Soviet forces are forbidden from advancing beyond the marked defensive line. Their role is to hold their positions and prevent the US forces from capturing Villeneuve."
+   m_bEmptyFactionVisibility 1
+   m_bShowForAnyFaction 1
+   m_iOrder 1
+   {
+    $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+     Objective_BLUFOR {
+      coords 0 0 0
+      m_sTitle "BLUFOR Objective"
+      m_sTextData "Capture Villeneuve and neutralize Soviet resistance."
+      m_aVisibleForFactions {
+       "US" "RHS_USAF"
+      }
+      m_iOrder 2
+     }
+     Objective_OPFOR {
+      coords 74.06 3.689 -15.659
+      m_sTitle "OPFOR Objective"
+      m_sTextData "Defend Villeneuve against US forces."
+      m_aVisibleForFactions {
+       "USSR" "RHS_AFRF"
+      }
+      m_iOrder 2
+     }
+    }
+   }
+  }
+ }
+}
