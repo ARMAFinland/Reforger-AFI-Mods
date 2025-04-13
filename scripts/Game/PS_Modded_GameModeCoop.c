@@ -4,7 +4,7 @@
 
 modded class PS_GameModeCoop : SCR_BaseGameMode
 {
-	void StartGame()
+	override void StartGame()
 	{
 		m_iReconnectTime = m_iReconnectTimeAfterBriefing;
 		if (m_bReserveSlots)
@@ -16,7 +16,7 @@ modded class PS_GameModeCoop : SCR_BaseGameMode
 			if (jipComponent)
 				jipComponent.StartDeleteTimer(GetFreezeTime());
 			else
-				PS_PlayableManager.GetInstance().KillRedundantUnits();
+				PS_PlayableManager.GetInstance().RemoveRedundantUnits();
 			// --- END MODDED ---
 		}
 		restrictedZonesTimer(m_iFreezeTime);

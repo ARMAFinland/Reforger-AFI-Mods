@@ -4,7 +4,7 @@ modded class SCR_MapMarkerManagerComponent {
 	//! \param[in] marker is the subject
 	//! \param[in] isLocal determines whether the marker is synchronised to other players or local
 	//! \param[in] isServerMarker determines whether the marker is spawned by server and should not count towards marker limits (different from server-client spawning his own markers)
-	void InsertStaticMarker(SCR_MapMarkerBase marker, bool isLocal, bool isServerMarker = false)
+	override void InsertStaticMarker(SCR_MapMarkerBase marker, bool isLocal, bool isServerMarker = false)
 	{
 		if (isLocal)	// local
 		{
