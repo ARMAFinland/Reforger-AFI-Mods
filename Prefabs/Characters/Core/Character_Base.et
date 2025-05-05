@@ -1,0 +1,7 @@
+SCR_ChimeraCharacter {
+ ID "520EC961A090B1EE"
+ components {
+  AFI_TeleportControllerComponent "{65028156F781C36E}" {
+  }
+ }
+}

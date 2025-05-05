@@ -46,21 +46,17 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_aFactionRespawnCount {
   PS_FactionRespawnCount "{61928BCD8B5E5382}" {
    m_sFactionKey "US"
-   m_iCount 100
+   m_iCount 10
+   m_iTime 10000
+  }
+  PS_FactionRespawnCount "{6502815E19BD7562}" {
+   m_sFactionKey "USSR"
+   m_iCount 10
    m_iTime 10000
   }
  }
 }
-SCR_ChimeraCharacter : "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et" {
- coords 4843.365 28.531 11865.996
-}
-SCR_AIGroup : "{80E0FC9E8DB2F531}Prefabs/Groups/OPFOR/Group_USSR_AmmoTeam_P.et" {
- coords 4857.001 28.594 11895.909
-}
-SCR_AIGroup : "{CB31D258850A3EFC}Prefabs/Groups/BLUFOR/Group_US_LightFireTeam_P.et" {
- coords 4861 31 11866
-}
-PolylineShapeEntity : "{F3EE43B87ACFCEA4}Prefabs/PolyZone/PolyZone_Sound.et" {
+PolylineShapeEntity {
  coords 4862.296 28.595 11870.148
  Points {
   ShapePoint "{61C298CC048280C1}" {
@@ -96,9 +92,28 @@ PolylineShapeEntity : "{F3EE43B87ACFCEA4}Prefabs/PolyZone/PolyZone_Sound.et" {
  }
  {
   PS_PolyZoneTrigger {
-   ID "61C298DF5076C5EA"
    m_polyZoneEffect AFI_PolyZoneEffectSound "{61C298DF5076C504}" {
    }
   }
+ }
+}
+SCR_AIGroup : "{80E0FC9E8DB2F531}Prefabs/Groups/OPFOR/Group_USSR_AmmoTeam_P.et" {
+ coords 1135.931 41.936 11518.521
+}
+$grp SCR_AIGroup : "{CB31D258850A3EFC}Prefabs/Groups/BLUFOR/Group_US_LightFireTeam_P.et" {
+ {
+  coords 11221.567 37.094 11404.345
+ }
+ {
+  coords 11246.209 37.917 11420.482
+ }
+ {
+  coords 11208.363 33.964 11451.252
+ }
+ {
+  coords 11252.453 41.311 11377.903
+ }
+ {
+  coords 11182.859 34.755 11386.426
  }
 }

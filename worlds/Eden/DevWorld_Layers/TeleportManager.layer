@@ -1,20 +1,37 @@
-AFI_TeleportWaitingAreaEntity : "{99CCD08FC3EC1839}Prefabs/Teleport/AFI_TeleportWaitingArea.et" {
- coords 4868.446 28.592 11805.872
- m_iTeleportTime 10000
- m_sTeleportTargetArea "AFI_TestiTargetti"
-}
-StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
- components {
-  SCR_MapDescriptorComponent "{619EAB6126D60281}" {
-   DisplayName "circle"
-   ImagesetQuadElement "circle"
-   ShowTerrainElevation 1
-   MapItemDescriptor 1
-   Faction 2
-  }
+$grp SCR_AIGroup : "{80E0FC9E8DB2F531}Prefabs/Groups/OPFOR/Group_USSR_AmmoTeam_P.et" {
+ {
+  coords 1117.451 41.605 11472.077
  }
- coords 4839.824 0 11845.505
+ {
+  coords 1154.449 42.75 11493.388
+ }
+ {
+  coords 1167.62 42.96 11541.705
+ }
 }
-AFI_TeleportTargetAreaEntity AFI_TestiTargetti : "{F9F8C7280BC492F6}Prefabs/Teleport/AFI_TeleportTargetArea.et" {
- coords 7484.142 164.563 4322.382
+$grp AFI_TeleportWaitingAreaEntity : "{99CCD08FC3EC1839}Prefabs/Teleport/AFI_TeleportWaitingArea.et" {
+ {
+  coords 11224.938 37.428 11402.729
+  SphereRadius 100
+  m_iTeleportTime 30000
+  m_sTeleportTargetArea "AFI_TestiTargetti_US"
+ }
+ {
+  coords 1140.78 42.415 11506.815
+  SphereRadius 100
+  m_iTeleportTime 30000
+  m_sTeleportTargetArea "AFI_TestiTargetti_USSR"
+ }
+}
+GenericEntity : "{9A3ADECE49EF8993}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_40ft_green.et" {
+ coords 4861.48 28.594 11846.036
+ angleY -89.295
+}
+$grp AFI_TeleportTargetAreaEntity : "{F9F8C7280BC492F6}Prefabs/Teleport/AFI_TeleportTargetArea.et" {
+ AFI_TestiTargetti_US {
+  coords 4861.026 28.592 11733.023
+ }
+ AFI_TestiTargetti_USSR {
+  coords 4862.878 28.593 11886.717
+ }
 }
