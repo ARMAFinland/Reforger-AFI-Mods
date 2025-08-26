@@ -2,10 +2,10 @@ PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
  ID "60E902668148288E"
  components {
   AFI_PolyZone "{60E90266F25533F6}" {
-   m_mPolygonTexture ""
-   m_mPolygonTextureBorder "{5FCA8E4955FB5C6A}UI/Textures/Border.edds"
-   m_fPolygonBorderWidth 10
-   m_bLineMode 1
+   m_mPolygonTexture "{EE369172FCB6F4B2}UI/layouts/Textures/WarningZone.edds"
+   m_mPolygonTextureBorder "{15A6B5F9E6E1DB8E}UI/layouts/Textures/WarningZoneBorder.edds"
+   m_fPolygonBorderWidth 15
+   m_bLineMode 0
   }
  }
  coords 4753.174 23.862 12023.967
