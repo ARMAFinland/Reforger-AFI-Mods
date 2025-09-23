@@ -1,0 +1,56 @@
+GenericEntity : "{2C166D8DBBA47738}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_base.et" {
+ ID "50C6D20663830070"
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{E89ECDD3FC1A46EA}Assets/Props/Fabric/Flags/Data/Flag_AFI.emat"
+  }
+  BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+   ActionContexts {
+    UserActionContext "{65967A2AB378A479}" {
+     ContextName "default"
+     Position PointInfo "{65967A2AC1BB3FE8}" {
+      Offset 0 1.5 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    AFI_TeleportAction "{65964E0E2E7CD1B4}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{65964E0E67B7FDA5}" {
+      Name "Teleport obj"
+     }
+     Duration 3
+     "Sort Priority" 1
+     m_sTargetCapturePoint "Morton (Obj 1)"
+    }
+    AFI_TeleportAction "{659866A1113FB8A9}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{659866A11DC33D77}" {
+     }
+     Duration 3
+     "Sort Priority" 2
+     m_sTargetCapturePoint "Provins (Obj 2)"
+    }
+    AFI_TeleportAction "{659866A178917115}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{659866A1873AA69F}" {
+     }
+     Duration 3
+     "Sort Priority" 3
+     m_sTargetCapturePoint "Montignac (Obj 3)"
+    }
+   }
+  }
+  RplComponent "{65968499C2259CB6}" {
+   Streamable Disabled
+  }
+ }
+ coords 4601.119 120.496 8089.837
+}

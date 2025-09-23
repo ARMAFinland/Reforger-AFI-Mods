@@ -1,0 +1,54 @@
+AFI_CapturePoint : "{9A442581AA846D70}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_AFI.et" {
+ ID "50C6D20663830070"
+ components {
+  RplComponent "{65C8463382B63765}" {
+   Streamable Disabled
+  }
+  Hierarchy "{65C84638A4231B5E}" {
+  }
+  BaseActionsManagerComponent "{662A59C7F22DDD40}" {
+   ActionContexts {
+    UserActionContext "{662A59C7FEBFFE23}" {
+     ContextName "pole"
+     Position PointInfo "{662A59C603A39F7B}" {
+      Offset 0 1.5 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    AFI_CapturePointAction "{662A59C62524A65F}" {
+     ParentContextList {
+      "pole"
+     }
+     UIInfo UIInfo "{662A59C6409B9ECF}" {
+      Name "Capture"
+     }
+     Duration 15
+    }
+   }
+  }
+ }
+ coords 5120.517 14.269 4005.82
+ m_sCapturePointName "Morton"
+ m_sControlledBy "USSR"
+ {
+  AFI_CapturePointTrigger {
+   ID "65C8460D5AF202CB"
+   components {
+    Hierarchy "{65C84638A32EAD79}" {
+    }
+   }
+   TriggerShapeType Sphere
+   SphereRadius 250
+   DrawShape 1
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   UpdatePeriod 5
+   ClassesFilter {
+    "SCR_ChimeraCharacter"
+   }
+   m_iRatioMethod "Less than"
+  }
+ }
+}

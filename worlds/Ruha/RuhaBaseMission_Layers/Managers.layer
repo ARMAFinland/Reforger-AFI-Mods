@@ -35,7 +35,7 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
 PS_GameModeCoop AFI_GameMode_Lobby1 : "{FBF3D3F18189B4BD}Prefabs/Game modes/AFI_GameMode_Lobby.et" {
  coords 5219.845 3.743 5587.568
  {
-  SCR_FactionManager {
+  SCR_FactionManager "666F2A8D739177A3" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{56DEAC40D2DBC8B1}" {
