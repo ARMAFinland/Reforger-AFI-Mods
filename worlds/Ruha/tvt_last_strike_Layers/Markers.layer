@@ -1,0 +1,17 @@
+$grp AFI_MilitaryMapMarkerEntity {
+ {
+  coords 6313.303 58.987 5801.684
+  m_sDescription "US start"
+ }
+ {
+  coords 5895.009 110.709 4057.703
+  m_eMapMarkerFactionIcon OPFOR
+  m_eMapMarkerType1Modifier MOTORIZED
+ }
+ {
+  coords 6118.748 56.625 7056.538
+  m_eMapMarkerDimension INSTALLATION
+  m_eMapMarkerType1Modifier MOBILEHQ
+  m_sDescription "US start"
+ }
+}
