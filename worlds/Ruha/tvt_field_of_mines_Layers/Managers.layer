@@ -36,6 +36,8 @@ PS_GameModeCoop AFI_GameMode_Lobby1 : "{FBF3D3F18189B4BD}Prefabs/Game modes/AFI_
  components {
   AFI_JIPGameModeComponent "{62E85E902FCB437D}" {
   }
+  AFI_VON_GameModeComponent "{66727DD045D7EF1D}" {
+  }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 9
    m_aStartingWeatherAndTime {
