@@ -51,6 +51,7 @@ PS_GameModeCoop AFI_GameMode_Lobby1 : "{FBF3D3F18189B4BD}Prefabs/Game modes/AFI_
  }
  coords 4841.193 28.318 11918.237
  m_bTeamSwitch 1
+ m_bEnableSpectatorLocalVoice 1
  {
   SCR_FactionManager "626AC7893C2646B8" {
    ID "5ED9088735FF2D8B"

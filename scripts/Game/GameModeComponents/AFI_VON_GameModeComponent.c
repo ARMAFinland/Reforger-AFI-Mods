@@ -10,7 +10,7 @@ class AFI_VON_GameModeComponent : SCR_BaseGameModeComponent
 		if (!Replication.IsServer())
 			return;
 		
-		PS_VoNRoomsManager.GetInstance().m_eOnRoomChanged.Insert(MovePlayer);
+		//PS_VoNRoomsManager.GetInstance().m_eOnRoomChanged.Insert(MovePlayer);
 	}
 	
 	void MovePlayer(int playerId, int roomId, int oldRoomId)
