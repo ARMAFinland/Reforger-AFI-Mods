@@ -1,0 +1,17 @@
+GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
+ ID "666868FFE64BCD9C"
+ components {
+  ActionsManagerComponent "{6668C162FAC2F547}" {
+   additionalActions {
+    TEM_SaunaStoveUserAction "{6668C166EBC76EB3}" {
+     m_PalkkiAudioSourceConfiguration SCR_AudioSourceConfiguration "{668522D1618C30B0}" {
+      m_sSoundProject "{1B9EF1BBB227D3EC}Sounds/Props/Furniture/SaunaStove/Props_PalkkiStove.acp"
+      m_sSoundEventName "SOUND_PALKKI"
+     }
+    }
+   }
+  }
+  AFI_Counter "{668522D1D0D11D08}" {
+  }
+ }
+}

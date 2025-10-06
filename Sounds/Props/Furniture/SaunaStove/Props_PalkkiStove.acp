@@ -1,0 +1,139 @@
+AudioClass {
+ sounds {
+  SoundClass {
+   id 1033
+   name "SOUND_PALKKI"
+   version 5
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 3090
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    48 0
+   }
+   outState 19467
+   outStatePort 79879
+   static 1
+  }
+ }
+ mixers {
+  MixerClass {
+   id 19467
+   name "OutputState"
+   version 4
+   tl 512 0
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 79879
+     links {
+      ConnectionClass connection {
+       id 1033
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 300039
+    }
+    ConnectionsClass connections {
+     id 301063
+    }
+    ConnectionsClass connections {
+     id 302087
+    }
+   }
+   pi {
+    939540480 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "WPN_TravelingProjectile" "Dialog_Delay_Exterior" "SFX_Reverb_InCabin"
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 3090
+   name "Flush Shader"
+   version 5
+   tl -256 0
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 4124
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 5139
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 2052
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    23 0
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass : "{D6921F7062BE7960}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-60LUFS_to_-55LUFS.conf" {
+   id 5139
+   name "Amplitude 25-20"
+   version 5
+   tl -256 -352
+   parent "{D6921F7062BE7960}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-60LUFS_to_-55LUFS.conf"
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 2052
+   name "Palkki "
+   version 7
+   tl -512 0
+   ctl 0 -21
+   "Pitch variance" 2
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{7167C8FE733166D7}Sounds/Props/Furniture/SaunaStove/palkki.wav"
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass {
+   id 4124
+   name "Spatiality"
+   version 5
+   tl -256 -432
+   spatialFactor 1
+  }
+ }
+ version 1
+}
