@@ -7,6 +7,9 @@ PolylineShapeEntity : "{4AA93B0E3A6C1D91}Prefabs/Common/AFI_Border.et" {
  coords 5457.865 55.822 5387.528
  angleZ 0.895
  Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position -3700.984 -255.617 -5056.524
+  }
   ShapePoint "{66576866F896A780}" {
    Position -4316.822 -269.906 -4985.053
   }

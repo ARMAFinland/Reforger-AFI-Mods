@@ -2,6 +2,9 @@ PolylineShapeEntity : "{4AA93B0E3A6C1D91}Prefabs/Common/AFI_Border.et" {
  components {
   AFI_PolyZone "{60E90266F25533F6}" {
    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_aVisibleForFactions {
+    "" "British" "USSR"
+   }
   }
  }
  coords 5797.23 56.2 7404.141
@@ -11,10 +14,10 @@ PolylineShapeEntity : "{4AA93B0E3A6C1D91}Prefabs/Common/AFI_Border.et" {
    Position 631.325 -15.312 -3698.748
   }
   ShapePoint "{66575657F77C1D70}" {
-   Position 301.804 -18.449 -4181.441
+   Position -7.745 37.265 -4528.046
   }
   ShapePoint "{66575657F4ADF323}" {
-   Position -880.016 5.982 -3730.291
+   Position -1183.376 -80.837 -3671.292
   }
   ShapePoint "{665768643F6F9128}" {
    Position -659.725 -10.306 -2691.708

@@ -1,44 +1,43 @@
-SCR_AIGroup : "{0D10CCEEC7B3EC34}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ.et" {
- coords 7343.631 120.454 5231.062
+SCR_AIGroup : "{B69270E9F222F356}Prefabs/Groups/OPFOR/KLMK/Group_USSR_PlatoonHQ_KLMK.et" {
+ coords 2797.821 69.252 3225.712
+ angleX 7.988
+ angleY 146.353
+ angleZ 2.089
  m_aUnitPrefabSlots {
-  "{D84C64C31334E269}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_PL_TUN.et" "{6BC37B0A18736F13}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_Sergeant_TUN.et" "{839BE72B4CCB3D68}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_Medic_TUN.et"
+  "{E8A05D5E0CEAC836}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_PL_KLMK.et" "{FC13DAA97D49137F}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Sergeant_KLMK.et" "{D66C215D6F03EFFD}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Medic_KLMK.et"
  }
  m_sCustomNameSet "Alpha 10"
  m_bSetPlayable 1
  {
-  SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
-   coords -39.326 2.338 -8.57
-   m_aUnitPrefabSlots {
-    "{D652208B2EC3EDB3}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_SL_TUN.et" "{38C26FB3015EA490}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_AR_TUN.et" "{1F9C0B8E17F0F533}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_AT_TUN.et" "{E8E66C73B530698A}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_AAT_TUN.et" "{6C75D44262D4FA9C}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_SR_TUN.et" "{5196F5EAAE41CAFE}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_Rifleman_TUN.et" "{5196F5EAAE41CAFE}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_Rifleman_TUN.et" "{278E6E906B00A57C}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_Sharpshooter_TUN.et" "{839BE72B4CCB3D68}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_Medic_TUN.et"
+  SCR_AIGroup : "{97D45056CFC22FF2}Prefabs/Groups/OPFOR/KLMK/Group_USSR_RifleSquad_KLMK.et" {
+   coords 4.075 -1.444 14.908
+   angleX 1.379
+   angleY -114.109
+   angleZ 8.139
+   m_aUnitPrefabSlots + {
+    "{B056E800F6286831}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Sharpshooter_KLMK.et"
    }
    m_sCustomNameSet "Alpha 1"
    m_bSetPlayable 1
    {
-    SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
-     coords 12.946 -0.11 11.59
-     m_aUnitPrefabSlots {
-      "{D652208B2EC3EDB3}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_SL_TUN.et" "{38C26FB3015EA490}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_AR_TUN.et" "{1F9C0B8E17F0F533}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_AT_TUN.et" "{E8E66C73B530698A}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_AAT_TUN.et" "{6C75D44262D4FA9C}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_SR_TUN.et" "{5196F5EAAE41CAFE}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_Rifleman_TUN.et" "{5196F5EAAE41CAFE}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_Rifleman_TUN.et" "{278E6E906B00A57C}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_Sharpshooter_TUN.et" "{839BE72B4CCB3D68}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_Medic_TUN.et"
+    SCR_AIGroup : "{97D45056CFC22FF2}Prefabs/Groups/OPFOR/KLMK/Group_USSR_RifleSquad_KLMK.et" {
+     coords -85.845 5.789 14.686
+     angleX 1.379
+     angleY -114.109
+     angleZ 8.139
+     m_aUnitPrefabSlots + {
+      "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK.et"
      }
      m_sCustomNameSet "Alpha 2"
      m_bSetPlayable 1
      {
-      SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
-       coords 6.527 -0.37 -13.657
-       m_aUnitPrefabSlots {
-        "{D652208B2EC3EDB3}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_SL_TUN.et" "{38C26FB3015EA490}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_AR_TUN.et" "{1F9C0B8E17F0F533}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_AT_TUN.et" "{E8E66C73B530698A}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_AAT_TUN.et" "{6C75D44262D4FA9C}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_SR_TUN.et" "{5196F5EAAE41CAFE}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_Rifleman_TUN.et" "{5196F5EAAE41CAFE}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_Rifleman_TUN.et" "{278E6E906B00A57C}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_Sharpshooter_TUN.et" "{839BE72B4CCB3D68}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_Medic_TUN.et"
+      SCR_AIGroup : "{97D45056CFC22FF2}Prefabs/Groups/OPFOR/KLMK/Group_USSR_RifleSquad_KLMK.et" {
+       coords 46.996 10.829 4.504
+       m_aUnitPrefabSlots + {
+        "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK.et"
        }
        m_sCustomNameSet "Alpha 3"
        m_bSetPlayable 1
-       {
-        SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
-         coords -7.277 -0.363 -12.927
-         m_aUnitPrefabSlots {
-          "{D652208B2EC3EDB3}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_SL_TUN.et" "{BD331844B40690BA}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_MG_TUN.et" "{4A497FB916C60C03}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_AMG_TUN.et" "{4A497FB916C60C03}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_AMG_TUN.et" "{839BE72B4CCB3D68}Prefabs/Characters/Factions/OPFOR/USSR_Army/tuntematon edits USSR/Character_USSR_Medic_TUN.et"
-         }
-         m_sCustomNameSet "Alpha 4"
-         m_bSetPlayable 1
-        }
-       }
       }
      }
     }
