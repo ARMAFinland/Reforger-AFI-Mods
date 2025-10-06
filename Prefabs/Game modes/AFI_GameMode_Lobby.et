@@ -1,17 +1,35 @@
 PS_GameModeCoop : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  ID "56B2B479C6B96951"
  components {
+  AFI_CaptureGameManager "{666F2A8DAFA93257}" {
+  }
   AFI_JIPGameModeComponent "{64B6833DB52F76B3}" {
+  }
+  CVON_VONGameModeComponent "{6624E607CC6D4CC8}" {
+   m_sFreqConfig "{023260554547BE63}Configs/FreqConfigs/AfiFreq.conf"
   }
   SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
    m_bPermitUnconsciousVON 0
   }
-  AFI_CaptureGameManager "{666F2A8DAFA93257}" {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 9
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{628C752C8188B7FC}" {
+     m_sWeatherPresetName "Rainy"
+     m_iStartingHour 13
+    }
+   }
+   m_bRandomWeatherChanges 1
+  }
+  AFI_JIPGameModeComponent "{62E85E902FCB437D}" {
   }
  }
  coords 5219.909 3.754 5587.691
  m_bTeamSwitch 1
+ m_bMarkersOnlyOnBriefing 1
  m_bRemoveRedundantUnits 1
  m_bRemoveSquadMarkers 1
  m_iFreezeTime 600000
+ m_bEnableSpectatorLocalVoice 1
+ m_bFreezeTimeShootingForbiden 1
 }
