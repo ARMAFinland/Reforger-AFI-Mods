@@ -1,18 +1,18 @@
 $grp Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
  BTR70_Base1 {
-  coords 5448.057 58.625 3622.658
-  angleY 153
+  coords 5445.861 58.625 3621.863
+  angleY 156
  }
  BTR70_Base4 {
-  coords 5480.823 59.418 3550.145
+  coords 5481.103 59.445 3547.383
   angleY 153
  }
  BTR70_Base3 {
-  coords 5469.692 59.108 3575.05
+  coords 5468.328 59.111 3572.788
   angleY 155
  }
  BTR70_Base2 {
-  coords 5461.584 58.837 3598.857
+  coords 5457.027 58.813 3597.921
   angleY 156
   {
    EnvironmentProbeEntity {
@@ -23,7 +23,7 @@ $grp Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" 
  }
 }
 Tank BMP2_Olive1 : "{2FCF3A82322F7390}IFV/BMP2/BMP2_Olive.et" {
- coords 5490.384 59.67 3531.104
+ coords 5492.5 59.752 3523.942
  angleY 155
 }
 SCR_AIGroup : "{B69270E9F222F356}Prefabs/Groups/OPFOR/KLMK/Group_USSR_PlatoonHQ_KLMK.et" {
@@ -32,62 +32,73 @@ SCR_AIGroup : "{B69270E9F222F356}Prefabs/Groups/OPFOR/KLMK/Group_USSR_PlatoonHQ_
  angleY 146.353
  angleZ 2.089
  m_aUnitPrefabSlots {
-  "{E8A05D5E0CEAC836}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_PL_KLMK.et" "{FC13DAA97D49137F}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Sergeant_KLMK.et" "{D66C215D6F03EFFD}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Medic_KLMK.et"
+  "{E8A05D5E0CEAC836}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_PL_KLMK.et" "{FC13DAA97D49137F}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Sergeant_KLMK.et" "{D66C215D6F03EFFD}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Medic_KLMK.et" "{D66C215D6F03EFFD}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Medic_KLMK.et"
  }
  m_sCustomNameSet "Alpha 10"
  m_bSetPlayable 1
  {
   SCR_AIGroup : "{97D45056CFC22FF2}Prefabs/Groups/OPFOR/KLMK/Group_USSR_RifleSquad_KLMK.et" {
-   coords 31.746 -11.749 86.741
+   coords 69.785 -2.804 23.993
    angleX 1.379
    angleY -114.109
    angleZ 8.139
    m_aUnitPrefabSlots + {
-    "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+    "{B056E800F6286831}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Sharpshooter_KLMK.et" "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
    }
    m_sCustomNameSet "Alpha 1"
    m_bSetPlayable 1
    {
     SCR_AIGroup : "{97D45056CFC22FF2}Prefabs/Groups/OPFOR/KLMK/Group_USSR_RifleSquad_KLMK.et" {
-     coords -26.259 1.381 18.303
+     coords -79.869 1.637 6.558
      angleX 1.379
      angleY -114.109
      angleZ 8.139
      m_aUnitPrefabSlots + {
-      "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+      "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK.et" "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
      }
      m_sCustomNameSet "Alpha 2"
      m_bSetPlayable 1
      {
       SCR_AIGroup : "{97D45056CFC22FF2}Prefabs/Groups/OPFOR/KLMK/Group_USSR_RifleSquad_KLMK.et" {
-       coords 18.731 1.9 13.409
+       coords 12.24 0.791 24.955
        m_aUnitPrefabSlots + {
-        "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+        "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK.et" "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
        }
        m_sCustomNameSet "Alpha 3"
        m_bSetPlayable 1
        {
         SCR_AIGroup : "{97D45056CFC22FF2}Prefabs/Groups/OPFOR/KLMK/Group_USSR_RifleSquad_KLMK.et" {
-         coords 31.113 4.416 1.193
+         coords 16.639 2.082 18.762
          angleX 7.988
          angleY 114.353
          angleZ 2.089
          m_aUnitPrefabSlots + {
-          "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+          "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK.et" "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
          }
          m_sCustomNameSet "Alpha 4"
          m_bSetPlayable 1
          {
-          SCR_AIGroup : "{CB58D90EA14430AD}Prefabs/Groups/OPFOR/Group_USSR_SentryTeam.et" {
-           coords 241.859 2.853 597.797
-           angleX -0
-           angleY -73
+          SCR_AIGroup : "{666A2B0A6B1967AE}Prefabs/Groups/OPFOR/Spetsnaz/Suppressed/Group_USSR_Spetsnaz_ReconSquad.et" {
+           coords 7.554 0.32 -47.475
+           angleX -0.001
+           angleY -32
            angleZ 0.001
            m_aUnitPrefabSlots {
-            "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+            "{6C1FFF78CD4E4ADA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Suppressed/Character_USSR_SF_SL_S.et" "{4D20F57C29B6EC1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Suppressed/Character_USSR_SF_S.et" "{5EFF3963153BE048}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Suppressed/Character_USSR_SF_Sharpshooter_S.et" "{A16C1DE30B6957D9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Suppressed/Character_USSR_SF_Sapper_S.et" "{029FF8F84148012E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Suppressed/Character_USSR_SF_Medic_S.et"
            }
-           m_sCustomNameSet "Victor 1"
+           m_sCustomNameSet "Romeo 1"
            m_bSetPlayable 1
+           {
+            SCR_AIGroup : "{CB58D90EA14430AD}Prefabs/Groups/OPFOR/Group_USSR_SentryTeam.et" {
+             coords 540.644 2.546 423.059
+             angleY -41
+             m_aUnitPrefabSlots {
+              "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+             }
+             m_sCustomNameSet "Victor 1"
+             m_bSetPlayable 1
+            }
+           }
           }
          }
         }

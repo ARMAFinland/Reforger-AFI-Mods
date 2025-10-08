@@ -1,27 +1,52 @@
 SCR_AIGroup : "{9DF5E7613F26912A}Prefabs/Groups/BLUFOR/British Forces/1983/Group_UK_1983_Regulars_PlatoonHQ_AFI.et" {
  coords 1696.049 62.032 645.284
  angleY -7
+ m_aUnitPrefabSlots + {
+  "{AF1B1F8F59BB3B0F}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Medic.et"
+ }
  {
   SCR_AIGroup : "{4679AD5C647BBE6A}Prefabs/Groups/BLUFOR/British Forces/1983/Group_UK_1983_Regulars_InfantrySection.et" {
-   coords 0.882 0 -11.198
+   coords 0.492 0.039 -18.535
+   m_aUnitPrefabSlots + {
+    "{A6D0DBFAC6349E22}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman.et"
+   }
    m_sCustomNameSet "Alpha 1"
    m_bSetPlayable 1
    {
     SCR_AIGroup : "{4679AD5C647BBE6A}Prefabs/Groups/BLUFOR/British Forces/1983/Group_UK_1983_Regulars_InfantrySection.et" {
-     coords -0.881 0 -9.32
+     coords 35.201 0.316 -1.883
+     m_aUnitPrefabSlots + {
+      "{A6D0DBFAC6349E22}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman.et"
+     }
      m_sCustomNameSet "Alpha 2"
      m_bSetPlayable 1
      {
       SCR_AIGroup : "{4679AD5C647BBE6A}Prefabs/Groups/BLUFOR/British Forces/1983/Group_UK_1983_Regulars_InfantrySection.et" {
-       coords 0.465 0 -8.875
+       coords 38.214 0.441 -9.711
+       m_aUnitPrefabSlots + {
+        "{A6D0DBFAC6349E22}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman.et"
+       }
        m_sCustomNameSet "Alpha 3"
        m_bSetPlayable 1
        {
         SCR_AIGroup : "{4679AD5C647BBE6A}Prefabs/Groups/BLUFOR/British Forces/1983/Group_UK_1983_Regulars_InfantrySection.et" {
-         coords 0.635 0.216 -9.392
+         coords 33.52 0.387 -6.208
          angleY 7
+         m_aUnitPrefabSlots + {
+          "{A6D0DBFAC6349E22}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman.et"
+         }
          m_sCustomNameSet "Alpha 4"
          m_bSetPlayable 1
+         {
+          SCR_AIGroup : "{C6330C2C7FD9A911}Prefabs/Groups/BLUFOR/British Forces/1983/Group_UK_1983_SpecialForces_Team.et" {
+           coords -40.345 -0.439 -1.55
+           m_aUnitPrefabSlots {
+            "{541580A5EFB063CA}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/SpecialForces/Character_UK_1983_SpecialForces_SL.et" "{DF457B105509006C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/SpecialForces/Character_UK_1983_SpecialForces_Medic.et" "{A97BEB8FF3472C18}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/SpecialForces/Character_UK_1983_SpecialForces_Sapper.et" "{C7F673EEC46863F2}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/SpecialForces/Character_UK_1983_SpecialForces_Sharpshooter.et" "{0E74C9F36755655C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/SpecialForces/Character_UK_1983_SpecialForces_Trooper.et"
+           }
+           m_sCustomNameSet "Romeo 1"
+           m_bSetPlayable 1
+          }
+         }
         }
        }
       }

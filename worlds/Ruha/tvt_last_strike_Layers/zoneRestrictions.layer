@@ -11,13 +11,10 @@ PolylineShapeEntity : "{4AA93B0E3A6C1D91}Prefabs/Common/AFI_Border.et" {
  angleZ 0.895
  Points {
   ShapePoint "{60E90266E922A02A}" {
-   Position 631.325 -15.312 -3698.748
-  }
-  ShapePoint "{66575657F77C1D70}" {
-   Position -7.745 37.265 -4528.046
+   Position -1481.493 -845.982 -4685.057
   }
   ShapePoint "{66575657F4ADF323}" {
-   Position -1183.376 -80.837 -3671.292
+   Position -1520.723 -126.275 -4302.361
   }
   ShapePoint "{665768643F6F9128}" {
    Position -659.725 -10.306 -2691.708
@@ -125,10 +122,7 @@ PolylineShapeEntity : "{4AA93B0E3A6C1D91}Prefabs/Common/AFI_Border.et" {
    Position 1447.916 22.619 -2594.062
   }
   ShapePoint "{66576864AD83B235}" {
-   Position 1292.149 20.186 -2867.374
-  }
-  ShapePoint "{66575657F27DEB38}" {
-   Position 1018.207 -103.124 -3202.614
+   Position 210.96 -2148.351 -4757.7
   }
  }
 }
