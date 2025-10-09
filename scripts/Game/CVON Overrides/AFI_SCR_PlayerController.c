@@ -30,6 +30,7 @@ modded class SCR_PlayerController
 			
 			CVON_RadioComponent radioComp = CVON_RadioComponent.Cast(radioObject.FindComponent(CVON_RadioComponent));
 			
+			
 			switch (radioComp.m_eRadioType)
 			{
 				case CVON_ERadioType.SHORT:
@@ -50,7 +51,27 @@ modded class SCR_PlayerController
 			m_aRadios.InsertAll(shortRangeRadios);
 		if (longRangeRadios)
 			m_aRadios.InsertAll(longRangeRadios);
-		WriteRadioJSON(to);
+		IEntity radioEntity = RplComponent.Cast(Replication.FindItem(radios.Get(0))).GetEntity();
+		CVON_RadioComponent radioComp = CVON_RadioComponent.Cast(radioEntity.FindComponent(CVON_RadioComponent));
+		if (GetGame().GetPlayerController())
+		{
+			WriteRadioJSON(to);
+			if (m_aRadioSettings.Count() > 0)
+			{
+				foreach (IEntity radio: m_aRadios)
+				{
+					CVON_RadioComponent radioCompSetting = CVON_RadioComponent.Cast(radio.FindComponent(CVON_RadioComponent));
+					int index = m_aRadios.Find(radio);
+					if (m_aRadioSettings.Count() <= index)
+						break;
+					CVON_RadioSettingObject radioSetting = m_aRadioSettings.Get(index);
+					
+					radioCompSetting.m_iVolume = radioSetting.m_iVolume;
+					radioCompSetting.m_eStereo = radioSetting.m_Stereo;
+				}
+				return;
+			}
+		}
 	}
 	
 	void WriteRadioJSON(IEntity entity)
@@ -60,7 +81,7 @@ modded class SCR_PlayerController
 		SCR_JsonSaveContext VONSave = new SCR_JsonSaveContext();
 		ref array<RplId> radios = CVON_VONGameModeComponent.GetInstance().GetRadios(entity);
 		if (!radios)
-			return;
+			VONSave.SaveToFile("$profile:/RadioData.json");
 		foreach (RplId radio: radios)
 		{
 			IEntity radioEntity = RplComponent.Cast(Replication.FindItem(radio)).GetEntity();

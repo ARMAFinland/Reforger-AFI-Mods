@@ -228,7 +228,7 @@ modded class SCR_VONController
 			container.m_iVolume = m_VONGameModeComponent.GetPlayerVolume(container.m_iPlayerId);
 			
 			float distance = vector.Distance(container.m_SoundSource.GetOrigin(), camera.GetOrigin());
-			if (distance < maxDistance || localInSpec)
+			if (distance < maxDistance)
 				container.m_fDistanceToSender = distance;
 			else
 				container.m_fDistanceToSender = -1;
@@ -263,6 +263,23 @@ modded class SCR_VONController
 					continue;
 				#endif
 				
+//				if (m_CurrentVONContainer.m_eVonType == CVON_EVONType.DIRECT)
+//				{
+//					IEntity player = m_PlayerManager.GetPlayerControlledEntity(playerId);
+//					if (!player)
+//						continue;
+//
+//					if (vector.Distance(player.GetOrigin(), SCR_PlayerController.GetLocalControlledEntity().GetOrigin()) > maxDistance)
+//					{
+//						if (m_aPlayerIdsBroadcastedTo.Contains(playerId))
+//						{
+//							m_aPlayerIdsBroadcastedTo.RemoveItem(playerId);
+//							m_PlayerController.BroadcastRemoveLocalVONToServer(playerId, SCR_PlayerController.GetLocalPlayerId());
+//						}
+//						continue;
+//					}
+//				}
+				
 				if (m_aPlayerIdsBroadcastedTo.Contains(playerId))
 					continue;
 				
@@ -271,6 +288,9 @@ modded class SCR_VONController
 			}
 			if (broadcastToPlayerIds.Count() > 0)
 			{
+//				if (m_CurrentVONContainer.m_eVonType == CVON_EVONType.DIRECT)
+//					m_PlayerController.BroadcastLocalVONToServer(m_CurrentVONContainer, broadcastToPlayerIds, SCR_PlayerController.GetLocalPlayerId(), RplId.Invalid());
+//				else
 				m_PlayerController.BroadcastLocalVONToServer(m_CurrentVONContainer, broadcastToPlayerIds, SCR_PlayerController.GetLocalPlayerId(), m_CurrentVONContainer.m_iRadioId);
 			}
 				
@@ -324,7 +344,6 @@ modded class SCR_VONController
 			if (gameName == "" || ChannelName != m_VONGameModeComponent.m_sTeamSpeakChannelName || ChannelPassword != m_VONGameModeComponent.m_sTeamSpeakChannelPassword || m_PlayerController.m_sTeamspeakPluginVersion != m_VONGameModeComponent.m_sTeamspeakPluginVersion || InGame != (getGameMode().GetState() == SCR_EGameModeState.GAME))
 			{
 				bool realInGame = getGameMode().GetState() == SCR_EGameModeState.GAME;
-				
 				SCR_JsonSaveContext VONServerData = new SCR_JsonSaveContext();
 				VONServerData.StartObject("ServerData");
 				VONServerData.SetMaxDecimalPlaces(1);

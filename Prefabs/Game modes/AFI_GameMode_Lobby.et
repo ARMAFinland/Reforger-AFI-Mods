@@ -3,11 +3,6 @@ PS_GameModeCoop : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
   AFI_CaptureGameManager "{666F2A8DAFA93257}" {
   }
-  AFI_JIPGameModeComponent "{64B6833DB52F76B3}" {
-  }
-  CVON_VONGameModeComponent "{6624E607CC6D4CC8}" {
-   m_sFreqConfig "{023260554547BE63}Configs/FreqConfigs/AfiFreq.conf"
-  }
   SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
    m_bPermitUnconsciousVON 0
   }
@@ -21,7 +16,7 @@ PS_GameModeCoop : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
    }
    m_bRandomWeatherChanges 1
   }
-  AFI_JIPGameModeComponent "{62E85E902FCB437D}" {
+  AFI_JIPGameModeComponent "{66928A531BEABEA6}" {
   }
  }
  coords 5219.909 3.754 5587.691
