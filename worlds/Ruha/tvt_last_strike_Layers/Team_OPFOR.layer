@@ -90,7 +90,7 @@ SCR_AIGroup : "{B69270E9F222F356}Prefabs/Groups/OPFOR/KLMK/Group_USSR_PlatoonHQ_
            m_bSetPlayable 1
            {
             SCR_AIGroup : "{CB58D90EA14430AD}Prefabs/Groups/OPFOR/Group_USSR_SentryTeam.et" {
-             coords 540.644 2.546 423.059
+             coords 244.488 0.32 -82.981
              angleY -41
              m_aUnitPrefabSlots {
               "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
