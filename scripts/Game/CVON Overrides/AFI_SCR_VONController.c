@@ -228,7 +228,7 @@ modded class SCR_VONController
 			container.m_iVolume = m_VONGameModeComponent.GetPlayerVolume(container.m_iPlayerId);
 			
 			float distance = vector.Distance(container.m_SoundSource.GetOrigin(), camera.GetOrigin());
-			if (distance < maxDistance)
+			if (distance < maxDistance || localInSpec)
 				container.m_fDistanceToSender = distance;
 			else
 				container.m_fDistanceToSender = -1;

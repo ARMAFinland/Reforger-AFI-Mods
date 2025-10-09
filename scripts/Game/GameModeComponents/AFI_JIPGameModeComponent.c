@@ -5,10 +5,35 @@ class AFI_JIPGameModeComponentClass : SCR_BaseGameModeComponentClass
 
 class AFI_JIPGameModeComponent : SCR_BaseGameModeComponent
 {	
-	//------------------------------------------------------------------------------------------------
-	void StartDeleteTimer(int delay)
+	//------------------------------------------------------------------------------------------------	
+	override void OnGameModeStart()
 	{
-		if (Replication.IsServer())
-			GetGame().GetCallqueue().CallLater(PS_PlayableManager.GetInstance().RemoveRedundantUnits, delay, false);
+		if (!Replication.IsServer())
+			return;
+		
+		PS_GameModeCoop gameMode = PS_GameModeCoop.	Cast(GetGameMode());
+		if (gameMode == null)
+			return;
+		
+		if (!gameMode.GetRemoveRedundantUnits())
+			return;
+		
+		GetGame().GetCallqueue().CallLater(CheckIfFreezeTimeHasEnded, 1000, false);
+	}
+	
+	//------------------------------------------------------------------------------------------------	
+	protected void CheckIfFreezeTimeHasEnded()
+	{
+		PS_GameModeCoop gameMode = PS_GameModeCoop.	Cast(GetGameMode());
+		if (gameMode == null)
+			return;
+		
+		if (!gameMode.IsFreezeTimeEnd())
+		{
+			GetGame().GetCallqueue().CallLater(CheckIfFreezeTimeHasEnded, 1000, false);
+			return;
+		}
+		
+		GetGame().GetCallqueue().CallLater(PS_PlayableManager.GetInstance().RemoveRedundantUnits, 1000, false);
 	}
 }
