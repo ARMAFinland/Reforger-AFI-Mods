@@ -1,0 +1,21 @@
+SCR_AIGroup : "{0B42FFF9F5BCE2E1}Prefabs/Groups/BLUFOR/Group_US_PlatoonLeaders_P.et" {
+ coords 3086.007 144.394 8418.47
+ m_aUnitPrefabSlots + {
+  "{67114CB4B97F0E97}Prefabs/Characters/Factions/BLUFOR/US_Army/tuntematon edits US/Character_US_Medic_TUN.et"
+ }
+ m_sCustomNameSet "Alpha 10"
+ {
+  SCR_AIGroup : "{47EADE5E4E07076C}Prefabs/Groups/BLUFOR/Group_US_FireTeam_P.et" {
+   coords -4.198 -0.082 -12.248
+   m_sCustomNameSet "Alpha 1"
+   m_bSetPlayable 1
+   {
+    SCR_AIGroup : "{47EADE5E4E07076C}Prefabs/Groups/BLUFOR/Group_US_FireTeam_P.et" {
+     coords -22.439 0.079 7.533
+     m_sCustomNameSet "Alpha 2"
+     m_bSetPlayable 1
+    }
+   }
+  }
+ }
+}

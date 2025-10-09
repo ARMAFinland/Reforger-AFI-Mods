@@ -1,0 +1,23 @@
+PolylineShapeEntity : "{4AA93B0E3A6C1D91}Prefabs/Common/AFI_Border.et" {
+ coords 168.492 137.781 7417.524
+ Points {
+  ShapePoint "{6691194EBBA58A1C}" {
+   Position 1166.824 0 720.737
+  }
+  ShapePoint "{6691194EE5C97117}" {
+   Position 2626.034 0 1577.96
+  }
+  ShapePoint "{6691194EE70D085C}" {
+   Position 2734.02 0 1655.362
+  }
+  ShapePoint "{6691194EE656C3AD}" {
+   Position 3490.009 0 1716.75
+  }
+  ShapePoint "{6691194EF2FCDBB1}" {
+   Position 3650.357 0 481.42
+  }
+  ShapePoint "{6691194D677A1865}" {
+   Position -49.332 0 -1327.938
+  }
+ }
+}
