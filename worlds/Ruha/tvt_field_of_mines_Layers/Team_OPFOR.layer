@@ -1,3 +1,27 @@
+$grp Vehicle : "{16A674FE31B0921C}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered.et" {
+ UAZ469_uncovered1 {
+  coords 2711.757 65.821 3275.265
+  angleY -103
+ }
+ UAZ469_uncovered2 {
+  coords 2710.304 65.724 3282.104
+  angleY -108
+ }
+}
+$grp Vehicle : "{1FBB492E86002BF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport.et" {
+ UAZ452_transport1 {
+  coords 2627.251 65.599 3309.645
+  angleY 170
+ }
+ UAZ452_transport2 {
+  coords 2650.104 65.534 3313.881
+  angleY 168
+ }
+}
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 2712.755 65.813 3232.093
+ angleY -7
+}
 SCR_AIGroup : "{B69270E9F222F356}Prefabs/Groups/OPFOR/KLMK/Group_USSR_PlatoonHQ_KLMK.et" {
  coords 2722.646 65.934 3235.964
  angleX 7.988
@@ -10,10 +34,10 @@ SCR_AIGroup : "{B69270E9F222F356}Prefabs/Groups/OPFOR/KLMK/Group_USSR_PlatoonHQ_
  m_bSetPlayable 1
  {
   SCR_AIGroup : "{97D45056CFC22FF2}Prefabs/Groups/OPFOR/KLMK/Group_USSR_RifleSquad_KLMK.et" {
-   coords 61.667 7.312 -64.445
-   angleX 1.379
-   angleY -114.109
-   angleZ 8.139
+   coords 0.421 7.103 -85.867
+   angleX -6.887
+   angleY 19.067
+   angleZ -4.562
    m_aUnitPrefabSlots + {
     "{6B00D3FC285E0AE0}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_GL_KLMK.et" "{77D7BFD355620806}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Ammo_KLMK.et"
    }
@@ -21,10 +45,10 @@ SCR_AIGroup : "{B69270E9F222F356}Prefabs/Groups/OPFOR/KLMK/Group_USSR_PlatoonHQ_
    m_bSetPlayable 1
    {
     SCR_AIGroup : "{97D45056CFC22FF2}Prefabs/Groups/OPFOR/KLMK/Group_USSR_RifleSquad_KLMK.et" {
-     coords -36.247 7.378 26.962
-     angleX 1.379
-     angleY -114.109
-     angleZ 8.139
+     coords 62.484 4.844 -7.452
+     angleX 1.378
+     angleY -23.109
+     angleZ 8.14
      m_aUnitPrefabSlots + {
       "{8A60AEBD529FEB8B}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_MG_KLMK.et" "{77D7BFD355620806}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Ammo_KLMK.et"
      }
@@ -32,7 +56,10 @@ SCR_AIGroup : "{B69270E9F222F356}Prefabs/Groups/OPFOR/KLMK/Group_USSR_PlatoonHQ_
      m_bSetPlayable 1
      {
       SCR_AIGroup : "{97D45056CFC22FF2}Prefabs/Groups/OPFOR/KLMK/Group_USSR_RifleSquad_KLMK.et" {
-       coords -26.15 -1.522 -1.768
+       coords -64.51 -10.928 64.578
+       angleX 9.464
+       angleY 87.94
+       angleZ 6.469
        m_aUnitPrefabSlots + {
         "{6B00D3FC285E0AE0}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_GL_KLMK.et" "{77D7BFD355620806}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Ammo_KLMK.et"
        }
@@ -40,10 +67,10 @@ SCR_AIGroup : "{B69270E9F222F356}Prefabs/Groups/OPFOR/KLMK/Group_USSR_PlatoonHQ_
        m_bSetPlayable 1
        {
         SCR_AIGroup : "{97D45056CFC22FF2}Prefabs/Groups/OPFOR/KLMK/Group_USSR_RifleSquad_KLMK.et" {
-         coords -5.292 -16.288 -63.626
-         angleX 7.872
-         angleY 82.036
-         angleZ -2.489
+         coords -6.785 -21.189 78.989
+         angleX 8.022
+         angleY 113.344
+         angleZ 1.949
          m_aUnitPrefabSlots {
           "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
          }
@@ -59,6 +86,6 @@ SCR_AIGroup : "{B69270E9F222F356}Prefabs/Groups/OPFOR/KLMK/Group_USSR_PlatoonHQ_
  }
 }
 Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
- coords 2674.543 65.684 3265.796
- angleY -99
+ coords 2665.688 65.877 3229.409
+ angleY -8
 }
