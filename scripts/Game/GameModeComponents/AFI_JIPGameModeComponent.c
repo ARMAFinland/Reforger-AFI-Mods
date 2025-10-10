@@ -7,7 +7,7 @@ class AFI_JIPGameModeComponent : SCR_BaseGameModeComponent
 {	
 	//------------------------------------------------------------------------------------------------	
 	override void OnGameModeStart()
-	{
+	{		
 		if (!Replication.IsServer())
 			return;
 		
