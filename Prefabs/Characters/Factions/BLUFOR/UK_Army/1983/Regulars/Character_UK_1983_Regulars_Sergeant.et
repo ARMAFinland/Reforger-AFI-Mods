@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{4A29AE1848437792}Prefabs/Characters/Factions/BLUFOR/UK_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
      PrefabsToSpawn + {
-      "{F8F7E82661C761DD}Prefabs/Items/Equipment/Radios/Radio_ANPRC150.et"
+      "{C204374F722D5229}Prefabs/Items/Equipment/Radios/Radio_ANPRC117.et"
      }
     }
    }
