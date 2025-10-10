@@ -23,10 +23,10 @@ PolylineShapeEntity : "{4AA93B0E3A6C1D91}Prefabs/Common/AFI_Border.et" {
    Position -4557.105 -310.916 -2842.968
   }
   ShapePoint "{665768614024F594}" {
-   Position -3973.09 -387.72 -2350.904
+   Position -4584.455 -272.311 -2281.139
   }
   ShapePoint "{6657686140A2BD3B}" {
-   Position -3776.239 -256.394 -2216.539
+   Position -3953.592 -174.624 -2091.559
   }
   ShapePoint "{66576861BE1053C4}" {
    Position -3709.123 -180.203 -2149.059
@@ -38,22 +38,22 @@ PolylineShapeEntity : "{4AA93B0E3A6C1D91}Prefabs/Common/AFI_Border.et" {
    Position -3368.084 -90.718 -2170.057
   }
   ShapePoint "{66576861B92EE2FF}" {
-   Position -3263.228 -50.978 -2185.008
+   Position -3267.667 -48.226 -2158.842
   }
   ShapePoint "{66576861B70F0D52}" {
-   Position -3118.777 -48.721 -2164.122
+   Position -3049.678 -1.792 -2072.724
   }
   ShapePoint "{66576861B7C31E09}" {
-   Position -2954.077 -46.149 -2208.817
+   Position -2924.803 -46.149 -2003.523
   }
   ShapePoint "{66576861AC7EE204}" {
-   Position -2729.311 -42.637 -2240.867
+   Position -2752.384 -42.637 -2006.306
   }
   ShapePoint "{66576861AAEB94E3}" {
-   Position -2318.18 -36.215 -2200.425
+   Position -2304.805 -36.215 -2069.647
   }
   ShapePoint "{66576861A99A1443}" {
-   Position -2176.769 -34.006 -2214.887
+   Position -2187.552 -34.006 -2122.261
   }
   ShapePoint "{66576866F8EC5795}" {
    Position -1653.96 59.954 -2154.022
