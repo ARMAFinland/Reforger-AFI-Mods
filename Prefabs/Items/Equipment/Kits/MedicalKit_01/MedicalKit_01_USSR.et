@@ -1,0 +1,69 @@
+GenericEntity : "{46FD263F0F368A92}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SCR_ArsenalComponent "{5E3CC268A92CDE62}" {
+   m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{669681C3E15822C1}" {
+    m_aArsenalItems {
+     SCR_ArsenalItemStandalone "{669681C3E3F67AA0}" {
+      m_eItemType HEAL
+      m_eItemMode CONSUMABLE
+      m_iSupplyCost 0
+      m_ItemResourceName "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et"
+     }
+     SCR_ArsenalItemStandalone "{669681C3E3A7D4F3}" {
+      m_eItemType HEAL
+      m_eItemMode CONSUMABLE
+      m_iSupplyCost 0
+      m_ItemResourceName "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
+     }
+     SCR_ArsenalItemStandalone "{669681C3E352AA77}" {
+      m_eItemType HEAL
+      m_eItemMode CONSUMABLE
+      m_iSupplyCost 0
+      m_ItemResourceName "{D0434D5215B54181}Prefabs/Items/Medicine/MetoprololInjection/ACE_Medical_MetoprololInjection.et"
+     }
+     SCR_ArsenalItemStandalone "{669681C3E30280E5}" {
+      m_eItemType HEAL
+      m_eItemMode CONSUMABLE
+      m_iSupplyCost 0
+      m_ItemResourceName "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     SCR_ArsenalItemStandalone "{669681C3E3336EB7}" {
+      m_eItemType HEAL
+      m_eItemMode CONSUMABLE
+      m_iSupplyCost 0
+      m_ItemResourceName "{02DD34077F51F65E}Prefabs/Items/Medicine/NaloxoneInjection/ACE_Medical_NaloxoneInjection.et"
+     }
+     SCR_ArsenalItemStandalone "{669681C3E2FF3D57}" {
+      m_eItemType HEAL
+      m_eItemMode CONSUMABLE
+      m_iSupplyCost 0
+      m_ItemResourceName "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et"
+     }
+     SCR_ArsenalItemStandalone "{669681C3E2A7C644}" {
+      m_eItemType HEAL
+      m_eItemMode CONSUMABLE
+      m_iSupplyCost 0
+      m_ItemResourceName "{8435F7561C0FBB44}Prefabs/Items/Medicine/SalineBag_01/SalineBag_01_base.et"
+     }
+     SCR_ArsenalItemStandalone "{669681C3E266A028}" {
+      m_eItemType HEAL
+      m_eItemMode CONSUMABLE
+      m_iSupplyCost 0
+      m_ItemResourceName "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+     }
+    }
+   }
+  }
+  SCR_ResourceComponent "{5E4A957708B43723}" {
+   m_aContainers {
+    SCR_ResourceContainerVirtual "{669681C09EC4CEB2}" {
+     m_eResourceRights SELF
+     m_eStorageType CARGO_PROP
+     m_fResourceValueCurrent 30
+     m_fResourceValueMax 30
+    }
+   }
+  }
+ }
+}

@@ -1,7 +1,7 @@
 SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
  coords 5224.089 4.761 5598.738
  "Map Geometry Data" "{DCEF0E07C89B37C2}worlds/Gamemaster/GM_Ruha.topo"
- "Satellite background image" "{64FFB067936AB238}worlds/Gamemaster/GM_Ruha.edds"
+ "Satellite background image" "{61CECB723A0F87A5}UI/Textures/Map/worlds/Ruha_map.edds"
 }
 SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  components {
