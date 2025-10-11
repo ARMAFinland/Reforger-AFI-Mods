@@ -33,6 +33,16 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
  coords 5224.089 4.573 5596.738
 }
 PS_GameModeCoop AFI_GameMode_Lobby1 : "{FBF3D3F18189B4BD}Prefabs/Game modes/AFI_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 10
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{628C752C8188B7FC}" {
+     m_iStartingHour 10
+    }
+   }
+  }
+ }
  coords 4841.193 28.318 11918.237
  {
   SCR_FactionManager "626AC7893C2646B8" {

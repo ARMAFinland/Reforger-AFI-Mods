@@ -8,13 +8,6 @@ $grp AFI_MilitaryMapMarkerEntity {
   m_eMapMarkerFactionIcon OPFOR
   m_eMapMarkerType1Modifier MOTORIZED
  }
- {
-  coords 6119.109 56.624 7062.179
-  angleY -7
-  m_eMapMarkerDimension INSTALLATION
-  m_eMapMarkerType1Modifier MOBILEHQ
-  m_sDescription "US start"
- }
 }
 $grp AFI_SimpleMapMarkerEntity {
  {
@@ -86,5 +79,10 @@ $grp AFI_SimpleMapMarkerEntity {
   coords 6762.652 60.437 4758.443
   m_eMapMarkerIcon DOT
   m_eMapMarkerColor BLUFOR
+ }
+ {
+  coords 6118.215 56.625 7046.084
+  m_eMapMarkerIcon OBJECTIVE_MARKER
+  m_eMapMarkerColor REFORGER_ORANGE
  }
 }

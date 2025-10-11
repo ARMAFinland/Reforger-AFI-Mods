@@ -11,7 +11,7 @@ GenericEntity : "{10BC0DF4C149DECC}Prefabs/Compositions/Misc/SubCompositions/Dec
 }
 $grp GenericEntity : "{15E2C79DC2F8DFC4}Prefabs/Compositions/Misc/SubCompositions/Decorations/BarbedCoil_Light_US_01.et" {
  {
-  coords 6080.04 -0 7020.097
+  coords 6080.04 0 7020.097
   angleY 0
   {
    GameEntity {
@@ -27,7 +27,7 @@ $grp GenericEntity : "{15E2C79DC2F8DFC4}Prefabs/Compositions/Misc/SubComposition
   }
  }
  {
-  coords 6081.045 -0 7018.491
+  coords 6081.045 0 7018.491
   angleY -47
   {
    GameEntity {
@@ -44,7 +44,29 @@ $grp GenericEntity : "{15E2C79DC2F8DFC4}Prefabs/Compositions/Misc/SubComposition
  }
 }
 GenericEntity : "{17A78A0D3701386A}Prefabs/Compositions/Misc/SubCompositions/Garbage/Tire_Stack_Garbage_01.et" {
- coords 6084.563 56.625 7033.182
+ coords 6076.664 56.625 7020.993
+ {
+  GenericEntity {
+   ID "5CB0D997AAB49EF5"
+   coords 0.166 -0.027 -0.046
+   angleY 89.583
+  }
+  GenericEntity {
+   ID "5CB0D997AAB4C774"
+   coords 0.166 0.432 -0.046
+   angleY 1.546
+  }
+  GenericEntity {
+   ID "5CB0D997AAB4C775"
+   coords 0.166 0.199 -0.046
+   angleY -88.174
+  }
+  GenericEntity {
+   ID "5CB0D997AAB4C77A"
+   coords 0.166 0.645 -0.046
+   angleY -0.02
+  }
+ }
 }
 StaticModelEntity : "{1C6CB7504CBD1CC4}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Cluttered_US_03.et" {
  coords 6089.781 56.624 7068.55
@@ -241,7 +263,7 @@ StaticModelEntity : "{1C6CB7504CBD1CC4}Prefabs/Compositions/Misc/SubCompositions
        {
         StaticModelEntity {
          ID "5D44AE1C21AF877B"
-         coords -0 0.01 -0.001
+         coords 0 0.01 -0.001
          angleX -0.5
          {
           StaticModelEntity {
@@ -495,7 +517,7 @@ GenericEntity : "{7EC72FF2F1527F32}Prefabs/Compositions/Misc/SubCompositions/Sto
    {
     GenericEntity {
      ID "5D3085BCA5EF72EE"
-     coords -0.001 0 -0
+     coords -0.001 0 0
     }
    }
   }
@@ -612,7 +634,7 @@ $grp GenericEntity : "{80EF8C87D126A3A4}Prefabs/Compositions/Misc/SubComposition
   {
    GenericEntity {
     ID "5704E202860305D1"
-    coords -0 0.076 -0.009
+    coords 0 0.076 -0.009
    }
    GenericEntity {
     ID "5704E202CE798E90"
@@ -788,7 +810,7 @@ $grp GenericEntity : "{80EF8C87D126A3A4}Prefabs/Compositions/Misc/SubComposition
  }
 }
 GenericEntity : "{920BE973E3F1EE2D}Prefabs/Compositions/Misc/SubCompositions/Garbage/Tire_Stack_US_01.et" {
- coords 6085.667 56.625 7033.887
+ coords 6077.768 56.625 7021.698
  {
   GenericEntity {
    ID "5CB0D99607B8BE42"
@@ -799,7 +821,7 @@ GenericEntity : "{920BE973E3F1EE2D}Prefabs/Compositions/Misc/SubCompositions/Gar
   }
   GenericEntity {
    ID "51B2C5F338EBEDA6"
-   coords 0.034 0.224 -0.02
+   coords 0.034 0.224 -0.019
   }
   GenericEntity {
    ID "51B2C5F338EBEDC1"
@@ -808,7 +830,17 @@ GenericEntity : "{920BE973E3F1EE2D}Prefabs/Compositions/Misc/SubCompositions/Gar
   }
   GenericEntity {
    ID "51B2C5F338EBEDF9"
-   coords 0.026 0.674 0.018
+   coords 0.026 0.674 0.019
+  }
+  GenericEntity {
+   ID "51B2C5F338EBEDCE"
+   coords 0.013 0.899 0.001
+   angleY -29.5
+  }
+  GenericEntity {
+   ID "51B2C5F338EBEDD5"
+   coords 0.022 1.124 -0.014
+   angleY -13
   }
  }
 }
@@ -925,11 +957,11 @@ $grp StaticModelEntity : "{95A4CF49FC9C0481}Prefabs/Compositions/Misc/SubComposi
      }
      StaticModelEntity {
       ID "5D44C7DD925DE682"
-      coords -0 0 6.055
+      coords 0 0 6.055
       {
        StaticModelEntity {
         ID "5D38E5916001C17C"
-        coords -0 0 -1.207
+        coords 0 0 -1.207
         {
          StaticModelEntity {
           ID "5D44AE1C21B12310"
@@ -953,7 +985,7 @@ $grp StaticModelEntity : "{95A4CF49FC9C0481}Prefabs/Compositions/Misc/SubComposi
       {
        StaticModelEntity {
         ID "5D38E5916001C17C"
-        coords -0 0 -1.208
+        coords 0 0 -1.208
         {
          StaticModelEntity {
           ID "5D44AE1C21AF877B"
@@ -984,7 +1016,7 @@ $grp StaticModelEntity : "{95A4CF49FC9C0481}Prefabs/Compositions/Misc/SubComposi
         {
          StaticModelEntity {
           ID "5D44AE1C21B37017"
-          coords -0 0 -0
+          coords 0 0 0
           angleX 0.5
          }
         }
@@ -1006,7 +1038,7 @@ $grp StaticModelEntity : "{95A4CF49FC9C0481}Prefabs/Compositions/Misc/SubComposi
    }
    StaticModelEntity {
     ID "5D466416773DDFFA"
-    coords -0 0.1 4.856
+    coords 0 0.1 4.856
     angleX 0.3
    }
    StaticModelEntity {
@@ -1116,7 +1148,7 @@ $grp StaticModelEntity : "{95A4CF49FC9C0481}Prefabs/Compositions/Misc/SubComposi
     {
      StaticModelEntity {
       ID "5D44C2DB95A685B0"
-      coords -0 0 3.63
+      coords 0 0 3.63
       {
        StaticModelEntity {
         ID "5D38E5916001C17C"
@@ -1137,7 +1169,7 @@ $grp StaticModelEntity : "{95A4CF49FC9C0481}Prefabs/Compositions/Misc/SubComposi
       {
        StaticModelEntity {
         ID "5D38E5916001C17C"
-        coords -0 0 -1.209
+        coords 0 0 -1.209
         {
          StaticModelEntity {
           ID "5D44AE1C21B12310"
@@ -1178,7 +1210,7 @@ $grp StaticModelEntity : "{95A4CF49FC9C0481}Prefabs/Compositions/Misc/SubComposi
        }
        StaticModelEntity {
         ID "5D44AE1C21AF877C"
-        coords -0 0 -2.425
+        coords 0 0 -2.425
        }
       }
      }
@@ -1214,7 +1246,7 @@ $grp StaticModelEntity : "{95A4CF49FC9C0481}Prefabs/Compositions/Misc/SubComposi
    }
    StaticModelEntity {
     ID "5D466416773DDFFA"
-    coords -0 0.1 4.856
+    coords 0 0.1 4.856
     angleX 0.3
    }
    StaticModelEntity {
@@ -1293,7 +1325,7 @@ GenericEntity : "{A5BF8F9E6998341F}Prefabs/Compositions/Misc/SubCompositions/Sto
  {
   GenericEntity {
    ID "5D45393E0B3C6D2D"
-   coords 0.106 -0.001 3.155
+   coords 4.157 0 -3.509
   }
   GenericEntity {
    ID "5D45393E0B3C6D2F"
@@ -1430,6 +1462,13 @@ GenericEntity : "{B350840088390760}Prefabs/Compositions/Misc/SubCompositions/Dec
 GenericEntity : "{C0E1BFE0CDDBCF60}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_Containers_US_02.et" {
  coords 6157.936 56.625 7030.333
  angleY -71
+ {
+  GenericEntity {
+   ID "5D4539338702259B"
+   coords 1.518 -0.001 -1.313
+   angleY 70.985
+  }
+ }
 }
 StaticModelEntity : "{C4C4DE9135340298}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Cluttered_US_05.et" {
  coords 6088.013 56.625 7081.614
@@ -1463,7 +1502,7 @@ StaticModelEntity : "{C4C4DE9135340298}Prefabs/Compositions/Misc/SubCompositions
    {
     GenericEntity {
      ID "56B6871A1414CB69"
-     coords -0 0 -0.001
+     coords 0 0 -0.001
     }
    }
   }
@@ -1548,7 +1587,7 @@ StaticModelEntity : "{C4C4DE9135340298}Prefabs/Compositions/Misc/SubCompositions
   }
   StaticModelEntity {
    ID "5D466416286F4114"
-   coords -0 0.1 -0.001
+   coords 0 0.1 -0.001
    {
     StaticModelEntity {
      ID "5D44C2DB95A685B0"
@@ -1556,7 +1595,7 @@ StaticModelEntity : "{C4C4DE9135340298}Prefabs/Compositions/Misc/SubCompositions
      {
       StaticModelEntity {
        ID "5D38E5916001C17C"
-       coords -0 0 -1.208
+       coords 0 0 -1.208
        {
         StaticModelEntity {
          ID "5D44AE1C21AC9CA9"
@@ -1628,7 +1667,7 @@ StaticModelEntity : "{C4C4DE9135340298}Prefabs/Compositions/Misc/SubCompositions
        {
         StaticModelEntity {
          ID "5D44AE1C21B37017"
-         coords -0 0 -0
+         coords 0 0 0
          angleX 0.5
         }
        }
@@ -1639,7 +1678,7 @@ StaticModelEntity : "{C4C4DE9135340298}Prefabs/Compositions/Misc/SubCompositions
   }
   StaticModelEntity {
    ID "5D466416345A60C6"
-   coords -0 0.1 -0.001
+   coords 0 0.1 -0.001
    angleX -0.3
    angleY -180
   }
@@ -1880,7 +1919,7 @@ GenericEntity : "{F09296B9255F6704}Prefabs/Compositions/Misc/SubCompositions/Ten
   }
   StaticModelEntity {
    ID "5CB6B2BAE096C538"
-   coords 0 -0 0
+   coords 0 0 0
    angleY -180
    {
     StaticModelEntity {
@@ -1897,7 +1936,7 @@ GenericEntity : "{F09296B9255F6704}Prefabs/Compositions/Misc/SubCompositions/Ten
          {
           StaticModelEntity {
            ID "5D44AE1C21AC9CA9"
-           coords 0 -0 0.025
+           coords 0 0 0.025
            angleX 0.5
           }
          }
@@ -2090,7 +2129,7 @@ GenericEntity : "{F70F57EB41736777}Prefabs/Compositions/Misc/SubCompositions/Sto
    {
     GenericEntity {
      ID "5D30E78384A6A05D"
-     coords -0 0 -0
+     coords 0 0 0
     }
    }
   }

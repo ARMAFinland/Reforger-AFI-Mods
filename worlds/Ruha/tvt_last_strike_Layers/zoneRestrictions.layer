@@ -1,7 +1,9 @@
 PolylineShapeEntity : "{4AA93B0E3A6C1D91}Prefabs/Common/AFI_Border.et" {
  components {
   AFI_PolyZone "{60E90266F25533F6}" {
-   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_mPolygonTexture "{ADB0AB45692D919E}UI/layouts/Textures/Grid3.edds"
+   m_cPolygonBorderColor 0 0 0 1
+   m_fPolygonBorderWidth 7.1
    m_aVisibleForFactions {
     "" "UK" "USSR"
    }
