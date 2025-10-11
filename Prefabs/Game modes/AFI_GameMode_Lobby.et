@@ -1,17 +1,75 @@
 PS_GameModeCoop : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  ID "56B2B479C6B96951"
  components {
-  AFI_JIPGameModeComponent "{64B6833DB52F76B3}" {
+  AFI_CaptureGameManager "{666F2A8DAFA93257}" {
+  }
+  AFI_JIPGameModeComponent "{66928A531BEABEA6}" {
   }
   SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
    m_bPermitUnconsciousVON 0
   }
-  AFI_CaptureGameManager "{666F2A8DAFA93257}" {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 6
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{628C752C8188B7FC}" {
+     m_sWeatherPresetName "Cloudy"
+     m_iStartingHour 7
+    }
+   }
+   m_bRandomWeatherChanges 1
   }
  }
  coords 5219.909 3.754 5587.691
  m_bTeamSwitch 1
+ m_bMarkersOnlyOnBriefing 1
  m_bRemoveRedundantUnits 1
  m_bRemoveSquadMarkers 1
  m_iFreezeTime 600000
+ m_bDisableGarbageSystem 1
+ m_bEnableSpectatorLocalVoice 0
+ m_bFreezeTimeShootingForbiden 1
+ {
+  SCR_FactionManager "66967EF5459E79ED" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{56DEAC40D3C2E623}" {
+     m_bIsPlayable 1
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A67DFB8809}" {
+      m_bIsAssignedRandomly 0
+     }
+    }
+    SCR_Faction "{56DEAC40D132400B}" {
+     m_bIsPlayable 1
+     m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
+      m_bIsAssignedRandomly 0
+     }
+    }
+    SCR_Faction "{607AA5C7A94496DA}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{61500924662B6062}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{5978B9CE6585BBE8}" {
+     m_bIsPlayable 0
+     m_bShowInWelcomeScreenIfNonPlayable 0
+     m_CallsignInfo SCR_FactionCallsignInfo "{5977478D568C093C}" {
+      m_bIsAssignedRandomly 0
+     }
+    }
+    SCR_Faction "{5CC8DE37E1FF0F7A}" {
+     m_bIsPlayable 0
+     m_bShowInWelcomeScreenIfNonPlayable 0
+    }
+    SCR_Faction "{623962205CE2B89C}" {
+     m_bIsPlayable 0
+     m_bShowInWelcomeScreenIfNonPlayable 0
+    }
+   }
+  }
+ }
 }

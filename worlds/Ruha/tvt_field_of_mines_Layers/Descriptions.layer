@@ -1,0 +1,97 @@
+PS_MissionDescription Summary : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 4863.639 28.593 11921.796
+ m_sTitle "Background"
+ m_sTextData "Soviet forces have advanced into Finland, pushing toward the village of Ruha. British troops have deployed to support the Finnish defense, establishing a supply depot in the area. "\
+ ""\
+ "Soviet command has ordered its destruction to cripple the British line, but a swift British counter-attack may turn the tide."
+ m_bEmptyFactionVisibility 1
+ m_bShowForAnyFaction 1
+ {
+  $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+   blufor_objective {
+    coords 0 0 0
+    m_sTitle "Objective"
+    m_sTextData "Our mission is as follows:"\
+    ""\
+    "Capture Ojalankylä and the road leading to the power plant. Destroy all soviet forces or force their surrender."
+    m_aVisibleForFactions {
+     "UK"
+    }
+    m_iOrder 2
+   }
+   opfor_objective {
+    coords 74.06 3.689 -15.659
+    m_sTitle "Objective"
+    m_sTextData "Our mission is as follows:"\
+    ""\
+    "Hold and defend Ojalankylä and the road leading to the power plant."
+    m_aVisibleForFactions {
+     "USSR"
+    }
+    m_iOrder 2
+   }
+   rules {
+    coords 2937.211 141.915 -6925.344
+    m_sTitle "Rules"
+    m_sTextData "Blufor should not move at the start with the exception of moving into formation."\
+    ""\
+    "Opfor is not allowed to cross the red line at any point."
+    m_bEmptyFactionVisibility 1
+    m_bShowForAnyFaction 1
+    m_iOrder 1
+   }
+   blufor_assets {
+    coords -2558.06 37.925 -9362.943
+    m_sTitle "Friendly Forces"
+    m_sTextData "1x Motorized platoon"\
+    "- 4x Infantry squads"\
+    "1x Recon patrol"\
+    ""\
+    "5x transport trucks"\
+    "4x trucks - M2HB"\
+    "1x truck recce"
+    m_aVisibleForFactions {
+     "UK"
+    }
+    m_iOrder 2
+   }
+   blufor_enemy {
+    coords -3598.779 33.506 -11430.827
+    m_sTitle "Enemy Forces"
+    m_sTextData "Enemy composition is a light infantry platoon. "\
+    "They have set up light defences and minefields. "\
+    ""\
+    "We gained intel from a captured officer and minefield locations are know to us."
+    m_aVisibleForFactions {
+     "UK"
+    }
+    m_iOrder 2
+   }
+   opfor_assets {
+    coords -2289.033 36.507 -8620.235
+    m_sTitle "Friendly Forces"
+    m_sTextData "1x Motorized platoon"\
+    "- 3x Infantry squads"\
+    "1x Supporting armored vehicle BTR-70"\
+    ""\
+    "Each squad has light vehicles for transport."
+    m_aVisibleForFactions {
+     "USSR"
+    }
+    m_iOrder 2
+   }
+   opfor_enemy {
+    coords -2172.49 37.032 -8633.557
+    m_sTitle "Enemy Forces"
+    m_sTextData "We have a light infantry platoon facing us."\
+    "They have light vehicles, likely armed. "\
+    ""\
+    "Combat engineers had time to bury mines. Minefield locations are marked. "
+    m_aVisibleForFactions {
+     "USSR"
+    }
+    m_iOrder 2
+   }
+  }
+ }
+}

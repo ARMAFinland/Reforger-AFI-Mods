@@ -1,0 +1,86 @@
+PS_MissionDescription Summary : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 4863.639 28.593 11921.796
+ m_sTitle "Background"
+ m_sTextData "Soviet forces have advanced into Finland, pushing toward the village of Ruha. British troops have deployed to support the Finnish defense, establishing a supply depot in the area. "\
+ ""\
+ "Soviet command has ordered its destruction to cripple the British line, but a swift British counter-attack may turn the tide."
+ m_bEmptyFactionVisibility 1
+ m_bShowForAnyFaction 1
+ {
+  $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+   Objective_BLUFOR {
+    coords 0 0 0
+    m_sTitle "Objective"
+    m_sTextData "Defend the supply post at Kaaranmannikko. "
+    m_aVisibleForFactions {
+     "UK"
+    }
+    m_iOrder 2
+   }
+   Objective_OPFOR {
+    coords 74.06 3.689 -15.659
+    m_sTitle "Objective"
+    m_sTextData "Capture the supply post at Kaaranmannikko. Destroy any enemy forces present."
+    m_aVisibleForFactions {
+     "USSR"
+    }
+    m_iOrder 2
+   }
+   rules {
+    coords 2937.211 141.915 -6925.344
+    m_sTitle "Rules"
+    m_sTextData "Defenders are not allowed to cross blue dot line during mission."\
+    ""\
+    "Attackers should not move at the start excluding moving into formation."
+    m_bEmptyFactionVisibility 1
+    m_bShowForAnyFaction 1
+    m_iOrder 1
+   }
+   blufor_assets {
+    coords 1199.38 52.409 -4849.042
+    m_sTitle "Friendly Forces"
+    m_sTextData "1x Motorized platoon"\
+    "- 3x infantry squads"\
+    ""\
+    "We have light trucks, 2 armed with heavy machine-guns."
+    m_aVisibleForFactions {
+     "UK"
+    }
+    m_iOrder 2
+   }
+   blufor_enemy {
+    coords 1306.897 21.916 -4932.564
+    m_sTitle "Enemy Forces"
+    m_sTextData "We are facing a strong enemy assault force."\
+    ""\
+    "It seems to be composed of a mechinized infantry platoon and a supporting BMP-2. "
+    m_aVisibleForFactions {
+     "UK"
+    }
+    m_iOrder 2
+   }
+   opfor_assets {
+    coords 1326.385 38.688 -5021.99
+    m_sTitle "Friendly Forces"
+    m_sTextData "1x Motorized (soviet-style) platoon"\
+    "- 4x infantry squads with attached BTR-70"\
+    "1x Supporting armored vehicle BMP-2"\
+    "1x Recon patrol"\
+    ""
+    m_aVisibleForFactions {
+     "USSR"
+    }
+    m_iOrder 2
+   }
+   opfor_assets2 {
+    coords 1315.185 30.734 -5047.435
+    m_sTitle "Enemy Forces"
+    m_sTextData "A light infantry platoon with motor vehicles."
+    m_aVisibleForFactions {
+     "USSR"
+    }
+    m_iOrder 2
+   }
+  }
+ }
+}

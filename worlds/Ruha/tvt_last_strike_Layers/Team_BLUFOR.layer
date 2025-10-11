@@ -1,0 +1,70 @@
+Vehicle _Series_LWB_Transport_Camo1 : "{098E31B006CAE0CE}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Transport_Camo.et" {
+ coords 6097.243 56.394 6978.502
+ angleY 142
+ m_bEnableMoveOnFreeze 1
+}
+$grp Vehicle : "{46C8F837F47D036E}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Recce_M2HB_Variant_3.et" {
+ _Series_LWB_Recce_M2HB_Variant_2 {
+  coords 6100.524 56.406 6960.546
+  angleY 52
+  m_bEnableMoveOnFreeze 1
+ }
+ _Series_LWB_Recce_M2HB_Variant_3 {
+  coords 6105.449 56.406 6955.035
+  angleY 52
+  m_bEnableMoveOnFreeze 1
+ }
+}
+Vehicle M997_maxi_ambulance_UK1 : "{671AA29846EC7406}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_UK.et" {
+ coords 6094.365 56.406 6967.831
+ angleY 51
+ m_bEnableMoveOnFreeze 1
+}
+$grp Vehicle : "{701ADC27F9D842DF}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Transport.et" {
+ _Series_LWB_Transport1 {
+  coords 6120.548 56.838 6961.613
+  angleY -126
+  m_bEnableMoveOnFreeze 1
+ }
+ _Series_LWB_Transport2 {
+  coords 6124.68 56.739 6956.451
+  angleY -125
+  m_bEnableMoveOnFreeze 1
+ }
+ _Series_LWB_Transport3 {
+  coords 6131.111 56.782 6948.591
+  angleY -73
+  m_bEnableMoveOnFreeze 1
+ }
+}
+SCR_AIGroup : "{9DF5E7613F26912A}Prefabs/Groups/BLUFOR/British Forces/1983/Group_UK_1983_Regulars_PlatoonHQ_AFI.et" {
+ coords 6117.965 56.625 7036.55
+ angleY -7
+ m_aUnitPrefabSlots + {
+  "{AF1B1F8F59BB3B0F}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Medic.et" "{C7F673EEC46863F2}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/SpecialForces/Character_UK_1983_SpecialForces_Sharpshooter.et"
+ }
+ {
+  SCR_AIGroup : "{4679AD5C647BBE6A}Prefabs/Groups/BLUFOR/British Forces/1983/Group_UK_1983_Regulars_InfantrySection.et" {
+   coords 0.882 0 -11.198
+   m_sCustomNameSet "Alpha 1"
+   m_bSetPlayable 1
+   {
+    SCR_AIGroup : "{4679AD5C647BBE6A}Prefabs/Groups/BLUFOR/British Forces/1983/Group_UK_1983_Regulars_InfantrySection.et" {
+     coords -0.881 0 -9.32
+     m_aUnitPrefabSlots + {
+      "{A6D0DBFAC6349E22}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman.et"
+     }
+     m_sCustomNameSet "Alpha 2"
+     m_bSetPlayable 1
+     {
+      SCR_AIGroup : "{4679AD5C647BBE6A}Prefabs/Groups/BLUFOR/British Forces/1983/Group_UK_1983_Regulars_InfantrySection.et" {
+       coords 0.465 0 -8.875
+       m_sCustomNameSet "Alpha 3"
+       m_bSetPlayable 1
+      }
+     }
+    }
+   }
+  }
+ }
+}

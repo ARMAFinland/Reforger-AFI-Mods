@@ -1,0 +1,88 @@
+$grp AFI_MilitaryMapMarkerEntity {
+ {
+  coords 6313.303 58.987 5801.684
+  m_sDescription "US start"
+ }
+ {
+  coords 5601.194 108.121 3553.111
+  m_eMapMarkerFactionIcon OPFOR
+  m_eMapMarkerType1Modifier MOTORIZED
+ }
+}
+$grp AFI_SimpleMapMarkerEntity {
+ {
+  coords 6349.366 57.555 4924.552
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor BLUFOR
+ }
+ {
+  coords 6184.761 53.037 4937.813
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor BLUFOR
+ }
+ {
+  coords 6965.895 61.966 4642.861
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor BLUFOR
+ }
+ {
+  coords 7083.042 63.577 4556.635
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor BLUFOR
+ }
+ {
+  coords 5797.276 58.187 4978.017
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor BLUFOR
+ }
+ {
+  coords 6067.577 50.78 4868.313
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor BLUFOR
+ }
+ {
+  coords 5963.492 51.005 4871.438
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor BLUFOR
+ }
+ {
+  coords 6243.113 52.301 4953.77
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor BLUFOR
+ }
+ {
+  coords 6882.817 60.719 4701.374
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor BLUFOR
+ }
+ {
+  coords 6649.595 60.03 4803.238
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor BLUFOR
+ }
+ {
+  coords 5721.947 49.196 5095.695
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor BLUFOR
+ }
+ {
+  coords 5863.118 51.454 4916.244
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor BLUFOR
+ }
+ {
+  coords 6494.428 59.194 4865.583
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor BLUFOR
+ }
+ {
+  coords 6762.652 60.437 4758.443
+  m_eMapMarkerIcon DOT
+  m_eMapMarkerColor BLUFOR
+ }
+ {
+  coords 6118.215 56.625 7046.084
+  m_eMapMarkerIcon OBJECTIVE_MARKER
+  m_eMapMarkerColor REFORGER_ORANGE
+ }
+}

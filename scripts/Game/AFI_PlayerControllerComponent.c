@@ -71,4 +71,68 @@ class AFI_PlayerControllerComponent: ScriptComponent
 				fade.FadeOutEffect(false, FADE_DURATION);
 		}
 	}
+	
+	//------------------------------------------------------------------------------------------------
+	override void OnPostInit(IEntity owner)
+	{
+		SCR_ChatPanelManager chatPanelManager = SCR_ChatPanelManager.GetInstance();
+		if (!chatPanelManager)
+			return;
+		
+		ChatCommandInvoker invoker = chatPanelManager.GetCommandInvoker("respawn");
+		invoker.Insert(RequestRespawn_Callback);
+	}
+	
+	//------------------------------------------------------------------------------------------------
+	protected void RequestRespawn_Callback(SCR_ChatPanel panel, string data)
+	{
+		if (data == "")
+			return;
+		
+		int targetPlayerId = data.ToInt();
+		if (targetPlayerId == 0)
+			return;
+		
+		Rpc(RpcAsk_RespawnPlayer, targetPlayerId);
+	}
+	
+	//------------------------------------------------------------------------------------------------
+	[RplRpc(RplChannel.Reliable, RplRcver.Server)]
+	protected void RpcAsk_RespawnPlayer(int targetPlayerId)
+	{
+		PlayerController thisPlayerController = PlayerController.Cast(GetOwner());
+		if (!SCR_Global.IsAdmin(thisPlayerController.GetPlayerId()))
+			return;
+		
+		PS_PlayableManager playableManager = PS_PlayableManager.GetInstance();
+		if (!playableManager)
+			return;
+		
+		RplId rplId = playableManager.GetPlayableByPlayerRemembered(targetPlayerId);
+		if (!rplId || rplId == RplId.Invalid())
+			return;
+		
+		PS_PlayableComponent playableComponent = playableManager.GetPlayableById(rplId).GetPlayableComponent();
+		if (!playableComponent)
+			return;
+		
+		if (!playableComponent.GetOwnerCharacter().GetCharacterController().IsDead())
+			return;
+		
+		ResourceName prefabToSpawn = playableComponent.GetNextRespawn(false);
+		if (!prefabToSpawn)
+			return;
+		
+		PS_RespawnData respawnData = new PS_RespawnData(playableComponent, prefabToSpawn);
+		
+		PS_GameModeCoop gameMode = PS_GameModeCoop.	Cast(GetGame().GetGameMode());
+		if (gameMode == null)
+			return;
+		
+		PS_VoNRoomsManager VoNRoomsManager = PS_VoNRoomsManager.GetInstance();
+		if (VoNRoomsManager)
+			VoNRoomsManager.MoveToRoom(targetPlayerId, "", "");
+		
+		GetGame().GetCallqueue().CallLater(gameMode.Respawn, 1000, false, targetPlayerId, respawnData);
+	}
 }
