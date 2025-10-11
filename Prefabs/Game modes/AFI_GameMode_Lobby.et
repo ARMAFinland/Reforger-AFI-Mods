@@ -9,11 +9,12 @@ PS_GameModeCoop : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
    m_bPermitUnconsciousVON 0
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 9
+   m_iStartingHours 6
+   m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{628C752C8188B7FC}" {
-     m_sWeatherPresetName "Rainy"
-     m_iStartingHour 13
+     m_sWeatherPresetName "Cloudy"
+     m_iStartingHour 7
     }
    }
    m_bRandomWeatherChanges 1
@@ -25,10 +26,11 @@ PS_GameModeCoop : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  m_bRemoveRedundantUnits 1
  m_bRemoveSquadMarkers 1
  m_iFreezeTime 600000
+ m_bDisableGarbageSystem 1
  m_bEnableSpectatorLocalVoice 0
  m_bFreezeTimeShootingForbiden 1
  {
-  SCR_FactionManager {
+  SCR_FactionManager "66967EF5459E79ED" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{56DEAC40D2DBC8B1}" {

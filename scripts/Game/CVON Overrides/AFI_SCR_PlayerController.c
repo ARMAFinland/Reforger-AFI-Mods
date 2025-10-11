@@ -55,7 +55,7 @@ modded class SCR_PlayerController
 		CVON_RadioComponent radioComp = CVON_RadioComponent.Cast(radioEntity.FindComponent(CVON_RadioComponent));
 		if (GetGame().GetPlayerController())
 		{
-			WriteRadioJSON(to);
+			radioComp.WriteJSON(to);
 			if (m_aRadioSettings.Count() > 0)
 			{
 				foreach (IEntity radio: m_aRadios)
