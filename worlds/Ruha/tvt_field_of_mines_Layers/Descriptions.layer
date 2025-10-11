@@ -33,7 +33,8 @@ PS_MissionDescription Summary : "{3136BE42592F3B1B}PrefabsEditable/MissionDescri
    rules {
     coords 2937.211 141.915 -6925.344
     m_sTitle "Rules"
-    m_sTextData "Blufor should not move at the start."\
+    m_sTextData "Blufor should not move at the start with the exception of moving into formation."\
+    ""\
     "Opfor is not allowed to cross the red line at any point."
     m_bEmptyFactionVisibility 1
     m_bShowForAnyFaction 1

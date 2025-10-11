@@ -29,7 +29,9 @@ PS_MissionDescription Summary : "{3136BE42592F3B1B}PrefabsEditable/MissionDescri
    rules {
     coords 2937.211 141.915 -6925.344
     m_sTitle "Rules"
-    m_sTextData "Defenders are not allowed to cross blue dot line during mission. Attackers should not move at the start."
+    m_sTextData "Defenders are not allowed to cross blue dot line during mission."\
+    ""\
+    "Attackers should not move at the start excluding moving into formation."
     m_bEmptyFactionVisibility 1
     m_bShowForAnyFaction 1
     m_iOrder 1

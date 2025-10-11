@@ -2,42 +2,52 @@ $grp Vehicle : "{57FE9BCA625CA0E3}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
  _Series_LWB_Recce_M2HB1 {
   coords 1169.756 62.786 572.049
   angleY 41
+  m_bEnableMoveOnFreeze 1
  }
  _Series_LWB_Recce_M2HB2 {
   coords 1206.191 61.708 540.185
   angleY 41
+  m_bEnableMoveOnFreeze 1
  }
  _Series_LWB_Recce_M2HB3 {
   coords 1240.171 61.905 508.779
   angleY 41
+  m_bEnableMoveOnFreeze 1
  }
  _Series_LWB_Recce_M2HB4 {
   coords 1281.037 61.847 475.303
   angleY 12
+  m_bEnableMoveOnFreeze 1
  }
 }
 Vehicle _Series_SWB_Transport_Covered_Variant_1 : "{6D49A52E427A2C29}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_SWB_Transport_Covered_Variant_3.et" {
  coords 1232.618 66.039 645.867
  angleY -145
+ m_bEnableMoveOnFreeze 1
 }
 $grp Vehicle : "{701ADC27F9D842DF}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Transport.et" {
  _Series_LWB_Transport1 {
   coords 1179.009 62.342 563.999
   angleY 43
+  m_bEnableMoveOnFreeze 1
  }
  _Series_LWB_Transport2 {
   coords 1210.351 61.46 535.672
   angleY 43
+  m_bEnableMoveOnFreeze 1
  }
  _Series_LWB_Transport3 {
   coords 1246.042 61.952 503.789
   angleY 43
+  m_bEnableMoveOnFreeze 1
  }
  _Series_LWB_Transport4 {
   coords 1288.807 61.836 473.747
   angleY 14
+  m_bEnableMoveOnFreeze 1
  }
 }
 Vehicle _Series_LWB_Recce_Variant_1 : "{9B8FC88897DB630F}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Recce_Variant_2.et" {
  coords 1333.029 61.861 473.943
+ m_bEnableMoveOnFreeze 1
 }
