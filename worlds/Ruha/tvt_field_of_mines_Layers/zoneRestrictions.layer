@@ -1,7 +1,11 @@
 PolylineShapeEntity : "{4AA93B0E3A6C1D91}Prefabs/Common/AFI_Border.et" {
  components {
   AFI_PolyZone "{60E90266F25533F6}" {
-   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_mPolygonTexture "{7D1BB09FF2E2293C}UI/layouts/Textures/Grid4b.edds"
+   m_cPolygonColor 0.515 0.515 0.515 1
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 0.027 0.027 0.027 1
+   m_fPolygonBorderWidth 7.1
    m_aVisibleForFactions + {
     "UK"
    }
@@ -96,12 +100,6 @@ PolylineShapeEntity : "{4AA93B0E3A6C1D91}Prefabs/Common/AFI_Border.et" {
   }
   ShapePoint "{66576861DF16D54E}" {
    Position -2878.688 -558.185 -4738.202
-  }
- }
- {
-  PS_PolyZoneTrigger {
-   ID "60FD050E1E83544C"
-   coords -1051.438 0 -638.135
   }
  }
 }

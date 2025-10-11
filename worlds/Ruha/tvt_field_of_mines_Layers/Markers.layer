@@ -30,22 +30,22 @@ $grp AFI_SimpleMapMarkerEntity {
   m_eMapMarkerColor RED
  }
  {
-  coords 2213.266 64.802 1495.204
+  coords 2232.187 68.915 1452.825
   m_eMapMarkerIcon DOT
   m_eMapMarkerColor RED
  }
  {
-  coords 2048.002 61.481 1612.302
+  coords 2119.062 64.421 1423.079
   m_eMapMarkerIcon DOT
   m_eMapMarkerColor RED
  }
  {
-  coords 1889.642 80.411 1619.082
+  coords 1957.167 66.874 1531.251
   m_eMapMarkerIcon DOT
   m_eMapMarkerColor RED
  }
  {
-  coords 1688.364 65.49 1616.216
+  coords 1811.94 64.255 1642.765
   m_eMapMarkerIcon DOT
   m_eMapMarkerColor RED
  }

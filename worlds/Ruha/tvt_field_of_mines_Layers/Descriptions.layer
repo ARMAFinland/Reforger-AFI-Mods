@@ -59,7 +59,8 @@ PS_MissionDescription Summary : "{3136BE42592F3B1B}PrefabsEditable/MissionDescri
     m_sTitle "Enemy Forces"
     m_sTextData "Enemy composition is a light infantry platoon. "\
     "They have set up light defences and minefields. "\
-    "Minefield locations are marked. "
+    ""\
+    "We gained intel from a captured officer and minefield locations are know to us."
     m_aVisibleForFactions {
      "UK"
     }
@@ -71,7 +72,8 @@ PS_MissionDescription Summary : "{3136BE42592F3B1B}PrefabsEditable/MissionDescri
     m_sTextData "1x Motorized platoon"\
     "- 3x Infantry squads"\
     "1x Supporting armored vehicle BTR-70"\
-    ""
+    ""\
+    "Each squad has light vehicles for transport."
     m_aVisibleForFactions {
      "USSR"
     }
@@ -79,8 +81,11 @@ PS_MissionDescription Summary : "{3136BE42592F3B1B}PrefabsEditable/MissionDescri
    }
    opfor_enemy {
     coords -2172.49 37.032 -8633.557
-    m_sTitle "Friendly Forces"
-    m_sTextData "We have a light infantry platoon facing us."
+    m_sTitle "Enemy Forces"
+    m_sTextData "We have a light infantry platoon facing us."\
+    "They have light vehicles, likely armed. "\
+    ""\
+    "Combat engineers had time to bury mines. Minefield locations are marked. "
     m_aVisibleForFactions {
      "USSR"
     }

@@ -12,11 +12,4 @@ PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
   }
  }
  coords 4753.174 23.862 12023.967
- {
-  PS_PolyZoneTrigger {
-   ID "60FD050E1E83544C"
-   m_polyZoneEffect AFI_PolyZoneEffectSound "{60FD050E0DC2A2AB}" {
-   }
-  }
- }
 }

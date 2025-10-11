@@ -1,0 +1,319 @@
+$grp PolylineShapeEntity {
+ {
+  components {
+   PS_PolyZone "{66968A2B57118F4E}" {
+    m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+    m_cPolygonColor 1 0 0 1
+    m_fPolygonBorderWidth 1
+    m_aVisibleForFactions {
+     "UK" "USSR"
+    }
+   }
+  }
+  coords 1463.579 67.607 1943.552
+  Points {
+   ShapePoint "{66968A2B5136C5B7}" {
+    Position -107.553 -1.015 -62.572
+   }
+   ShapePoint "{66968A2B51FB2879}" {
+    Position 42.415 -3.097 -30.682
+   }
+   ShapePoint "{66968A2B50B05797}" {
+    Position 27.752 -0.305 42.62
+   }
+   ShapePoint "{66968A2B4F704E48}" {
+    Position -121.53 0.717 13.693
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{66968A2B57118F4E}" {
+    m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+    m_cPolygonColor 1 0 0 1
+    m_fPolygonBorderWidth 1
+    m_aVisibleForFactions {
+     "UK" "USSR"
+    }
+   }
+  }
+  coords 1115.75 70.253 1892.497
+  angleY 6
+  Points {
+   ShapePoint "{66968A2B5136C5B7}" {
+    Position -107.553 -1.015 -62.572
+   }
+   ShapePoint "{66968A2B51FB2879}" {
+    Position 42.415 -3.097 -30.682
+   }
+   ShapePoint "{66968A2B50B05797}" {
+    Position 27.752 -0.305 42.62
+   }
+   ShapePoint "{66968A2B4F704E48}" {
+    Position -121.53 0.717 13.693
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{66968A2B57118F4E}" {
+    m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+    m_cPolygonColor 1 0 0 1
+    m_fPolygonBorderWidth 1
+    m_aVisibleForFactions {
+     "UK" "USSR"
+    }
+   }
+  }
+  coords 1875.47 66.537 2129.948
+  Points {
+   ShapePoint "{66968A2B5136C5B7}" {
+    Position -107.553 -1.015 -62.572
+   }
+   ShapePoint "{66968A2B51FB2879}" {
+    Position 42.415 -3.097 -30.682
+   }
+   ShapePoint "{66968A2B50B05797}" {
+    Position 27.752 -0.305 42.62
+   }
+   ShapePoint "{66968A2B4F704E48}" {
+    Position -121.53 0.717 13.693
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{66968A19B4CEF5BA}" {
+    m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+    m_cPolygonColor 1 0 0 1
+    m_fPolygonBorderWidth 1
+    m_aVisibleForFactions {
+     "UK" "USSR"
+    }
+   }
+  }
+  coords 2348.401 68.153 1952.682
+  Points {
+   ShapePoint "{66968A1997B5199F}" {
+    Position -55.776 -7.61 66.675
+   }
+   ShapePoint "{66968A19964F1C80}" {
+    Position -89.196 -7.672 0.226
+   }
+   ShapePoint "{66968A19955AC29A}" {
+    Position 53.645 -8.467 -66.57
+   }
+   ShapePoint "{66968A1995E48EBC}" {
+    Position 86.435 -6.322 3.725
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{66968A19B4CEF5BA}" {
+    m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+    m_cPolygonColor 1 0 0 1
+    m_fPolygonBorderWidth 1
+    m_aVisibleForFactions {
+     "UK" "USSR"
+    }
+   }
+  }
+  coords 2695.995 59.125 1430.317
+  angleY 11
+  Points {
+   ShapePoint "{66968A19CFAC1256}" {
+    Position -72.387 -0.125 -6.716
+   }
+   ShapePoint "{66968A19CE646C29}" {
+    Position -44.166 -0.313 64.256
+   }
+   ShapePoint "{66968A19CD3FB323}" {
+    Position 92.69 -2.49 -0.925
+   }
+   ShapePoint "{66968A19CC0F85E4}" {
+    Position 60.507 -1.561 -70.793
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{66968A19B4CEF5BA}" {
+    m_mPolygonTexture "{4E88D081A9BB038F}UI/layouts/Textures/Grid6.edds"
+    m_cPolygonColor 1 0 0 1
+    m_fPolygonBorderWidth 1
+    m_aVisibleForFactions {
+     "UK" "USSR"
+    }
+   }
+  }
+  coords 3061.545 59.927 2033.082
+  angleY 7
+  Points {
+   ShapePoint "{66968A182DBD9853}" {
+    Position -75.837 -0.83 -7.424
+   }
+   ShapePoint "{66968A182A3697FA}" {
+    Position -44.719 -1.614 58.524
+   }
+   ShapePoint "{66968A18294B68EE}" {
+    Position 94.327 -1.29 -1.735
+   }
+   ShapePoint "{66968A1828ED6C5D}" {
+    Position 65.091 -2.393 -71.113
+   }
+  }
+ }
+}
+$grp GenericEntity : "{28ECED0C0F3655DB}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_Large_USSR.et" {
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 10
+     m_iMaxProjectilesEachBarrage 25
+    }
+   }
+  }
+  coords 2674.031 59.311 1448.167
+  angleY -54
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 10
+     m_iMaxProjectilesEachBarrage 25
+    }
+   }
+  }
+  coords 2382.232 61.729 1936.5
+  angleY -65
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 10
+     m_iMaxProjectilesEachBarrage 25
+    }
+   }
+  }
+  coords 1796.789 66.557 2114.122
+  angleY -101
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 10
+     m_iMaxProjectilesEachBarrage 25
+    }
+   }
+  }
+  coords 3104.236 59.116 2006.129
+  angleY -149
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0.241 0.036 -1.334
+   }
+  }
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 10
+     m_iMaxProjectilesEachBarrage 25
+    }
+   }
+  }
+  coords 2309.291 60.011 1970.556
+  angleY -155
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 10
+     m_iMaxProjectilesEachBarrage 25
+    }
+   }
+  }
+  coords 3038.164 59.664 2045.749
+  angleY -149
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 10
+     m_iMaxProjectilesEachBarrage 25
+    }
+   }
+  }
+  coords 1463.069 67.625 1942.036
+  angleY -101
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 10
+     m_iMaxProjectilesEachBarrage 25
+    }
+   }
+  }
+  coords 1035.16 70.782 1880.013
+  angleY -96
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 10
+     m_iMaxProjectilesEachBarrage 25
+    }
+   }
+  }
+  coords 1386.253 68.328 1926.709
+  angleY -101
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 10
+     m_iMaxProjectilesEachBarrage 25
+    }
+   }
+  }
+  coords 1113.384 70.29 1888.072
+  angleY -96
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 10
+     m_iMaxProjectilesEachBarrage 25
+    }
+   }
+  }
+  coords 2734.872 57.882 1403.839
+  angleY -54
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 10
+     m_iMaxProjectilesEachBarrage 25
+    }
+   }
+  }
+  coords 1877.429 66.582 2129.834
+  angleY -101
+ }
+}
