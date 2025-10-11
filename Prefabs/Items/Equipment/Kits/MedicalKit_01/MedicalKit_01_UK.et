@@ -52,6 +52,12 @@ GenericEntity : "{46FD263F0F368A92}Prefabs/Items/Equipment/Kits/MedicalKit_01/Me
       m_iSupplyCost 0
       m_ItemResourceName "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et"
      }
+     SCR_ArsenalItemStandalone "{6696F5C08A0E8B60}" {
+      m_eItemType HEAL
+      m_eItemMode CONSUMABLE
+      m_iSupplyCost 0
+      m_ItemResourceName "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et"
+     }
     }
    }
   }

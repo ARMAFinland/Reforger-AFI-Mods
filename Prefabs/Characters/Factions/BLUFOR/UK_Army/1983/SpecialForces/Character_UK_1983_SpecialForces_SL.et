@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{DCA7DFB9B846B627}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/SpecialForces/Character_UK_1983_SpecialForces_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     PrefabsToSpawn + {
+      "{C204374F722D5229}Prefabs/Items/Equipment/Radios/Radio_ANPRC117.et"
+     }
+    }
+   }
+  }
+ }
+}
