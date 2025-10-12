@@ -1,7 +1,9 @@
 PS_GameModeCoop : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  ID "56B2B479C6B96951"
  components {
-  AFI_JIPGameModeComponent "{64B6833DB52F76B3}" {
+  AFI_CaptureGameManager "{666F2A8DAFA93257}" {
+  }
+  AFI_JIPGameModeComponent "{66928A531BEABEA6}" {
   }
   SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
    m_bPermitUnconsciousVON 0
@@ -11,7 +13,11 @@ PS_GameModeCoop : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  }
  coords 5219.909 3.754 5587.691
  m_bTeamSwitch 1
+ m_bMarkersOnlyOnBriefing 1
  m_bRemoveRedundantUnits 1
  m_bRemoveSquadMarkers 1
  m_iFreezeTime 600000
+ m_bDisableGarbageSystem 1
+ m_bEnableSpectatorLocalVoice 0
+ m_bFreezeTimeShootingForbiden 1
 }

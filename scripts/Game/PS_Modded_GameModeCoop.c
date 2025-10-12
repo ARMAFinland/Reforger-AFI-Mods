@@ -13,10 +13,8 @@ modded class PS_GameModeCoop : SCR_BaseGameMode
 		{
 			// --- START MODDED ---
 			AFI_JIPGameModeComponent jipComponent = AFI_JIPGameModeComponent.Cast(FindComponent(AFI_JIPGameModeComponent));
-			if (jipComponent)
-				jipComponent.StartDeleteTimer(GetFreezeTime());
-			else
-				PS_PlayableManager.GetInstance().RemoveRedundantUnits();
+			if (!jipComponent) // In case AFI JIP isn't registered we can just remove the unites. Otherwise AFI JIP will handle it
+				PS_PlayableManager.GetInstance().RemoveRedundantUnits();				
 			// --- END MODDED ---
 		}
 		restrictedZonesTimer(m_iFreezeTime);

@@ -6,6 +6,9 @@ PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
    m_mPolygonTextureBorder "{15A6B5F9E6E1DB8E}UI/layouts/Textures/WarningZoneBorder.edds"
    m_fPolygonBorderWidth 15
    m_bLineMode 0
+   m_aVisibleForFactions + {
+    "UK"
+   }
   }
  }
  coords 4753.174 23.862 12023.967
