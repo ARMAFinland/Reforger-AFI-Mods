@@ -1,9 +1,0 @@
-PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
- coords 4951.98 28.344 11983.813
- m_sTitle "Summary"
- m_sTextData "In the heart of a desolate battlefield, two elite teams face off in a brutal, no-holds-barred fight to the death. In \"Cut-throat,\" only knives are allowed, forcing players to rely on their wits, stealth, and deadly precision. Set in a dark, claustrophobic environment, the mission challenges players to outmaneuver and outthink their enemies, where every shadow could be hiding danger."\
- ""\
- "With no guns, grenades, or ranged weapons, victory hinges on quick reflexes and cunning tactics. Engage in vicious knife duels, ambushes, and silent kills as both teams fight to be the last standing in this deadly contest. \"Cut-throat\" isn’t just about skill—it's about survival, where every slash could be your last."
- m_bEmptyFactionVisibility 1
- m_bShowForAnyFaction 1
-}

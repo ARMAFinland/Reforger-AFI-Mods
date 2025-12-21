@@ -1,6 +1,0 @@
-AFI_SimpleMapMarkerEntity {
- ID "61A0710F6F240F74"
- coords 7240.11 166.713 4085.606
- m_eMapMarkerIcon DOT
- m_eMapMarkerColor RED
-}
