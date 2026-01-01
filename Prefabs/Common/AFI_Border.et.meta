@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{7F30E7B0D385A5E8}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_TUN.et"
+ Name "{4AA93B0E3A6C1D91}Prefabs/Common/AFI_Border.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
