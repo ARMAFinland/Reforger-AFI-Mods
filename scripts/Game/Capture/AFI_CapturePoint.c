@@ -31,8 +31,7 @@ class AFI_CapturePoint : GenericEntity
 		m_sControlledBy = factionKey;
 		Replication.BumpMe();
 		
-		Faction faction = m_factionManager.GetFactionByKey(factionKey);
-		// m_trigger.SetOwnerFaction(faction); TODO: FIX!
+		m_trigger.AddOwnerFaction(factionKey);
 		
 		Rpc(ChangeFlag, factionKey);
 		if (Replication.IsServer())
@@ -113,7 +112,7 @@ class AFI_CapturePoint : GenericEntity
 		m_trigger.GetQueryFinishedWithResult().Insert(OnQueryFinished_Callback);
 		
 		Faction faction = m_factionManager.GetFactionByKey(m_sControlledBy);
-		// m_trigger.SetOwnerFaction(faction); TODO: FIX!
+		m_trigger.AddOwnerFaction(m_sControlledBy);
 		
 		SCR_Faction factionCast = SCR_Faction.Cast(faction);
 		if(m_flag && factionCast)
