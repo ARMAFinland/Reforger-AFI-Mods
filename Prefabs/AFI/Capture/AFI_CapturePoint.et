@@ -1,11 +1,6 @@
 AFI_CapturePoint : "{9A442581AA846D70}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_AFI.et" {
  ID "50C6D20663830070"
  components {
-  RplComponent "{65C8463382B63765}" {
-   Streamable Disabled
-  }
-  Hierarchy "{65C84638A4231B5E}" {
-  }
   BaseActionsManagerComponent "{662A59C7F22DDD40}" {
    ActionContexts {
     UserActionContext "{662A59C7FEBFFE23}" {
@@ -26,7 +21,19 @@ AFI_CapturePoint : "{9A442581AA846D70}Prefabs/Structures/Military/Flags/FlagPole
      }
      Duration 15
     }
+    AFI_CheckTicketsAction "{6860B56CAF766E5E}" {
+     ParentContextList {
+      "pole"
+     }
+     Duration 1
+     "Sort Priority" 99
+    }
    }
+  }
+  RplComponent "{65C8463382B63765}" {
+   Streamable Disabled
+  }
+  Hierarchy "{65C84638A4231B5E}" {
   }
  }
  coords 5120.517 14.269 4005.82

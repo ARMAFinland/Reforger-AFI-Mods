@@ -5,6 +5,9 @@ class AFI_AoMarkerEntityClass : GenericEntityClass
 
 class AFI_AoMarkerEntity : GenericEntity
 {
+	[Attribute("3", UIWidgets.ComboBox, "Marker Color", "", ParamEnumArray.FromEnum(AFI_ESimpleMapMarkerCustomColor), category: "Map Marker")]
+	AFI_ESimpleMapMarkerCustomColor m_eMapMarkerColor;
+	
 	protected ref SCR_MapMarkerBase m_MapMarker;
 	
 	//------------------------------------------------------------------------------------------------
@@ -22,7 +25,7 @@ class AFI_AoMarkerEntity : GenericEntity
 		m_MapMarker.SetType(SCR_EMapMarkerType.PLACED_CUSTOM);
 		m_MapMarker.SetIconEntry(4);
 		m_MapMarker.SetRotation(0);
-		m_MapMarker.SetColorEntry(3);
+		m_MapMarker.SetColorEntry(m_eMapMarkerColor);
 		
 		vector worldPos = GetOrigin();
 		m_MapMarker.SetWorldPos(worldPos[0], worldPos[2]);

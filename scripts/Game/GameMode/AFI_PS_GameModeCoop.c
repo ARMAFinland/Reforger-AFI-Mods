@@ -1,5 +1,10 @@
 modded class PS_GameModeCoop
 {
+	PS_FactionRespawnCount GetFactionRespawnCountPub(FactionKey factionKey)
+	{
+		return GetFactionRespawnCount(factionKey);
+	}
+	
 	override void Respawn(int playerId, PS_RespawnData respawnData)
 	{		
 		RplComponent rplComponent = RplComponent.Cast(Replication.FindItem(respawnData.m_Id));

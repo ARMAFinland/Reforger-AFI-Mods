@@ -40,11 +40,13 @@ class AFI_CapturePointData
 	string Name;
 	string ControlFaction;
 	
+	//------------------------------------------------------------------------------------------------
 	void AFI_CapturePointData(string name)
 	{
 		Name = name;
 	}
 	
+	//------------------------------------------------------------------------------------------------
 	static bool Extract(AFI_CapturePointData instance, ScriptCtx ctx, SSnapSerializerBase snapshot)
 	{
 		snapshot.SerializeString(instance.Name);
@@ -53,6 +55,7 @@ class AFI_CapturePointData
 		return true;
 	}
 	
+	//------------------------------------------------------------------------------------------------
 	static bool Inject(SSnapSerializerBase snapshot, ScriptCtx ctx, AFI_CapturePointData instance)
 	{
 		snapshot.SerializeString(instance.Name);
@@ -61,12 +64,14 @@ class AFI_CapturePointData
 		return true;
 	}
 	
+	//------------------------------------------------------------------------------------------------
 	static void Encode(SSnapSerializerBase snapshot, ScriptCtx ctx, ScriptBitSerializer packet)
 	{
 		snapshot.EncodeString(packet);
 		snapshot.EncodeString(packet);
 	}
 	
+	//------------------------------------------------------------------------------------------------
 	static bool Decode(ScriptBitSerializer packet, ScriptCtx ctx, SSnapSerializerBase snapshot)
 	{
 		snapshot.DecodeString(packet);
@@ -75,12 +80,14 @@ class AFI_CapturePointData
 		return true;
 	}
 	
+	//------------------------------------------------------------------------------------------------
 	static bool SnapCompare(SSnapSerializerBase lhs, SSnapSerializerBase rhs, ScriptCtx ctx)
 	{
 		return lhs.CompareStringSnapshots(lhs) // Name
 			&& lhs.CompareStringSnapshots(lhs); //ControlFaction
 	}
 	
+	//------------------------------------------------------------------------------------------------
 	static bool PropCompare(AFI_CapturePointData instance, SSnapSerializerBase snapshot, ScriptCtx ctx)
 	{
 		return snapshot.CompareString(instance.Name)

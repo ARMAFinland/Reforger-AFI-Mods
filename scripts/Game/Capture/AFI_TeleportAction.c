@@ -10,8 +10,30 @@ class AFI_TeleportAction : ScriptedUserAction
 		return AFI_CaptureGameManager.GetInstance().GetCapturePoint(m_sTargetCapturePoint);
 	}
 	
+	protected AFI_PlayerControllerComponent m_afiComponent;
+	protected AFI_PlayerControllerComponent GetAfiPlayerController()
+	{
+		if (m_afiComponent == null)
+		{
+			PlayerController playerController = GetGame().GetPlayerController();
+			if (!playerController)
+				return m_afiComponent;
+			
+			m_afiComponent = AFI_PlayerControllerComponent.Cast(playerController.FindComponent(AFI_PlayerControllerComponent));
+		}
+		
+		return m_afiComponent;
+	}
+	
+	override bool CanBroadcastScript() { return false; };
+	
 	override bool CanBePerformedScript(IEntity user)
 	{
+		// This disables the action if black screen is enabled = teleportation in progress
+		AFI_PlayerControllerComponent afiComponent = GetAfiPlayerController();
+		if (afiComponent != null && afiComponent.IsBlackScreenEnabled())
+			return false;
+		
 		AFI_CapturePoint capturePoint = GetCapturePoint();
 		
 		if (!capturePoint)

@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterStaminaComponent "{520EA1D2F659C824}" {
+   StaminaDrainRun -0.002
+   StaminaDrainSprint -0.009
+  }
+ }
+}

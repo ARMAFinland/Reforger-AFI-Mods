@@ -6,7 +6,7 @@ class AFI_PolyZoneEffectSound : PS_PolyZoneEffect
 	override void OnActivate(PS_PolyZoneEffectHandler handler, IEntity ent)
 	{	
 		m_bIsActive = true;
-		PlaySound(ent);
+		//PlaySound(ent);
 	}
 	
 	override void OnDeactivate(PS_PolyZoneEffectHandler handler, IEntity ent)
@@ -31,14 +31,14 @@ class AFI_PolyZoneEffectSound : PS_PolyZoneEffect
 		return copy;	
 	}
 	
-	protected void PlaySound(IEntity ent)
-	{
-		if (!m_bIsActive)
-			return;
-		
-		SCR_CommunicationSoundComponent soundComponent = SCR_CommunicationSoundComponent.Cast(ent.FindComponent(SCR_CommunicationSoundComponent));		
-		soundComponent.SoundEventPriority("SOUND_CP_MOVEMENT_RETREAT", 50);
-		
-		GetGame().GetCallqueue().CallLater(PlaySound, 5000, false, ent);
-	}
+	//protected void PlaySound(IEntity ent)
+	//{
+	//	if (!m_bIsActive)
+	//		return;
+	//	
+	//	SCR_CommunicationSoundComponent soundComponent = SCR_CommunicationSoundComponent.Cast(ent.FindComponent(SCR_CommunicationSoundComponent));		
+	//	soundComponent.SoundEventPriority("SOUND_CP_MOVEMENT_RETREAT", 50);
+	//	
+	//	GetGame().GetCallqueue().CallLater(PlaySound, 5000, false, ent);
+	//}
 }

@@ -4,6 +4,7 @@ class AFI_CapturePointAction : ScriptedUserAction
 	
 	protected bool m_bActionInProgress = false;
 	
+	//------------------------------------------------------------------------------------------------
 	override void Init(IEntity pOwnerEntity, GenericComponent pManagerComponent)
 	{
 		super.Init();
@@ -11,6 +12,7 @@ class AFI_CapturePointAction : ScriptedUserAction
 		m_capturePoint = AFI_CapturePoint.Cast(pOwnerEntity);
 	}
 	
+	//------------------------------------------------------------------------------------------------
 	override void OnActionStart(IEntity pUserEntity)
 	{
 		PlayerController playerController = GetGame().GetPlayerController();
@@ -25,11 +27,13 @@ class AFI_CapturePointAction : ScriptedUserAction
 			m_bActionInProgress = true;
 	}
 	
+	//------------------------------------------------------------------------------------------------
 	override void OnActionCanceled(IEntity pOwnerEntity, IEntity pUserEntity)
 	{
 		m_bActionInProgress = false;
 	}
 	
+	//------------------------------------------------------------------------------------------------
 	override bool CanBePerformedScript(IEntity user)
 	{		
 		if (!m_capturePoint)
@@ -41,6 +45,7 @@ class AFI_CapturePointAction : ScriptedUserAction
 		return !IsCapturePointControlled();
 	}
 	
+	//------------------------------------------------------------------------------------------------
 	override void PerformAction(IEntity pOwnerEntity, IEntity pUserEntity)
 	{
 		m_bActionInProgress = false;
@@ -61,6 +66,13 @@ class AFI_CapturePointAction : ScriptedUserAction
 		m_capturePoint.SetControlledBy(factionKey);
 	}
 	
+	//------------------------------------------------------------------------------------------------
+	override bool CanBeShownScript(IEntity user)
+	{
+		return !IsCapturePointControlled();
+	};
+	
+	//------------------------------------------------------------------------------------------------
 	override bool GetActionNameScript(out string outName)
 	{		
 		if (!m_capturePoint)
@@ -77,6 +89,7 @@ class AFI_CapturePointAction : ScriptedUserAction
 		return true;
 	}
 	
+	//------------------------------------------------------------------------------------------------
 	protected bool IsCapturePointControlled()
 	{		
 		SCR_PlayerController playerController = SCR_PlayerController.Cast(GetGame().GetPlayerController());

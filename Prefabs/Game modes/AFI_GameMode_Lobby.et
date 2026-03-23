@@ -8,8 +8,6 @@ PS_GameModeCoop : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
   SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
    m_bPermitUnconsciousVON 0
   }
-  AFI_CaptureGameManager "{666F2A8DAFA93257}" {
-  }
  }
  coords 5219.909 3.754 5587.691
  m_bTeamSwitch 1
@@ -18,6 +16,5 @@ PS_GameModeCoop : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  m_bRemoveSquadMarkers 1
  m_iFreezeTime 600000
  m_bDisableGarbageSystem 1
- m_bEnableSpectatorLocalVoice 0
  m_bFreezeTimeShootingForbiden 1
 }
